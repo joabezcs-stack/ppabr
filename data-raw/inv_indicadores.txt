@@ -1,0 +1,238 @@
+### AC_2008-2011  (SEM INDICADORES)
+### AC_2012-2015
+  indicadores [94]: eixo, programa_numero, programa, indicador, referencia_indice, referencia_ano, unidade_de_medida, fonte
+### AC_2016-2019
+  metas_indicadores [574]: eixo, programa_numero, programa, quadro, item, texto
+### AC_2020-2023
+  indicadores [28]: programa_numero, programa, indicador, unidade_de_medida, referencia_indice, referencia_ano, fonte
+  iniciativas_metas_indicadores [624]: programa_numero, programa, quadro, item, texto, meta_2020, meta_2021, meta_2022, meta_2023
+### AC_2024-2027
+  objetivos_especificos [339]: programa_codigo, programa, oe_numero, objetivo_especifico, vinculo, orgao_responsavel, codigo_oe, indicador, polaridade, meta_2024, meta_2025, meta_2026, meta_2027, regionalizacao
+### AL_2008-2011  (SEM INDICADORES)
+### AL_2012-2015  (SEM INDICADORES)
+### AL_2016-2019  (SEM INDICADORES)
+### AL_2020-2023
+  indicadores [53]: programa_codigo, programa, indicador, unidade_medida, fonte, indice, data
+### AL_2024-2027  (SEM INDICADORES)
+### AM_2008-2011
+  indicadores [168]: programa_codigo, programa, indicador, unidade, referencia_data, referencia_indice_e_meta_2011
+### AM_2012-2015  (SEM INDICADORES)
+### AM_2016-2019  (SEM INDICADORES)
+### AM_2020-2023  (SEM INDICADORES)
+### AM_2024-2027  (SEM INDICADORES)
+### AP_2012-2015
+  indicadores [285]: eixo, programa_codigo, programa, indicador, unidade_de_medida
+### AP_2016-2019  (SEM INDICADORES)
+### AP_2020-2023  (SEM INDICADORES)
+### AP_2024-2027
+  indicadores_ods [67]: programa_codigo, programa, indicador_ods
+  indicadores_resultado [186]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+### BA_2008-2011
+  indicadores [166]: poder, programa, indicador, unidade_medida, indice_referencia, ano_referencia, indice_esperado_ppa
+### BA_2012-2015
+  indicadores [130]: programa, indicador, unidade_medida, data_referencia, indice_referencia, indice_esperado_ppa
+### BA_2016-2019  (SEM INDICADORES)
+### BA_2020-2023
+  indicadores [146]: programa, indicador, polaridade, unidade_medida, ano_referencia, valor_referencia
+### BA_2024-2027
+  indicadores_programa [189]: programa, indicador, polaridade, periodicidade, ano_referencia, valor_referencia
+### CE_2008-2011  (SEM INDICADORES)
+### CE_2012-2015
+  resultados_indicadores [129]: area_tematica, resultado_estrategico_setorial, indicador, unidade, ano_referencia, valor_referencia, dado_nao_apurado
+### CE_2016-2019  (SEM INDICADORES)
+### CE_2020-2023  (SEM INDICADORES)
+### CE_2024-2027
+  indicadores [123]: nivel, eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, indicador, unidade, polaridade, dimensao, ano_referencia, valor_referencia
+### DF_2008-2011
+  indicadores [171]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+### DF_2012-2015
+  indicadores [282]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+### DF_2016-2019
+  indicadores [272]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+### DF_2020-2023
+  atualizada_indicadores_impacto [10]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, fonte, codigo_objetivo, desejado_2018
+  atualizada_indicadores_objetivos [233]: codigo_programa, codigo_objetivo, uo_responsavel, indicador, fonte, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2018, desejado_2019, desejado_2020, desejado_2021, desejado_2022, desejado_2023
+  indicadores_impacto [11]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, fonte, codigo_objetivo, periodicidade, desejado_2018
+  indicadores_objetivos [223]: codigo_programa, codigo_objetivo, fonte, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, uo_responsavel, desejado_2020, desejado_2021, desejado_2022, desejado_2023
+### DF_2024-2027
+  atualizada_indicadores_impacto [30]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, fonte, codigo_objetivo, periodicidade, desejado_2021, desejado_2022, desejado_2023
+  atualizada_indicadores_objetivos [273]: codigo_programa, codigo_objetivo, uo_responsavel, fonte, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2021, desejado_2023, desejado_2024, desejado_2025, desejado_2026, desejado_2027
+  indicadores_impacto [26]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, fonte, codigo_objetivo, desejado_2021, desejado_2022, desejado_2023
+  indicadores_objetivos [208]: codigo_programa, codigo_objetivo, uo_responsavel, indicador, fonte, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2023, desejado_2024, desejado_2025, desejado_2026, desejado_2027
+### ES_2008-2011  (SEM INDICADORES)
+### ES_2012-2015  (SEM INDICADORES)
+### ES_2016-2019
+  indicadores_resultado [24]: area, desafio, indicador, fonte, situacao_atual, apurado_em
+### ES_2020-2023
+  indicadores_resultado [74]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+### ES_2024-2027
+  indicadores_resultado [106]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+### GO_2008-2011  (SEM INDICADORES)
+### GO_2012-2015  (SEM INDICADORES)
+### GO_2016-2019  (SEM INDICADORES)
+### GO_2020-2023  (SEM INDICADORES)
+### GO_2024-2027  (SEM INDICADORES)
+### MA_2008-2011
+  indicadores [118]: orgao, programa, indicador, unidade_medida, indice_mais_recente, data_apuracao, esperado_2010, esperado_2011, esperado_2012, esperado_2013
+### MA_2012-2015  (SEM INDICADORES)
+### MA_2016-2019  (SEM INDICADORES)
+### MA_2020-2023
+  programas [103]: programa_codigo, programa, diretriz, eixo_estruturante, indicador, objetivo, publico_alvo, tipo, total_do_programa, orgao_responsavel
+### MA_2024-2027
+  programas [124]: programa_codigo, programa, desafio_longo_prazo, diretriz_estrategica, eixo_ppa, indicador, meta_indicador, objetivo, publico_alvo, tipo, total_do_programa, orgao_responsavel
+### MG_2008-2011
+  indicadores [199]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_final
+### MG_2012-2015
+  indicadores [204]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2012, meta_2013, meta_2014, meta_2015
+### MG_2016-2019
+  indicadores [176]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2016, meta_2017, meta_2018, meta_2019
+### MG_2020-2023
+  indicadores [221]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2020, meta_2021, meta_2022, meta_2023
+### MG_2024-2027
+  indicadores [201]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2025, meta_2026, meta_2027, meta_2028
+### MS_2008-2011
+  indicadores [55]: codigo_programa, indicador, unidade_medida, data_referencia, indice_referencia, indice_proposto
+### MS_2012-2015  (SEM INDICADORES)
+### MS_2016-2019
+  indicadores [105]: codigo_uo, codigo_programa, indicador, indice_referencia, fonte, base_geografica, unidade_medida, data_apuracao
+### MS_2020-2023
+  indicadores [80]: codigo_uo, codigo_programa, indicador, unidade_medida, indice_referencia, fonte, base_geografica, data_apuracao
+### MS_2024-2027
+  indicadores [118]: codigo_uo, codigo_programa, indicador, unidade_medida, indice_referencia, data_apuracao, fonte, base_geografica
+### MT_2008-2011  (SEM INDICADORES)
+### MT_2012-2015
+  indicadores [177]: codigo_programa, indicador, unidade_de_medida, indice_inicial, indice_final
+### MT_2016-2019
+  resultados_pactuados [193]: codigo_programa, indicador, inicio_ppa, final_ppa
+### MT_2020-2023
+  indicadores [200]: codigo_programa, indicador, ultima_apuracao, ano_apuracao, meta_ppa
+### MT_2024-2027
+  indicadores [314]: codigo_programa, codigo_objetivo, codigo_indicador, indicador, unidade_medida, ultima_apuracao_ano, periodicidade, meta_2024, meta_2025, meta_2026, meta_2027
+### PA_2008-2011
+  indicadores [130]: tipo_programa, programa, indicador, indice_2008, indice_2009, indice_2010, indice_2011
+### PA_2012-2015
+  indicadores [235]: programa, indicador, unidade_de_medida, fonte, indice_de_referencia, apurado_em, indice_esperado_2012, indice_esperado_ate_2015
+  metas_mapa_exclusao [15]: indicador, indice_referencia, ano_referencia, meta_melhoria_2012_2015, resultado_esperado_ate_2015, programas_ppa
+### PA_2016-2019
+  indicadores_processo [637]: volume, regiao_de_integracao, programa, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, esperado_2016, esperado_2017, esperado_2018, esperado_2019
+  indicadores_resultado [458]: volume, regiao_de_integracao, indicador, fonte, unidade, indice_de_referencia, ano_de_apuracao, resultado_esperado_2019
+### PA_2020-2023
+  indicadores [2585]: volume, regiao_de_integracao, programa, tipo_indicador, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, ano_esperado, indice_esperado
+### PA_2024-2027
+  caderno_indicadores [3697]: programa, objetivo_estrategico, objetivo_de_programa, tipo_indicador, indicador, formula, unidade_de_medida, fonte, regiao_de_integracao, indice_de_referencia, ano, meta
+  indicadores [4059]: volume, regiao_de_integracao, programa, tipo_indicador, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, ano_esperado, indice_esperado
+### PB_2012-2015
+  indicadores [142]: programa_codigo, programa, indicador, fonte, unidade_medida, ano_referencia, indice_referencia
+### PB_2016-2019
+  indicadores [80]: programa_codigo, programa_nome, indicador, unidade_medida, data_referencia, indice_referencia
+### PB_2020-2023
+  indicadores [187]: programa_codigo, programa_nome, indicador, unidade_medida, data_referencia, indice_referencia
+### PB_2024-2027
+  indicadores [233]: programa_codigo, programa_nome, indicador, unidade_medida, ano_referencia, valor_referencia, valor_final_ppa
+### PE_2008-2011  (SEM INDICADORES)
+### PE_2012-2015  (SEM INDICADORES)
+### PE_2016-2019  (SEM INDICADORES)
+### PE_2020-2023  (SEM INDICADORES)
+### PE_2024-2027  (SEM INDICADORES)
+### PI_2008-2011  (SEM INDICADORES)
+### PI_2012-2015
+  indicadores [97]: programa_codigo, programa, indicador, unidade_medida, formula_calculo
+### PI_2016-2019
+  indicadores [246]: programa_codigo, programa, indicador, unidade_medida, formula_calculo
+### PI_2020-2023  (SEM INDICADORES)
+### PI_2024-2027  (SEM INDICADORES)
+### PR_2008-2011
+  indicadores [47]: programa, indicador, unidade_de_medida, periodicidade, fonte, indice_mais_recente, data_de_apuracao, indice_desejado_2008, indice_desejado_2009, indice_desejado_2010, indice_desejado_2011
+### PR_2012-2015
+  indicadores [69]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto, fonte
+### PR_2016-2019
+  indicadores [60]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto_2019, periodicidade, polaridade, fonte
+### PR_2020-2023
+  indicadores [58]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto_2023, periodicidade, polaridade, fonte
+### PR_2024-2027
+  indicadores [201]: codigo_programa, programa, indicador, fonte_de_apuracao, indice_referencia, data_referencia, unidade_de_medida, polaridade, periodicidade, indice_2024, indice_2025, indice_2026, indice_2027
+### RJ_2008-2011  (SEM INDICADORES)
+### RJ_2012-2015  (SEM INDICADORES)
+### RJ_2016-2019  (SEM INDICADORES)
+### RJ_2020-2023
+  indicadores [706]: programa, acao_codigo, acao, indicador, meta_2020, meta_2021, meta_2022, meta_2023
+### RJ_2024-2027
+  indicadores_iniciativa [347]: programa_codigo, iniciativa_codigo, iniciativa, codigo, indicador, unidade_de_medida, periodicidade, linha_de_base, meta_2024, meta_2025, meta_2026, meta_2027
+  indicadores_programa [80]: programa_codigo, programa, codigo, indicador, periodicidade, unidade_de_medida, ano_referencia, linha_de_base
+  rev2025_indicadores_iniciativa [344]: programa_codigo, iniciativa_codigo, iniciativa, codigo, indicador, unidade_de_medida, periodicidade, linha_de_base, meta_2025, meta_2026, meta_2027
+  rev2025_indicadores_programa [80]: programa_codigo, programa, codigo, indicador, periodicidade, unidade_de_medida, ano_referencia, linha_de_base
+### RN_2008-2011  (SEM INDICADORES)
+### RN_2012-2015  (SEM INDICADORES)
+### RN_2016-2019
+  indicadores [74]: estado, ciclo, codigo_programa, codigo_indicador, nome_indicador, unidade_medida, data_apuracao, indice_recente
+### RN_2020-2023
+  indicadores [116]: estado, ciclo, codigo_programa, codigo_indicador, nome_indicador, unidade_medida, data_apuracao, indice_recente
+### RN_2024-2027
+  metas [2538]: programa_codigo, programa_nome, diretriz_codigo, diretriz, objetivo_geral_codigo, objetivo_geral, orgao_codigo, orgao, objetivo_especifico_codigo, objetivo_especifico, nivel, entrega_codigo, entrega, indicador_codigo, indicador, unidade_medida, territorio_codigo, territorializacao, valor_2024_2027
+  programa_indicadores [194]: programa_codigo, programa_nome, indicador_codigo, indicador, unidade_medida, proxima_apuracao, indice_recente, meta_2024_2027
+### RO_2008-2011
+  indicadores [140]: orgao, unidade_orcamentaria, programa, indicador, unidade, referencia, fonte, periodicidade, base_geografica, indice_esperado_2008_a_2011
+### RO_2012-2015
+  indicadores [92]: orgao, unidade_orcamentaria, programa, indicador, unidade, referencia, fonte, periodicidade, base_geografica, indice_esperado_2012_a_2015
+### RO_2016-2019  (SEM INDICADORES)
+### RO_2020-2023  (SEM INDICADORES)
+### RO_2024-2027
+  indicadores [313]: orgao, unidade_orcamentaria, programa, indicador, unidade_de_medida, indice_de_referencia, data_indice_referencia, periodicidade, base_geografica, fonte, esperado_2024, esperado_2025, esperado_2026, esperado_2027, indice_de_referencia_num, fonte_texto
+### RR_2008-2011
+  indicadores [62]: programa, indicador, unidade_medida, apurado_em, fonte, indice_mais_recente, indice_ao_final_do_ppa, periodicidade, base_geografica, formula
+### RR_2012-2015
+  indicadores [63]: programa, indicador, unidade_medida, apurado_em, fonte, indice_mais_recente, indice_esperado_2012, indice_esperado_2013, indice_esperado_2014, indice_esperado_2015, periodicidade, base_geografica, formula
+### RR_2016-2019
+  indicadores [62]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2016, indice_esperado_2017, indice_esperado_2018, indice_esperado_2019, periodicidade, base_geografica, formula
+### RR_2020-2023
+  indicadores [60]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2020, indice_esperado_2021, indice_esperado_2022, indice_esperado_2023, periodicidade, base_geografica, formula
+### RR_2024-2027
+  indicadores [68]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2024, indice_esperado_2025, indice_esperado_2026, indice_esperado_2027, periodicidade, base_geografica, formula
+### RS_2008-2011
+  indicadores [271]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+### RS_2012-2015
+  indicadores [307]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+### RS_2016-2019
+  indicadores [220]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+### RS_2020-2023
+  indicadores [227]: nivel, programa, acao_programatica, indicador, unidade_de_medida, valor_mais_recente, valor_desejado_ou_polaridade
+### RS_2024-2027
+  indicadores [267]: nivel, programa, acao_programatica, indicador, unidade_de_medida, valor_mais_recente, valor_desejado_ou_polaridade
+### SC_2008-2011  (SEM INDICADORES)
+### SC_2012-2015
+  indicadores [121]: secao, codigo_programa, codigo_indicador, indicador, data_de_apuracao, indice, fonte_dos_dados
+  rev2013_indicadores [121]: secao, codigo_programa, codigo_indicador, indicador, data_de_apuracao, indice, fonte_dos_dados
+### SC_2016-2019  (SEM INDICADORES)
+### SC_2020-2023
+  indicadores [178]: secao, codigo_programa, codigo_indicador, indicador, unidade_de_medida, fonte, polaridade, valor_referencia, data_apuracao, meta_ao_final_do_ppa
+### SC_2024-2027
+  indicadores [202]: secao, codigo_programa, codigo_indicador, indicador, unidade_de_medida, fonte, polaridade, valor_referencia, data_apuracao, meta_ao_final_do_ppa
+### SE_2008-2011  (SEM INDICADORES)
+### SE_2012-2015
+  indicadores [112]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+### SE_2016-2019
+  indicadores [89]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+### SE_2020-2023
+  indicadores [84]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+### SE_2024-2027
+  objetivos_especificos [175]: programa_codigo, programa, objetivo_especifico, indicador, unidade_medida, ano_referencia, valor_referencia, meta_2024, meta_2025, meta_2026, meta_2027
+### SP_2008-2011
+  indicadores [601]: orgao, programa_codigo, programa, indicador, mais_recente, ao_final_do_plano
+### SP_2012-2015
+  indicadores [420]: orgao, programa_codigo, programa, indicador, mais_recente, ao_final_do_plano, fonte_texto
+### SP_2016-2019
+  indicadores [905]: programa_codigo, programa, tipo_indicador, produto, indicador, valor_mais_recente, periodo_de_referencia, fonte_da_informacao, meta_ao_final_do_ppa
+### SP_2020-2023
+  indicadores_produto [1046]: codigo_programa, descricao_do_programa, nome_produto, nome_indicador, unidade_de_medida, periodo_ppa, periodo_referencia, descricao_fonte_informacao, qtde_valor_mais_recente, qtde_indicador_termino_ppa
+  indicadores_programa [233]: codigo_programa, descricao_do_programa, nome_indicador, descricao_fonte_informacao, unidade_de_medida, periodo_ppa, periodo_referencia, qtde_valor_mais_recente, qtde_indicador_termino_ppa
+### SP_2024-2027
+  indicadores [1397]: programa_codigo, programa, tipo_indicador, produto_codigo, indicador, fonte_da_informacao, linha_de_base_ano, linha_de_base_valor, meta_2024, meta_2025, meta_2026, meta_2027, meta_final_valor, meta_final_regra
+### TO_2008-2011
+  indicadores [51]: unidade_gestora, programa_codigo, programa, indicador, data_apuracao, indice_recente, indice_desejado, regiao, periodicidade
+### TO_2012-2015  (SEM INDICADORES)
+### TO_2016-2019
+  indicadores [195]: eixo, programa, objetivo, indicador, unidade_de_medida, indice_atual, indice_desejado
+### TO_2020-2023
+  indicadores [73]: eixo, programa, objetivo, indicador, medida, indice_atual, indice_desejado
+### TO_2024-2027
+  indicadores [65]: eixo, programa, objetivo, indicador, medida, indice_atual, indice_desejado

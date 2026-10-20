@@ -1,0 +1,165 @@
+---
+title: "Introdução ao ppabr"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introdução ao ppabr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+O **ppabr** reúne os Planos Plurianuais (PPAs) dos 26 estados brasileiros e do
+Distrito Federal, dos ciclos 2008-2011 a 2024-2027: 133 PPAs, extraídos dos
+documentos oficiais e organizados em tabelas.
+
+O pacote é leve. Os dados ficam num repositório público e cada arquivo é
+baixado só quando é pedido pela primeira vez; depois fica em cache no
+computador. As funções de catálogo, dicionário e resumo funcionam sem
+internet. Nesta vinheta, os trechos que baixam dados aparecem como exemplo,
+sem ser executados.
+
+```{r}
+library(ppabr)
+```
+
+## O que existe: o catálogo
+
+Cada linha do catálogo é uma tabela extraída de um PPA, com o número de
+linhas, as colunas, o documento (PDF) de onde veio e notas de qualidade.
+
+```{r}
+cat_ppa <- ppa_catalogo()
+nrow(cat_ppa)
+table(cat_ppa$ciclo)
+
+ce <- ppa_catalogo(uf = "CE", ciclo = 2024)
+ce[, c("tabela", "linhas", "n_colunas", "documento")]
+```
+
+Para procurar um tema em todos os PPAs, use o argumento `tabela` (uma
+expressão regular sobre o nome da tabela):
+
+```{r}
+ind <- ppa_catalogo(tabela = "indicador")
+table(ind$ciclo)
+```
+
+As notas de qualidade dizem o que foi corrigido na extração, quais erros vêm
+do próprio documento e quais limitações continuam:
+
+```{r}
+notas <- ppa_catalogo(uf = "AP", ciclo = 2024, tabela = "aplicacao")$notas
+strsplit(notas, " | ", fixed = TRUE)[[1]]
+```
+
+## O que significa cada coluna: o dicionário
+
+```{r}
+dic <- ppa_dicionario("^programas$", uf = "CE", ciclo = 2024)
+dic[, c("coluna", "tipo", "preenchimento", "descricao")]
+
+# em quantos PPAs aparece uma coluna sobre público-alvo
+head(ppa_dicionario(coluna = "publico", resumo = TRUE)[, c("coluna", "n_ppas", "descricao")])
+```
+
+## As tabelas de um PPA
+
+`ppa_tabela()` baixa o PPA e devolve as tabelas como foram extraídas do
+documento. Toda tabela tem a coluna `pagina_pdf`, a página do documento
+original de onde a linha veio.
+
+```{r, eval = FALSE}
+# todas as tabelas do PPA 2024-2027 do Ceará (lista de data.frames)
+ce <- ppa_tabela("CE", 2024)
+names(ce)
+
+# uma tabela
+prog <- ppa_tabela("CE", 2024, "programas")
+
+# a planilha do PPA, uma aba por tabela
+ppa_tabela("CE", 2024, formato = "xlsx")
+```
+
+## Camadas harmonizadas: comparar estados
+
+Cada PPA organiza o plano de um jeito. As camadas harmonizadas levam as
+colunas originais para um conjunto comum de campos, o que permite empilhar e
+comparar estados e ciclos. Todas têm um resumo que funciona sem internet.
+
+| Função | Uma linha por | Exemplo de campos |
+|---|---|---|
+| `ppa_programas()` | programa | eixo, órgão responsável, objetivo, público-alvo |
+| `ppa_acoes()` | ação (ou subação) | tipo, órgão, finalidade, produto |
+| `ppa_indicadores()` | indicador | índice de referência, meta final, metas por ano |
+| `ppa_metas()` | meta, iniciativa ou entrega | vínculo, quantidade, recorte regional |
+| `ppa_valores()` | programa e período | valor em reais |
+
+```{r}
+res <- ppa_programas(resumo = TRUE)
+head(res[, c("uf", "ciclo", "n_programas", "eixo", "objetivo", "publico_alvo")])
+```
+
+O resumo da camada de valores traz o total de cada PPA em bilhões de reais e
+os alertas de qualidade:
+
+```{r}
+v <- ppa_valores(resumo = TRUE)
+head(v[order(-v$total_bilhoes), c("uf", "ciclo", "n_programas", "total_bilhoes")])
+v[!is.na(v$alerta), c("uf", "ciclo")][1:5, ]
+```
+
+Para baixar as camadas:
+
+```{r, eval = FALSE}
+# programas do Nordeste no ciclo 2024-2027
+ne <- ppa_programas(uf = c("AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"), ciclo = 2024)
+
+# valor total de cada programa no PPA de Pernambuco
+pe <- ppa_valores(uf = "PE", ciclo = 2024)
+pe_total <- pe[pe$periodo_completo, c("programa", "valor")]
+
+# indicadores e metas
+ind <- ppa_indicadores(uf = "PR", ciclo = 2024)
+ini <- ppa_metas(uf = "BA", ciclo = 2024, tipo = "iniciativa")
+```
+
+Alguns PPAs têm uma versão revisada ou atualizada além da lei original. Por
+padrão vem a original; `versao = "mais_recente"` usa a revisada quando existe.
+
+## O texto como dado
+
+`ppa_documentos()` lista os PDFs de cada PPA; `ppa_documento()` devolve o
+texto com uma linha por página (da camada de texto do PDF ou de OCR) ou baixa
+os PDFs originais.
+
+```{r}
+ppa_documentos(uf = "SP", ciclo = 2024)[, c("documento", "arquivo_original", "paginas")]
+```
+
+```{r, eval = FALSE}
+txt <- ppa_documento("CE", 2024)
+# em que páginas o PPA fala de primeira infância
+txt[grepl("primeira infância", txt$texto, ignore.case = TRUE), c("documento", "pagina")]
+
+# os PDFs originais
+ppa_documento("CE", 2024, formato = "pdf")
+```
+
+## Cache
+
+```{r, eval = FALSE}
+ppa_cache()               # arquivos baixados
+ppa_cache(limpar = TRUE)  # apaga o cache
+```
+
+## Cuidados
+
+- Os PPAs não são homogêneos: confira `ppa_catalogo()$notas` e, nas camadas,
+  o resumo (`resumo = TRUE`) antes de comparar estados.
+- Valores financeiros estão em reais em `ppa_valores()`; nas tabelas de
+  `ppa_tabela()` ficam como no documento (reais ou milhares de reais).
+- Na dúvida, volte ao documento: `pagina_pdf` e a coluna `documento` do
+  catálogo dizem onde está cada informação.

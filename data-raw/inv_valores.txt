@@ -1,0 +1,427 @@
+### AC_2008-2011
+  acoes_programas_estruturantes (ACAO) [61]: valor_rs=1.08
+  programas_estruturantes [10]: total_do_programa=1.05
+### AC_2012-2015
+  referencial_orcamentario [675]: valor_2012=30.77 valor_2013_2015=95.77 valor_global=225.91
+### AC_2016-2019
+  distribuicao_eixo [42]: valor=24.36
+  referencial_orcamentario [678]: valor_2016=33.02 valor_2017_2019=179.31 valor_global=271.53
+### AC_2020-2023
+  participacao_programas [40]: valor=48.21
+  referencial_orcamentario [195]: valor_2020=24.53 valor_2021_2023=82.84 valor_2020_2023=109.52
+  valor_por_programa [44]: valor_2020_2023=53.69
+### AC_2024-2027
+  programas [44]: valor_2024=2.79 valor_2025=2.88 valor_2026=2.97 valor_2027=3.07
+  valor_programas [59]: valor_2024_2027=96.44
+  valor_programas_detalhado [67]: despesa_corrente_2024=28.19 despesa_capital_2024=4.17 total_2024=32.37 despesa_corrente_2025_2027=90.13 despesa_capital_2025_2027=13.32 total_2025_2027=103.47 despesa_corrente_2024_2027=118.32 despesa_capital_2024_2027=17.48 total_2024_2027=135.84
+### AL_2008-2011
+  valores (ACAO) [2952]: valor_2008=1.32 valor_2009_2011=4.90
+### AL_2012-2015
+  acoes (ACAO) [416]: valor_2012=1.51 valor_2013_2015=4.80
+  revisao_acoes (ACAO) [471]: valor_2014=2.34 valor_2015=1.74
+  revisao_valores (ACAO) [1480]: valor_2014=2.34 valor_2015=1.74
+  valores (ACAO) [1180]: valor_2012=1.51 valor_2013_2015=4.80
+### AL_2016-2019
+  acoes (ACAO) [574]: valor_2016=1.65 valor_2017_2019=5.22
+  valores (ACAO) [1642]: valor_2016=1.65 valor_2017_2019=5.22
+### AL_2020-2023
+  meta_financeira_programa [41]: meta_financeira_2020=13.59 meta_financeira_2021_2023=39.42
+  metas_regionalizadas (ACAO) [1442]: meta_financeira_corrente=4.85 meta_financeira_capital=9.09 meta_financeira_total=13.94
+### AL_2024-2027
+  acoes_gestao (ACAO) [286]: valor_2024=9.55 valor_2025_2027=32.10
+  metas_regionalizadas_tematico (ACAO) [769]: meta_financeira_corrente=14.28 meta_financeira_capital=9.20 meta_financeira_total=23.47
+### AM_2008-2011
+  acoes (ACAO) [605]: valor_2008_2011=35.73
+  sintese_custos (ACAO) [506]: valor_total_2008_2011=23.97
+  valores_esfera_categoria [757]: valor_total_2008_2011=107.13
+  valores_regionalizacao [499]: valor_total_2008_2011=31.87
+### AM_2012-2015
+  metas_acoes (ACAO) [620]: meta_financeira=151.81
+  valor_programas_area nivel=Área temática/Programa [58]: valor_2014=24.68 valor_2012_2015=80.65
+### AM_2016-2019
+  metas_acoes (ACAO) [454]: meta_financeira_2019=16.33
+  programas_area nivel=Área/Programa [68]: valor_2019=52.37
+### AM_2020-2023
+  metas_acoes (ACAO) [610]: meta_financeira_2020=35.50
+  programas_area nivel=Área/Programa [52]: valor_2020=37.85 valor_2021_2023=122.83
+### AM_2024-2027
+  acoes_metas (ACAO) [744]: meta_financeira_2024=36.72 meta_financeira_2024_2027=156.46
+  programas_area [42]: valor_2024=30.16 valor_2025_2027=98.39
+  totais_programas [30]: total_financeiro_2024=25.25 total_financeiro_2024_2027=107.70
+### AP_2012-2015
+  acoes (ACAO) [591]: valor_total_2012_2015=17.78
+  programas [118]: valor_2012=3.06 valor_2013=4.01 valor_2014=4.01 valor_2015=4.32 valor_total_2012_2015=15.40
+  sinteses (ACAO) nivel=programa/acao [2205]: valor_2012=14.02 valor_2013=17.66 valor_2014=17.74 valor_2015=19.15 valor_total_2012_2015=68.57
+### AP_2016-2019
+### AP_2020-2023
+### AP_2024-2027
+  aplicacao_recursos [88]: valor_original=0.00 valor_reais=869.05
+### BA_2008-2011
+  programas [161]: recursos_orcamentarios=18.94 recursos_nao_orcamentarios=17.65 recursos_total=36.59
+### BA_2012-2015
+  programas [59]: recursos_programa=53.16
+### BA_2016-2019
+### BA_2020-2023
+  indicadores [146]: valor_referencia=0.00
+  metas [427]: valor_alcance=0.13 valor_referencia=0.95
+  programas [22]: recursos_programa=103.59
+  regionalizacao_metas [2325]: valor_alcance=0.13
+### BA_2024-2027
+  programas [65]: recurso_programa=150.32
+  recursos_programas [55]: recursos=153.37
+### CE_2008-2011
+  acoes_valores (ACAO) [926]: valor_2008=5.00 valor_2009_2011=12.52 valor_total=17.52
+  eixos_areas_programas [182]: valor_2008=11.45 valor_2009_2011=34.96 valor_total=46.41
+  programas [269]: valor_2008=11.45 valor_2009_2011=34.96 valor_total=46.41
+  regionalizacao (ACAO) [2261]: valor_2008=5.00 valor_2009_2011=12.52 valor_total=17.52
+### CE_2012-2015
+  programa_valores [570]: valor_2012=55.14 valor_2013_2015=191.14 valor_geral=82.09
+  programas [80]: valor_2012=13.38 valor_2013_2015=46.26 valor_geral=59.64
+### CE_2016-2019
+### CE_2020-2023
+### CE_2024-2027
+  indicadores nivel=Eixo/Tema [123]: valor_referencia=0.00
+  metas_fisicas_financeiras [1096]: financeiro_2024=30.65 financeiro_2025_2027=98.63 financeiro_total=129.27
+  valores_orgao_executor [388]: valor_2024=40.61 valor_2025_2027=130.75 valor_total=171.36
+### DF_2008-2011
+  acoes (ACAO) [1536]: corrente_tesouro=7.80 corrente_outras_fontes=7.11 corrente_total=14.92 capital_tesouro=0.97 capital_outras_fontes=1.70 capital_total=2.67 total=17.59
+  programas [102]: total_corrente_tesouro=7.80 total_corrente_outras_fontes=7.11 total_corrente_total=14.92 total_total=17.59 total_capital_tesouro=0.97 total_capital_total=2.67 total_capital_outras_fontes=1.70
+### DF_2012-2015
+  acoes (ACAO) [1776]: valor_2012=25.13 valor_2013=26.95 valor_2014=29.31 valor_2015=32.38
+  programas [42]: valor_corrente=99.33 valor_corrente_tesouro=56.28 valor_corrente_outras_fontes=43.05 valor_capital=14.44 valor_capital_tesouro=7.85 valor_capital_outras_fontes=6.59 valor_total=113.77
+### DF_2016-2019
+  acoes (ACAO) [1675]: valor_2016=30.88 valor_2017=31.38 valor_2018=32.85 valor_2019=34.68
+  programas [20]: valor_corrente=111.26 valor_corrente_tesouro=88.34 valor_corrente_outras_fontes=22.92 valor_capital=18.39 valor_capital_tesouro=11.66 valor_capital_outras_fontes=6.73 valor_total=129.64
+### DF_2020-2023
+  acoes (ACAO) [1444]: valor_2020=43.10 valor_2021=45.54 valor_2022=48.06 valor_2023=50.61
+  atualizada_acoes (ACAO) [1644]: valor_2020=43.10 valor_2021=45.54 valor_2022=48.06 valor_2023=51.61
+  atualizada_programas [34]: valor_corrente=173.83 valor_corrente_tesouro=104.40 valor_corrente_outras_fontes=69.43 valor_capital=14.49 valor_capital_tesouro=4.75 valor_capital_outras_fontes=9.74 valor_total=188.31
+  programas [34]: valor_corrente=172.88 valor_corrente_tesouro=104.45 valor_corrente_outras_fontes=68.43 valor_capital=14.44 valor_capital_tesouro=4.70 valor_capital_outras_fontes=9.74 valor_total=187.31
+### DF_2024-2027
+  atualizada_valores_por_programa [38]: valor_2024=172.31 valor_2025=189.49 valor_2026=193.50 valor_2027=203.33
+  atualizada_valores_por_regiao [341]: valor_2024=61.07 valor_2025=66.79 valor_2026=68.35 valor_2027=71.82
+  valores_por_acao (ACAO) [1649]: valor_2024=61.09
+  valores_por_programa [39]: valor_2024=183.26 valor_2025=188.53 valor_2026=197.18 valor_2027=206.56 valor_total=775.54
+  valores_por_regiao [310]: valor_2024=61.09 valor_2025=62.84 valor_2026=65.73 valor_2027=68.85
+### ES_2008-2011
+  acoes (ACAO) [1157]: valor_total=31.56
+  acoes_regionalizacao (ACAO) [2040]: valor=31.56
+  emendas_parlamentares (ACAO) [163]: valor=0.02
+  programas [178]: valor_global=31.56 origem_total_orcamentario=30.56 origem_total_geral=31.56
+### ES_2012-2015
+  acoes (ACAO) [1106]: valor_total=45.55
+  acoes_dec2012 (ACAO) [1099]: valor_total=10.33
+  acoes_dec2013a15 (ACAO) [1087]: valor_total=35.22
+  acoes_regionalizacao (ACAO) [1913]: valor=45.55
+  acoes_regionalizacao_dec2012 (ACAO) [1863]: valor=10.33
+  acoes_regionalizacao_dec2013a15 (ACAO) [1706]: valor=35.22
+  emendas_parlamentares (ACAO) [127]: valor=0.30
+  programas [113]: valor_global=45.55 origem_total_orcamentario=44.14 origem_total_geral=90.71
+  programas_dec2012 [113]: valor_global=10.33 origem_total_orcamentario=0.00 origem_total_geral=20.55
+  programas_dec2013a15 [113]: valor_global=35.22 origem_total_orcamentario=34.21 origem_total_geral=70.15
+### ES_2016-2019
+  acoes (ACAO) [539]: financeiro_total=63.55
+  acoes_produtos_regionalizacao (ACAO) [1591]: financeiro=63.55
+  emendas_parlamentares (ACAO) [317]: valor=0.02
+  programas [73]: recursos_total=63.55
+  programas_recursos [270]: financeiro=63.55
+### ES_2020-2023
+  acoes (ACAO) [443]: valor=74.43
+  programas [45]: recursos_total=74.43
+  programas_recursos [73]: despesas_correntes=64.08 despesas_capital=10.35 total=74.43
+### ES_2024-2027
+  acoes (ACAO) [399]: valor=99.26
+  programas [46]: recursos_total=99.26
+  programas_recursos [90]: despesas_correntes=82.64 despesas_capital=16.62 total=99.26
+### GO_2008-2011
+  acoes_financeiro (ACAO) [1531]: oge=7.57 demais_fontes=3.38 total=16.15
+  programas [127]: total_2010_2011=16.15
+  programas_regioes [337]: oge_2010=3.60 demais_fontes_2010=4.57 oge_2011=3.99 demais_fontes_2011=4.00 total=16.15
+  resumo_por_programa nivel=programa/subtotal/total [154]: oge=30.34 outras_fontes=34.27 total=64.62
+### GO_2012-2015
+  acoes_por_unidade (ACAO) [988]: valor_2012_2015=32.86
+  metas_financeiras_por_fonte [642]: valor_2012=21.01 valor_2013=20.89 valor_2014=23.64 valor_2015=26.07 valor_total=91.61
+### GO_2016-2019
+  valores_por_fonte (ACAO) [4676]: valor_2016=83.01 valor_2017=70.45 valor_2018=71.90 valor_2019=75.86 valor_total=301.21
+### GO_2020-2023
+  orcamento_por_fonte [184]: valor_2020=10.89 valor_2021_2023=35.21 valor_total=46.10
+### GO_2024-2027
+  produtos (ACAO) [459]: financeiro_2024_2027=49.03
+### MA_2008-2011
+  acoes_por_regiao (ACAO) [3956]: valor_2010=5.10
+  programas [95]: valor_2010=5.10 valor_2011_2013=17.43 valor_total=22.53
+  resumo_programas_por_regiao [1744]: valor_2010=5.09 valor_2011_2013=17.39 valor_total=22.48
+### MA_2012-2015
+  acoes (ACAO) [455]: valor_2013=10.42 valor_2014=11.77 valor_2015=12.69
+  programas [76]: total_do_programa=35.55
+  regionalizacao (ACAO) [1670]: valor_2013=10.37 valor_2014=11.75 valor_2015=12.67
+### MA_2016-2019
+  acoes (ACAO) [526]: valor_2016=7.58 valor_2017=9.98 valor_2018=12.26 valor_2019=7.05
+  programas [68]: total_do_programa=57.52
+  regionalizacao (ACAO) [677]: valor_2016=7.59 valor_2017=10.10 valor_2018=12.22 valor_2019=7.00
+### MA_2020-2023
+  acoes (ACAO) [554]: valor_2020=19.96 valor_2021=20.51 valor_2022=14.06 valor_2023=13.76
+  programas [103]: total_do_programa=200.10
+  regionalizacao (ACAO) [1161]: valor_2020=19.13 valor_2021=19.39 valor_2022=18.05 valor_2023=18.63
+### MA_2024-2027
+  acoes (ACAO) [650]: valor_2024=29.19 valor_2025=33.07 valor_2026=34.60 valor_2027=36.15
+  programas [124]: total_do_programa=369.39
+  regionalizacao (ACAO) [1509]: valor_2024=29.21 valor_2025=33.07 valor_2026=34.60 valor_2027=36.15
+### MG_2008-2011
+  metas_regionalizadas (ACAO) [10696]: meta_financeira=169.60
+  programas [256]: valor_no_periodo=169.62
+### MG_2012-2015
+  metas_regionalizadas (ACAO) [16528]: meta_financeira=293.23
+  programas_valores [4700]: valor=834.66
+### MG_2016-2019
+  metas_regionalizadas (ACAO) [22440]: meta_financeira=421.21
+  programas_valores [4340]: valor=1237.51
+### MG_2020-2023
+  metas_regionalizadas (ACAO) [11804]: meta_financeira=475.04
+  programas_valores [3140]: valor=1396.59
+### MG_2024-2027
+  metas_regionalizadas (ACAO) [13072]: meta_financeira=608.66
+  programas_valores [3520]: valor=1778.83
+### MS_2008-2011
+  acoes (ACAO) [263]: tesouro_2008=5.07 tesouro_2008_2011=22.93 outras_fontes_2008=1.53 outras_fontes_2008_2011=8.04 total_2008=6.60 total_2008_2011=30.97
+  programas [41]: tesouro_2008=5.07 tesouro_2008_2011=22.93 outras_fontes_2008=1.53 outras_fontes_2008_2011=8.04 total_2008=6.60 total_2008_2011=30.97
+### MS_2012-2015
+  acoes (ACAO) [281]: valor_2012=10.54 valor_2013_2015=35.82 valor_total=46.36
+  programas [42]: valor_2012=10.54 valor_2013_2015=35.82 valor_total=46.36
+### MS_2016-2019
+  acoes_valores_por_natureza (ACAO) [900]: valor_2016=19.16 valor_2017_2019=69.91 valor_total=89.07
+  resumo_programa_acao nivel=programa/acao/total [494]: valor_2016=31.88 valor_2017_2019=119.48 valor_total=151.37
+### MS_2020-2023
+  acoes_valores_por_natureza (ACAO) [1032]: valor_2020=30.57 valor_2021_2023=100.70 valor_total=131.27
+  resumo_programa_acao nivel=programa/acao/total [399]: valor_2020=43.96 valor_2021_2023=144.75 valor_total=188.72
+### MS_2024-2027
+  acoes_valores_por_natureza (ACAO) [897]: valor_2024=47.77 valor_2025_2027=160.41 valor_total=208.18
+  resumo_programa_acao nivel=programa/acao/total [348]: valor_2024=71.65 valor_2025_2027=240.62 valor_total=312.27
+### MT_2008-2011
+  alteracao_2009_acoes (ACAO) [130]: valor_orcamentario_2008=0.20 valor_orcamentario_2009=0.17 valor_orcamentario_2010=0.26 valor_orcamentario_2011=0.32 valor_orcamentario_total=0.95 valor_total_2008=0.20 valor_total_2009=0.17 valor_total_2010=0.26 valor_total_2011=0.32 valor_total_total=0.95
+### MT_2012-2015
+  acoes (ACAO) [459]: recursos_ppa=14.50
+  apoio_administrativo_acoes (ACAO) [24]: valor_2012_2015=32.06
+  apoio_administrativo_programas [7]: total=39.98
+  programas [60]: recursos_ppa=14.77
+### MT_2016-2019
+  valores_do_programa [276]: valor_2016=8.02 valor_2017_2019=22.56 valor_total=30.58
+### MT_2020-2023
+  acoes (ACAO) [544]: valor_2020_2023=14.03
+  programas [51]: valor_programa_2020_2023=14.03
+  recursos_por_categoria [85]: valor=14.03
+### MT_2024-2027
+  recursos_por_fonte_e_uo (ACAO) nivel=programa/acao [9074]: valor_2024=1900.61 valor_2025=2088.76 valor_2026=2267.21 valor_2027=2394.04
+### PA_2008-2011
+  metas_acoes_regioes (ACAO) [3748]: financeiro_2008=0.47 financeiro_2009=0.54 financeiro_2010=4476755.03 financeiro_2011=56.24
+  programas [75]: total_do_programa=29.83
+### PA_2012-2015
+  metas_acoes_regioes (ACAO) [5539]: financeiro_2012=13.82 financeiro_2013_2015=44.47 financeiro_total=58.29
+  programas [83]: valor_total_programa=29.15
+### PA_2016-2019
+  programas_regiao [327]: valor_para_a_regiao=38.80
+### PA_2020-2023
+  programas [284]: valor_2020_2023=67.07
+  sintese_programas [303]: valor_2020_2023=151.83
+### PA_2024-2027
+  programas [253]: valor_2024_2027=175.66
+  sintese_programas [245]: valor_2024_2027=294.04
+### PB_2012-2015
+  metas_regionalizadas (ACAO) [920]: valor_2012=3.05 valor_2013=3.24 valor_2014=3.07 valor_2015=3.17 valor_total=22.47
+  orgaos_unidades [142]: total_2012_2015=13.27
+  programa_valores [946]: valor_2012=30.66 valor_2013=32.22 valor_2014=31.92 valor_2015=33.07 valor_total=127.88
+### PB_2016-2019
+  programa_valores [96]: valor_2016_mil=0.03 valor_2017_2019_mil=0.09 valor_global=0.04
+### PB_2020-2023
+  programa_valores [103]: valor_2020_mil=0.02 valor_2021_2023_mil=0.08 valor_global=0.04
+### PB_2024-2027
+  atributos_metas [819]: valor_referencia=0.03 valor_final_ppa=0.09
+  indicadores [233]: valor_referencia=4.12 valor_final_ppa=4.18
+  programa_valores [119]: valor_2024_mil=42.53 valor_2025_mil=44.02 valor_2026_mil=45.56 valor_2027_mil=47.16 valor_global=59.76
+### PE_2008-2011
+  custos_programas [391]: tesouro_2008=9.26 outras_fontes_2008=3.88 total_orcamentario_2008=13.14 total_2008=13.14 total_2009_2011=47.39 total_geral=60.53
+### PE_2012-2015
+  programas [258]: valor_2012=27.43 valor_2013_2015=96.67 valor_total=124.10
+### PE_2016-2019
+  programas [252]: valor_2016=29.74 valor_2017_2019=95.99 valor_total=125.73
+### PE_2020-2023
+  despesas_por_programa [146]: despesa_2020=40.89 despesa_2021_2023=133.54 despesa_total=174.46
+### PE_2024-2027
+  programas_despesas [220]: despesa_2024=49.54 despesa_2025_2027=158.75 despesa_total=208.29
+### PI_2008-2011
+  acoes_metas (ACAO) [2655]: valor=21.08
+  recursos_orgao_programa_fonte [368]: valor_2008=3.77 valor_2009=4.64 valor_2010=4.95 valor_2011=5.42 valor_total=18.78
+### PI_2012-2015
+  acoes (ACAO) [292]: recursos=24.94
+### PI_2016-2019
+  acoes (ACAO) [328]: recursos=39.30
+### PI_2020-2023
+  metas_fisicas (ACAO) [2256]: valor_meta_fisica_2020=39.32 valor_meta_fisica_2021=39.28 valor_meta_fisica_2022=39.20 valor_meta_fisica_2023=41.93
+  territorio_programa [129]: valor_meta_financeira_2020=12.63 valor_meta_financeira_2021=12.56 valor_meta_financeira_2022=12.50 valor_meta_financeira_2023=13.36
+### PI_2024-2027
+  metas_fisicas_financeiras (ACAO) [2583]: meta_financeira_2024=19.23 meta_financeira_2025=20.29 meta_financeira_2026=20.49 meta_financeira_2027=20.47
+### PR_2008-2011
+  acoes (ACAO) [390]: valor_acao=96.60
+  produtos (ACAO) [916]: total=0.11
+  programas [25]: valor_programa=96.45
+  valores_por_fonte (ACAO) nivel=programa/acao [1620]: valor_2008=80.15 valor_2009=79.39 valor_2010=82.86 valor_2011=87.85 valor_total=330.25
+### PR_2012-2015
+  iniciativas (ACAO) [370]: valor_global=141.34
+  iniciativas_metas [214]: total=7.66
+  programas [26]: valor_global=139.59
+  recursos nivel=programa/iniciativa [446]: valor_2012=86.27 valor_2013_2015=282.92
+### PR_2016-2019
+  iniciativas (ACAO) [322]: valor_global=210.43
+  iniciativas_metas [209]: total=4.66
+  programas [25]: valor_global=209.64
+  recursos nivel=programa/iniciativa [395]: valor_2016=125.27 valor_2017_2019=439.50
+### PR_2020-2023
+  iniciativas (ACAO) [320]: valor_global=166.86
+  iniciativas_metas [176]: total=2.70
+  programas [22]: valor_global=166.86
+  recursos nivel=programa/iniciativa [384]: valor_2020=112.35 valor_2021_2023=369.03
+### PR_2024-2027
+  acoes_orcamentarias (ACAO) [408]: valor_global=234.48
+  programas [36]: valor_global=234.48
+  recursos (ACAO) nivel=programa/acao [514]: valor_2024=155.00 valor_2025_2027=518.79
+### RJ_2008-2011
+  programas [132]: recursos_do_tesouro=16.67 recursos_nao_orcamentarios=16.41 total=52.88
+  projetos_recursos (ACAO) [52]: recursos_do_tesouro=2.36 recursos_nao_orcamentarios=0.06 total=4.78
+### RJ_2012-2015
+  programas [199]: recursos_do_tesouro=49.82 recursos_nao_orcamentarios=6.56 total=81.27
+### RJ_2016-2019
+  projecao_financeira (ACAO) [905]: valor_2016=42.23 valor_2017=33.37 valor_2018=36.38 valor_2019=33.20
+### RJ_2020-2023
+  programas [58]: despesa_do_estado=107.64 despesa_de_terceiros=0.11 total=107.75
+### RJ_2024-2027
+  acoes_metas_financeiras (ACAO) [2084]: meta_financeira=140.07
+  iniciativas (ACAO) [195]: meta_financeira_2024=35.22 meta_financeira_2025=37.95 meta_financeira_2026=36.52 meta_financeira_2027=32.97
+  rev2025_acoes_metas_financeiras (ACAO) [1623]: meta_financeira=80.15
+  rev2025_iniciativas (ACAO) [208]: meta_financeira_2025=32.55 meta_financeira_2026=31.08 meta_financeira_2027=28.35
+### RN_2008-2011
+  programas [141]: valor_estadual=2.73 valor_federal=2.40 valor_operacoes_credito=1.07 valor_outros=0.48 valor_total=6.68
+### RN_2012-2015
+  programas [140]: valor_estadual=3.07 valor_federal=3.67 valor_operacoes_credito=1.47 valor_total=8.21
+### RN_2016-2019
+  programas [31]: valor_estadual_corrente=14.94 valor_estadual_capital=2.59 valor_estadual_total=17.53 valor_federal_corrente=1.80 valor_federal_capital=2.44 valor_federal_total=4.24 valor_credito_corrente=0.00 valor_credito_capital=2.42 valor_credito_total=2.42 valor_outros_corrente=0.69 valor_outros_capital=0.35 valor_outros_total=1.05 valor_total_corrente=17.43 valor_total_capital=7.80 valor_total_total=25.24
+### RN_2020-2023
+  programas [35]: valor_estadual_corrente=10.97 valor_estadual_capital=0.38 valor_estadual_total=11.36 valor_federal_corrente=1.48 valor_federal_capital=1.05 valor_federal_total=2.53 valor_credito_corrente=0.00 valor_credito_capital=0.85 valor_credito_total=0.85 valor_outros_corrente=0.52 valor_outros_capital=0.32 valor_outros_total=0.84 valor_total_corrente=12.97 valor_total_capital=2.60 valor_total_total=15.57
+### RN_2024-2027
+  gestao_orgaos [50]: valor_2024_2027=30.98
+  metas nivel=Objetivo Específico/Entrega [2538]: valor_2024_2027=0.28
+  programa_valores [240]: corrente=84.78 capital=12.97 total=106.24
+### RO_2008-2011
+  financeiro_acoes (ACAO) nivel=Ação/Programa [1226]: valor_2008=7.19 valor_2009=9.88 valor_2010=9.97 valor_2011=10.91 valor_total=37.95
+### RO_2012-2015
+  financeiro_acoes (ACAO) nivel=Ação/Programa [1176]: valor_2012=11.12 valor_2013=18.17 valor_2014=19.15 valor_2015=20.24 valor_total=68.68
+### RO_2016-2019
+  financeiro_acoes_fonte (ACAO) [714]: valor_2016=10.52 valor_2017=10.39 valor_2018=10.61 valor_2019=10.89 valor_total=42.41
+### RO_2020-2023
+  financeiro_acoes_fonte (ACAO) [669]: valor_2020=12.51 valor_2021=12.53 valor_2022=12.93 valor_2023=13.38 valor_total=47.79
+  financeiro_consolidado (ACAO) nivel=Ação/Programa [1154]: valor_2020=17.89 valor_2021=18.09 valor_2022=18.76 valor_2023=19.44 valor_total=74.17
+### RO_2024-2027
+  financeiro_acoes_fonte (ACAO) [901]: valor_2024=16.01 valor_2025=16.95 valor_2026=17.82 valor_2027=18.78 valor_total=69.56
+  financeiro_consolidado (ACAO) nivel=Ação/Programa [1582]: valor_2024=31.98 valor_2025=33.90 valor_2026=35.64 valor_2027=37.54 valor_total=139.07
+### RR_2008-2011
+  financeiro_acoes (ACAO) [2101]: despesa_corrente=7.42 despesa_de_capital=7.34 demais_fontes=0.83 total=15.59
+  financeiro_programas [62]: total_ppa=6.63 valor_2008=1.75 valor_2009_2011=4.88
+### RR_2012-2015
+  financeiro_acoes (ACAO) [2270]: despesa_corrente=23.21 despesa_de_capital=1.93 total=25.15
+  financeiro_programas [244]: total_ppa=33.68 valor_2012=8.87 valor_2013_2015=24.80
+### RR_2016-2019
+  financeiro_acoes (ACAO) [2435]: despesa_corrente=16.17 despesa_de_capital=13.85 total=30.02
+  financeiro_programas [237]: total_ppa=33.31 valor_2016=9.09 valor_2017_2019=24.22
+### RR_2020-2023
+  financeiro_acoes (ACAO) [2270]: despesa_corrente=22.18 despesa_de_capital=3.02 total=25.20
+  financeiro_programas [215]: total_ppa=25.20 valor_2020=5.71 valor_2021_2023=19.49
+### RR_2024-2027
+  financeiro_acoes (ACAO) [2142]: despesa_corrente=34.37 despesa_de_capital=4.93 total=39.30
+  financeiro_programas [174]: total_ppa=39.30 valor_2024=9.60 valor_2025_2027=29.70
+### RS_2008-2011
+  acoes (ACAO) [671]: valor_total=117.35
+  despesas_por_fonte nivel=orgao/programa/natureza [615]: tesouro=261.09 total=349.01
+  programas [92]: despesa_corrente=98.00 despesa_capital=18.34 despesa_total=116.34
+### RS_2012-2015
+  acoes (ACAO) [872]: valor_total=220.38
+  despesas_por_fonte nivel=orgao/programa/natureza [757]: tesouro=401.02 total=661.14
+  programas [102]: despesa_corrente=191.78 despesa_capital=28.60 despesa_total=220.38
+### RS_2016-2019
+  acoes (ACAO) [808]: valor_total=473.48
+  despesas_por_fonte nivel=orgao/programa/natureza [675]: tesouro=573.87 total=1420.43
+  programas [93]: despesa_corrente=445.56 despesa_capital=27.91 despesa_total=473.48
+### RS_2020-2023
+  acoes_programaticas (ACAO) [186]: valor_total=330.97 despesa_corrente=312.71 despesa_de_capital=18.25
+  despesas_por_fonte nivel=programa/natureza [703]: tesouro=871.92 total=1654.83
+  despesas_por_fonte_orgao (ACAO) nivel=orgao/acao_programatica/natureza [652]: tesouro=523.15 total=992.90
+  despesas_por_fonte_programa nivel=programa/natureza [51]: tesouro=348.77 total=661.93
+  iniciativas (ACAO) [740]: valor=330.97
+  programas [20]: valor_total=330.97 despesa_corrente=312.71 despesa_de_capital=18.25
+### RS_2024-2027
+  acoes_programaticas (ACAO) [183]: valor_total=326.41 despesa_corrente=310.72 despesa_de_capital=15.69
+  despesas_por_fonte_orgao (ACAO) nivel=orgao/acao_programatica/natureza [738]: total=979.24
+  despesas_por_fonte_programa nivel=programa/natureza [48]: total=652.83
+  iniciativas (ACAO) [960]: valor=311.82
+  programas [19]: valor_total=326.41 despesa_corrente=310.72 despesa_de_capital=15.69
+### SC_2008-2011
+  programas [64]: total_oge=42.81 total_of=19.92
+  subacoes (ACAO) [5106]: valor_oge=42.81 valor_of=19.92
+### SC_2012-2015
+  custo_por_fonte [450]: valor_ano_aplicacao=23.53 valor_anos_seguintes=79.43 valor_total=102.96
+  programas [107]: custo_ano_aplicacao=23.53 custo_anos_seguintes=79.43 custo_total=102.96
+  resumo_por_programa nivel=poder/orcamento/programa [100]: tesouro=45.48 outras_fontes=11.84 total_ano_aplicacao=63.22 total_anos_seguintes=214.01 total_geral=277.23
+  rev2013_custo_por_fonte [787]: valor_ano_aplicacao=30.69 valor_anos_seguintes=61.70 valor_total=117.30
+  rev2013_programas [110]: custo_ano_aplicacao=30.69 custo_anos_seguintes=61.70 custo_total=117.30
+  rev2013_resumo_por_programa nivel=poder/orcamento/programa [103]: tesouro=61.10 outras_fontes=15.50 total_ano_aplicacao=84.26 total_anos_seguintes=166.90 total_geral=317.79
+  rev2013_subacoes (ACAO) [2929]: meta_financeira_ano=31.00 meta_financeira_periodo=117.69
+  subacoes (ACAO) [2823]: meta_financeira_ano=23.53 meta_financeira_periodo=102.96
+### SC_2016-2019
+  custo_por_fonte [164]: valor_2016_2019=136.78
+  programas [108]: custo_2016_2019=136.78
+  resumo_por_programa nivel=poder/orcamento/programa [100]: tesouro=67.88 outras_fontes=17.18 total_2016=91.90 total_2016_2019=358.82
+  subacoes (ACAO) [2241]: meta_financeira_tesouro=106.87 meta_financeira_outras_fontes=29.91
+### SC_2020-2023
+  custo_por_fonte [157]: valor_2020_2023=145.74
+  programas [99]: custo_2020_2023=145.74
+  resumo_por_programa nivel=poder/orcamento/programa [91]: tesouro=66.96 outras_fontes=17.07 total_2020=88.10 total_2020_2023=383.69
+  subacoes (ACAO) [1191]: meta_financeira_tesouro=113.92 meta_financeira_outras_fontes=31.82
+### SC_2024-2027
+  custo_por_fonte [158]: valor_2024_2027=266.31
+  programas [104]: custo_2024_2027=266.31
+  resumo_por_programa nivel=poder/orcamento/programa [94]: tesouro=130.59 outras_fontes=26.83 total_2024=165.75 total_2024_2027=705.82
+  subacoes (ACAO) [1372]: meta_financeira_tesouro=213.43 meta_financeira_outras_fontes=52.88
+### SE_2008-2011
+  acoes_metas_territorio (ACAO) [2022]: valor_2008=9.30 valor_2009=9.27 valor_2010=4.17 valor_2011=4.44 valor_total=14.45
+  programas [89]: valor_total=15.37 valor_corrente=11.62 valor_capital=2.18
+  revisao_acoes_metas_territorio (ACAO) [1533]: valor_2010=4.06 valor_2011=4.46 valor_total=8.40
+  revisao_programas [77]: valor_total=9.94 valor_corrente=9.11 valor_capital=0.94
+### SE_2012-2015
+  programa_valores [93]: valor_2012_mil=0.01 valor_2013_2015_mil=0.02 valor_global_mil=0.01
+### SE_2016-2019
+  programa_valores [132]: valor_2016=25.25 valor_2017_2019=79.45 valor_total=84.20 valor_global=9.63
+### SE_2020-2023
+  programa_valores [189]: valor_2020=19.96 valor_2021_2023=63.56 valor_global=42.00
+### SE_2024-2027
+  objetivos_especificos [175]: valor_referencia=0.00
+  programa_valores [202]: valor_2024_mil=0.03 valor_2025_mil=0.04 valor_2026_mil=0.04 valor_2027_mil=0.04 valores_globais_mil=0.08
+### SP_2008-2011
+  programas [277]: valor_no_periodo=464.51
+  programas_valores [825]: correntes=781.88 capital=147.13
+### SP_2012-2015
+  programas [237]: valor_no_periodo=801.64
+  programas_valores [714]: correntes=929.47 capital=688.45
+### SP_2016-2019
+  programas_despesas [426]: total=1275.45 correntes=1084.35 capital=191.10
+### SP_2020-2023
+  programas_despesas_pdf [333]: total=1.66 correntes=1.42 capital=0.23
+  recursos [220]: valor_previsao_despesa=0.20
+### SP_2024-2027
+  programas_orcamento [535]: total_ppa=2497.77
+### TO_2008-2011
+  metas_financeiras (ACAO) [4868]: valor_2008=4.63 valor_2009=5.47 valor_2010=5.83 valor_2011=6.03 valor_total=21.95
+### TO_2012-2015
+### TO_2016-2019
+  financeiro_eixos_programas nivel=Eixo/Programa [205]: valor_2016=9.19 valor_2016_2019=137.70
+### TO_2020-2023
+  financeiro_eixos_programas nivel=Eixo/Programa [277]: valor_2020=43.26 valor_2020_2023=181.75
+### TO_2024-2027
+  financeiro_eixos_programas nivel=Eixo/Programa [342]: valor_2024=67.35 valor_2024_2027=289.84

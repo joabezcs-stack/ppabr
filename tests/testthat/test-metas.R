@@ -1,0 +1,20 @@
+test_that("resumo das metas funciona sem internet", {
+  res <- ppa_metas(resumo = TRUE)
+  expect_s3_class(res, "data.frame")
+  expect_true(all(res$versao == "original"))
+  expect_gt(length(unique(paste(res$uf, res$ciclo))), 35)
+  expect_true(all(res$n_itens > 0))
+  ini <- ppa_metas(resumo = TRUE, tipo = "iniciativa")
+  expect_true(all(grepl("iniciativa", ini$tipos)))
+  expect_error(ppa_metas(uf = "XX", resumo = TRUE), "UF")
+})
+
+test_that("ppa_metas baixa a camada harmonizada", {
+  skip_on_cran()
+  ba <- ppa_metas(uf = "BA", ciclo = 2024)
+  skip_if(is.null(ba), "reposit\u00f3rio de dados indispon\u00edvel")
+  expect_equal(nrow(ba), ppa_metas(uf = "BA", ciclo = 2024, resumo = TRUE)$n_itens)
+  expect_false(any(is.na(ba$descricao)))
+  so_ini <- ppa_metas(uf = "BA", ciclo = 2024, tipo = "iniciativa")
+  expect_true(all(so_ini$tipo == "iniciativa"))
+})

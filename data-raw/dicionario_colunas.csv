@@ -1,0 +1,284 @@
+coluna;descricao
+uf;Sigla da unidade da federação
+ppa;Ciclo do PPA (período de quatro anos, ex.: 2024-2027)
+ciclo;Ciclo do PPA ou período a que o registro se refere
+pagina_pdf;Página do documento original (PDF) de onde a linha foi extraída
+pagina;Página do documento original (PDF) de onde a linha foi extraída
+estado;Nome da unidade da federação ou indicação de abrangência estadual
+poder;Poder ao qual pertence o órgão (Executivo, Legislativo, Judiciário, Ministério Público, Defensoria etc.)
+esfera;Esfera orçamentária (fiscal, seguridade social ou investimento das estatais)
+eixo;Eixo estratégico do plano ao qual o programa está vinculado
+eixos;Eixos estratégicos do plano aos quais o item está vinculado
+eixo_estrategico;Eixo estratégico do plano
+eixo_estruturante;Eixo estruturante do plano
+eixo_ou_grupo;Eixo estratégico ou grupo de programas
+eixo_ppa;Eixo do PPA
+area;Área (temática, de resultado ou de atuação) à qual o programa está vinculado
+area_tematica;Área temática do plano
+area_estrategica;Área estratégica do plano
+area_de_resultado;Área de resultado do plano
+area_resultado;Área de resultado do plano
+area_de_resultados;Área de resultados do plano
+area_atuacao;Área de atuação
+tema;Tema (agrupamento de programas dentro de um eixo)
+tema_estrategico;Tema estratégico do plano
+diretriz;Diretriz estratégica do plano
+diretrizes;Diretrizes estratégicas do plano
+diretriz_estrategica;Diretriz estratégica do plano
+diretrizes_estrategicas;Diretrizes estratégicas do plano
+diretriz_nome;Nome da diretriz estratégica
+desafio;Desafio estratégico do plano
+macrodesafio;Macrodesafio do plano
+macro_objetivo;Macro-objetivo do plano
+macroobjetivo;Macro-objetivo do plano
+objetivo_estrategico;Objetivo estratégico do plano ou do governo
+objetivos_estrategicos;Objetivos estratégicos do plano ou do governo
+objetivo_de_governo;Objetivo de governo
+objetivo_geral;Objetivo geral do plano ou do programa
+objetivo_tematico;Objetivo temático
+objetivo_especifico;Objetivo específico do programa
+estrategia;Estratégia do plano
+resultado_esperado;Resultado esperado
+resultado_estrategico;Resultado estratégico do plano
+resultado_tematico;Resultado temático do plano
+compromisso;Compromisso de governo vinculado ao programa
+prioridade;Prioridade de governo ou indicação de ação prioritária
+ods;Objetivo(s) de Desenvolvimento Sustentável (ODS) relacionado(s)
+programa;Nome (título) do programa
+programa_nome;Nome (título) do programa
+nome_programa;Nome (título) do programa
+titulo_programa;Nome (título) do programa
+programa_numero;Número do programa no documento
+tipo_programa;Tipo de programa (finalístico, de gestão, de apoio administrativo etc.)
+tipo_de_programa;Tipo de programa (finalístico, de gestão, de apoio administrativo etc.)
+programa_transversal;Indica programa transversal ou o programa transversal relacionado
+objetivo;Objetivo (do programa ou da ação, conforme a tabela)
+justificativa;Justificativa do programa ou da ação
+contextualizacao;Contextualização (diagnóstico) do programa
+caracterizacao;Caracterização do problema que o programa enfrenta
+publico_alvo;Público-alvo
+finalidade;Finalidade da ação
+descricao;Descrição do item
+especificacao;Especificação do item (rótulo da linha no quadro original)
+detalhamento;Detalhamento do item
+abrangencia_espacial;Abrangência espacial (estadual, regional, municipal)
+horizonte_temporal;Horizonte temporal (contínuo ou temporário, com datas de início e término)
+inicio;Data ou ano de início
+termino;Data ou ano de término
+gerente;Gerente (responsável) do programa
+modo_implementacao;Modo de implementação da ação (direta, descentralizada etc.)
+estrategia_de_implementacao;Estratégia de implementação do programa
+acao;Nome (título) da ação
+acao_nome;Nome (título) da ação
+nome_acao;Nome (título) da ação
+titulo_acao;Nome (título) da ação
+tipo_acao;Tipo de ação (projeto, atividade, operação especial)
+tipo_de_acao;Tipo de ação (projeto, atividade, operação especial)
+acao_orcamentaria;Ação orçamentária vinculada
+subacao;Subação (desdobramento da ação)
+projeto;Projeto
+iniciativa;Iniciativa (desdobramento do objetivo do programa)
+entrega;Entrega (bem ou serviço entregue à sociedade)
+produto;Produto (bem ou serviço resultante da ação)
+nome_produto;Nome do produto
+meta;Meta (quantidade física ou descrição da meta)
+meta_fisica;Meta física (quantidade do produto prevista)
+meta_financeira;Meta financeira (valor previsto)
+meta_total;Meta total para o período do plano
+meta_texto;Meta como escrita no documento
+meta_regional;Meta regionalizada
+meta_cumulativa;Indica se a meta é cumulativa ao longo dos anos
+meta_ao_final_do_ppa;Meta prevista ao final do PPA
+quantidade;Quantidade (meta física)
+qtd;Quantidade (meta física)
+unidade;Unidade de medida
+unidade_medida;Unidade de medida
+unidade_de_medida;Unidade de medida
+unid_medida;Unidade de medida
+medida;Unidade de medida
+indicador;Nome do indicador
+nome_indicador;Nome do indicador
+tipo_indicador;Tipo de indicador (resultado, impacto, processo etc.)
+indice_referencia;Índice de referência (linha de base) do indicador
+indice_de_referencia;Índice de referência (linha de base) do indicador
+referencia;Índice ou data de referência do indicador
+valor_referencia;Valor de referência (linha de base) do indicador
+ano_referencia;Ano do índice de referência do indicador
+ano_de_referencia;Ano do índice de referência do indicador
+data_referencia;Data do índice de referência do indicador
+data_de_referencia;Data do índice de referência do indicador
+indice_mais_recente;Índice mais recente apurado do indicador
+indice_recente;Índice mais recente apurado do indicador
+indice_atual;Índice atual do indicador
+valor_mais_recente;Valor mais recente apurado do indicador
+apurado_em;Data da apuração do índice mais recente
+data_apuracao;Data da apuração do indicador
+data_de_apuracao;Data da apuração do indicador
+indice_desejado;Índice desejado (meta) do indicador
+indice_esperado;Índice esperado (meta) do indicador
+esperado;Índice esperado (meta) do indicador
+desejado;Índice desejado (meta) do indicador
+indice;Índice do indicador
+periodicidade;Periodicidade de apuração do indicador
+polaridade;Polaridade do indicador (quanto maior melhor ou quanto menor melhor)
+tendencia;Tendência desejada do indicador
+formula;Fórmula de cálculo do indicador
+formula_calculo;Fórmula de cálculo do indicador
+fonte_da_informacao;Fonte da informação do indicador
+base_geografica;Base geográfica de apuração do indicador
+dimensao;Dimensão do indicador
+fonte;Fonte de recursos ou fonte da informação, conforme a tabela
+fonte_recurso;Fonte de recursos
+fonte_de_recurso;Fonte de recursos
+fonte_texto;Fonte como escrita no documento
+recurso;Recurso (fonte ou valor, conforme a tabela)
+recursos;Recursos previstos
+origem;Origem dos recursos
+tesouro;Valor com recursos do Tesouro estadual
+outras_fontes;Valor com recursos de outras fontes
+demais_fontes;Valor com recursos de demais fontes
+convenios;Valor com recursos de convênios
+operacoes_de_credito_internas;Valor com recursos de operações de crédito internas
+operacoes_de_credito_externas;Valor com recursos de operações de crédito externas
+proprios_de_autarquias;Valor com recursos próprios de autarquias
+proprios_de_empresas;Valor com recursos próprios de empresas
+proprios_de_fundacoes;Valor com recursos próprios de fundações
+investimento_das_estatais;Valor do orçamento de investimento das empresas estatais
+parcerias_com_municipios;Valor com recursos de parcerias com municípios
+outras_parcerias;Valor com recursos de outras parcerias
+recursos_nao_orcamentarios;Valor com recursos não orçamentários
+recursos_orcamentarios;Valor com recursos orçamentários
+transferencias_obrigatorias;Valor de transferências obrigatórias
+orcamento;Valor do orçamento ou tipo de orçamento, conforme a tabela
+natureza;Natureza da despesa ou do item
+natureza_da_despesa;Natureza da despesa
+categoria;Categoria (econômica ou de agrupamento, conforme a tabela)
+categoria_economica;Categoria econômica da despesa (corrente ou de capital)
+grupo;Grupo de despesa ou de agrupamento
+despesa_corrente;Valor de despesas correntes
+despesas_correntes;Valor de despesas correntes
+correntes;Valor de despesas correntes
+despesa_de_capital;Valor de despesas de capital
+despesa_capital;Valor de despesas de capital
+despesas_capital;Valor de despesas de capital
+capital;Valor de despesas de capital
+despesa_total;Valor total da despesa
+valor;Valor financeiro previsto (verifique a unidade no documento original)
+valor_total;Valor total previsto para o período do plano
+valor_global;Valor global previsto para o período do plano
+valor_no_periodo;Valor previsto para o período do plano
+total;Valor total
+total_geral;Valor total geral
+total_ppa;Valor total previsto no PPA
+total_do_programa;Valor total do programa no período do plano
+percentual;Percentual
+ano;Ano a que o valor ou a meta se refere
+exercicio;Exercício (ano) a que o valor se refere
+orgao;Órgão
+orgao_nome;Nome do órgão
+secretaria;Secretaria responsável
+orgao_responsavel;Órgão responsável
+orgao_gestor;Órgão gestor do programa
+orgao_coordenador;Órgão coordenador do programa
+orgao_executor;Órgão executor
+orgaos_executores;Órgãos executores
+orgaos_participantes;Órgãos participantes
+orgaos_envolvidos;Órgãos envolvidos
+orgaos_responsaveis;Órgãos responsáveis
+orgao_unidade;Órgão e unidade
+unidade_orcamentaria;Unidade orçamentária
+unidade_orcamentaria_nome;Nome da unidade orçamentária
+uo;Unidade orçamentária
+uo_responsavel;Unidade orçamentária responsável
+unidade_responsavel;Unidade responsável
+unid_executora;Unidade executora
+unidade_executora;Unidade executora
+unidade_gestora;Unidade gestora
+responsavel;Responsável
+funcao;Função de governo (classificação funcional)
+subfuncao;Subfunção de governo (classificação funcional)
+regiao;Região (de planejamento, de desenvolvimento ou administrativa) do estado
+regionalizacao;Região ou recorte territorial da meta ou do valor
+regiao_de_integracao;Região de integração
+regiao_planejamento;Região de planejamento
+regiao_funcional;Região funcional de planejamento
+regiao_sdr;Região da Secretaria de Desenvolvimento Regional (SDR)
+territorio;Território (de identidade, de desenvolvimento ou de planejamento)
+territorio_identidade;Território de identidade
+microrregiao;Microrregião
+municipio;Município
+localizacao;Localização (região, município ou abrangência)
+unidade_de_planejamento;Unidade de planejamento (recorte territorial)
+nivel;Nível hierárquico da linha no quadro original (ex.: poder, órgão, programa, ação)
+tipo;Tipo do item (o significado depende da tabela)
+quadro;Quadro ou seção do documento de onde o texto foi extraído
+secao;Seção do documento de onde o texto foi extraído
+item;Número sequencial do item dentro do quadro ou seção
+texto;Texto do item, como no documento
+anexo;Anexo da lei de onde a linha foi extraída
+situacao;Situação (em andamento, nova, concluída etc.)
+obs;Observação
+eh_total;Indica linha de total no quadro original
+volume;Volume do documento original
+segmento;Segmento
+setor;Setor
+coluna;Coluna do quadro original de onde o valor foi extraído
+rotulo;Rótulo da linha no quadro original
+numero_emenda;Número da emenda parlamentar
+emenda_parlamentar;Emenda parlamentar
+tipo_emenda;Tipo da emenda (aditiva, supressiva, modificativa)
+texto_da_emenda;Texto da emenda
+autor;Autor da emenda
+partido;Partido do autor da emenda
+protocolo;Número de protocolo da emenda
+vetado;Indica se a emenda ou o item foi vetado
+ementa;Ementa
+proposta;Proposta
+codigo;Código do item (programa, ação ou outro, conforme a tabela)
+soma_confere_total;Conferência: indica se a soma das parcelas bate com o total do documento
+valor_confere;Conferência: indica se o valor bate com o total do documento
+confere_meta;Conferência: indica se a meta bate com o total do documento
+soma_subacoes_confere;Conferência: indica se a soma das subações bate com o total da ação
+financeiro;Valor financeiro previsto (verifique a unidade no documento original)
+fisico;Meta física (quantidade prevista)
+despesa;Valor da despesa prevista
+custo;Custo previsto
+extraorcamentario;Valor com recursos extraorçamentários
+referencia_indice;Índice de referência (linha de base) do indicador
+referencia_ano;Ano do índice de referência do indicador
+referencia_data;Data do índice de referência do indicador
+linha_de_base;Linha de base (índice de referência) do indicador
+linha_de_base_ano;Ano da linha de base do indicador
+linha_de_base_valor;Valor da linha de base do indicador
+ano_base;Ano-base do índice de referência do indicador
+data;Data (de referência ou de apuração, conforme a tabela)
+media_anual;Média anual prevista
+prazo;Prazo previsto
+financiador;Financiador (origem externa dos recursos)
+vinculo;Vínculo do item com outro nível do plano
+ods_principal;ODS principal relacionado ao programa
+ods_transversal;ODS relacionados de forma transversal
+ods_alinhado;ODS ao qual o item está alinhado
+sintese;Síntese (texto-resumo do quadro original)
+definicao_entrega;Definição da entrega
+acumulativa;Indica se a meta é cumulativa ao longo dos anos
+cumulatividade;Indica se a meta é cumulativa ao longo dos anos
+subtitulo;Subtítulo (localizador da ação orçamentária)
+grande_meta;Grande meta do plano
+megaobjetivo;Megaobjetivo do plano
+numero_de_acoes;Número de ações do programa
+proporcao;Proporção
+dado_nao_apurado;Indica que o indicador não foi apurado
+indice_esperado_ppa;Índice esperado ao final do PPA
+indice_final;Índice esperado ao final do PPA
+indice_inicial;Índice inicial (linha de base) do indicador
+meta_final;Meta ao final do PPA
+meta_final_ppa;Meta ao final do PPA
+meta_regionalizada;Meta regionalizada
+valor_original;Valor original, antes da revisão ou da emenda
+valor_deduzido;Valor reduzido pela emenda
+motivo;Motivo da alteração ou da emenda
+populacao_beneficiada;População beneficiada
+diagnostico_do_programa;Diagnóstico do programa
+problema_justificativa;Problema que o programa enfrenta e justificativa
+oge;Orçamento Geral do Estado

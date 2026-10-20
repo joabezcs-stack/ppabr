@@ -1,0 +1,34 @@
+Package: ppabr
+Title: Data from the Multi-Year Plans of the Brazilian States
+Version: 0.1.0
+Authors@R:
+    c(person("João Vitor", "Bezerra",, "joabezcs@gmail.com", role = c("aut", "cre")),
+      person("INCT Labplan", role = c("cph", "fnd")))
+Description: Provides access to data extracted from the Multi-Year Plans
+    ('Planos Plurianuais', PPA) of the 26 Brazilian states and the Federal
+    District, covering the planning cycles from 2008-2011 to 2024-2027.
+    Besides the tables of each plan as extracted from the official
+    documents, it offers harmonized layers with the same columns across
+    states and cycles (programs, actions, indicators, goals and budget
+    values in Brazilian reais) and the text of each page of the original
+    documents, so that the plans can be used as text data. Files are
+    downloaded on demand from a public repository
+    <https://github.com/joabezcs/ppabr> and cached locally.
+License: MIT + file LICENSE
+URL: https://github.com/joabezcs/ppabr
+BugReports: https://github.com/joabezcs/ppabr/issues
+Encoding: UTF-8
+Language: pt-BR
+Depends:
+    R (>= 4.0.0)
+Imports:
+    tools,
+    utils
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

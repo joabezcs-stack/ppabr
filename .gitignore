@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+data-raw/release/
+*.tar.gz
+ppabr.Rcheck/
+doc
+Meta
+inst/doc
+data-raw/release_docs/

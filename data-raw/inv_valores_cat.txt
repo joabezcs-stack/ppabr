@@ -1,0 +1,300 @@
+﻿
+### AC_2008-2011 programas_estruturantes [ 10 ]
+   tipo : ESTRUTURANTE 
+
+### AC_2012-2015 referencial_orcamentario [ 675 ]
+   eixo_ou_grupo : 1. EIXO ECONOMIA SUSTENTÁVEL / 2. EIXO DESENVOLVIMENTO SOCIAL / 3. EIXO INFRAESTRUTURA E DESENVOLVIMENTO / 4. EIXO EDUCAÇÃO, SAÚDE E SEGURANÇA / PROGRAMAS DE GESTÃO, MANUTENÇÃO E SERVIÇ / PROGRAMAS ESPECIAIS / PROGRAMAS COMPLEMENTARES 
+   codigo : ( 127 distintos )
+   orcamento : NA / FISCAL E DA SEGURIDADE SOCIAL / EXTRAORÇAMENTÁRIO / INVESTIMENTOS DAS EMPRESAS ESTATAIS / FISCAL 
+   especificacao : ( 22 distintos )
+
+### AC_2016-2019 referencial_orcamentario [ 678 ]
+   eixo_ou_grupo : 1. EIXO ECONOMIA SUSTENTÁVEL / 2. EIXO DESENVOLVIMENTO SOCIAL / 3. EIXO INFRAESTRUTURA E DESENVOLVIMENTO / 4. EIXO EDUCAÇÃO, SAÚDE E SEGURANÇA / 5. eixo GESTÃO PÚBLICA / Programas de Gestão, Manutenção e Serviç / programas especiais / PROGRAMAS COMPLEMENTARES 
+   codigo : ( 130 distintos )
+   orcamento : NA / Fiscal e da Seguridade Social / Despesa Extra Orçamentária / Investimentos das Empresas Estatais / Fiscal 
+   especificacao : ( 52 distintos )
+
+### AC_2020-2023 referencial_orcamentario [ 195 ]
+   eixo_ou_grupo : EIXO GESTÃO INSTITUCIONAL / EIXO CIDADANIA E SEGURANÇA / EIXO ECONOMIA E AGRONECÓCIO / EIXO INFRAESTRUTURA PARA O DESENVOLVIMEN / EIXO MEIO AMBIENTE / GESTÃO INSTITUCIONAL: ADMINISTRATIVO E O / PROGRAMAS DE GESTÃO INSTITUCIONAL DO LEG / PROGRAMAS DE GESTÃO INSTITUCIONAL DO JUD / PROGRAMAS DE GESTÃO INSTITUCIONAL DO MIN / PROGRAMAS DE GESTÃO INSTITUCIONAL DA DEF 
+   codigo : ( 40 distintos )
+   especificacao : DESPESA CORRENTE / DESPESA DE CAPITAL / TOTAL / VALOR GLOBAL 
+
+### AC_2020-2023 valor_por_programa [ 44 ]
+   eixo : EIXO GESTÃO INSTITUCIONAL / EIXO MEIO AMBIENTE / EIXO ECONOMIA E AGRONEGÓCIO / EIXO INFRAESTRUTURA PARA O DESENVOLVIMEN / EIXO CIDADANIA E SEGURANÇA 
+
+### AC_2024-2027 valor_programas_detalhado [ 67 ]
+   eixo : NA / EIXO GESTÃO INSTITUCIONAL E GOVERNANÇA / EIXO DESENVOLVIMENTO SOCIAL E SEGURANÇA  / EIXO CULTURA E TURISMO Gestão Integrada / EIXO DE GESTÃO / TOTAL GERAL 
+   codigo : ( 55 distintos )
+
+### AC_2024-2027 valor_programas [ 59 ]
+   eixo : EIXO GESTÃO INSTITUCIONAL E GOVERNANÇA / EIXO DESENVOLVIMENTO SOCIAL E SEGURANÇA  / EIXO CULTURA E TURISMO / EIXO PRODUÇÃO, MEIO AMBIENTE E POVOS IND / EIXO AMBIENTE DE NEGÓCIOS, EMPREENDEDORI / EIXO INFRAESTRUTURA / EIXO DE GESTÃO / NA 
+   codigo : ( 56 distintos )
+
+### AL_2008-2011 valores [ 2952 ]
+   orgao_codigo : ( 44 distintos )
+   orgao : ( 44 distintos )
+   unidade_orcamentaria_codigo : ( 51 distintos )
+   unidade_orcamentaria : ( 51 distintos )
+   area_resultado_codigo : 5 / 6 / 3 / 1 / 2 / 4 / NA 
+   area_resultado : NOVAS INSTITUIÇÕES E RENOVAÇÃO DA GESTÃO / VALORIZAÇÃO DA IMAGEM E MUDANÇAS CULTURA / CRESCIMENTO E DESCONCENTRAÇÃO ECONÔMICA / MELHORIA DA QUALIDADE DE VIDA / REDUÇÃO DA INDIGÊNCIA, POBREZA E DESIGUA / DESENVOLVIMENTO DO CAPITAL HUMANO / NA 
+   programa_codigo : ( 120 distintos )
+   acao_codigo : ( 530 distintos )
+   localizacao : METROPOLITANA DE MACEIÓ / AGRESTE ALAGOANO / TODO ESTADO / REGIÃO NORTE / REGIÃO SUL / SERTÃO ALAGOANO / BACIA LEITEIRA / VALES DO PARAÍBA E DO MUNDAÚ / NA 
+   fonte_recurso_codigo : ( 16 distintos )
+   fonte_recurso : ( 16 distintos )
+   categoria_economica_codigo : 3 / 4 
+   categoria_economica : DESPESAS CORRENTES / DESPESAS DE CAPITAL 
+
+### AL_2012-2015 valores [ 1180 ]
+   unidade_orcamentaria_codigo : ( 63 distintos )
+   acao_codigo : ( 416 distintos )
+   fonte_recurso_codigo : ( 20 distintos )
+   fonte_recurso : ( 20 distintos )
+   categoria_codigo : 3 / 4 
+   categoria_economica : DESPESAS CORRENTES / DESPESAS DE CAPITAL / DESPESAS DE CAPITAL TOTAL GERAL 1.481.86 / DESPESAS CORRENTES TOTAL GERAL 28.042.86 
+
+### AL_2016-2019 valores [ 1642 ]
+   unidade_orcamentaria_codigo : ( 75 distintos )
+   acao_codigo : ( 572 distintos )
+   fonte_recurso_codigo : ( 22 distintos )
+   fonte_recurso : ( 22 distintos )
+   categoria_codigo : 3 / 4 
+   categoria_economica : DESPESAS CORRENTES / DESPESAS DE CAPITAL / DESPESAS CORRENTES 128 / DESPESAS DE CAPITAL TOTAL GERAL 1.611.74 / DESPESAS DE CAPITAL TOTAL GERAL 38.527.8 
+
+### AL_2020-2023 meta_financeira_programa [ 41 ]
+   tipo_programa : Gestão / Temático 
+   programa_codigo : 0001 / 0002 / 0003 / 0004 / 0007 / 0008 / 0010 / 0011 / 0205 / 0213 
+   categoria : 3 - DESPESAS CORRENTES / 4 - DESPESAS DE CAPITAL / Total 
+
+### AL_2024-2027 acoes_gestao [ 286 ]
+   orgao_codigo : ( 66 distintos )
+   orgao : ( 66 distintos )
+   unidade_orcamentaria_codigo : ( 88 distintos )
+   unidade_orcamentaria : ( 88 distintos )
+   programa_codigo : 0004 / 0000 / 1010 / 1011 
+   tipo_programa : Gestão 
+   acao_codigo : ( 69 distintos )
+
+### AL_2024-2027 metas_regionalizadas_tematico [ 769 ]
+   eixo : ESTADO E SOCIEDADE / GESTÃO GOVERNAMENTAL / INCLUSÃO E DESENVOLVIMENTO SOCIAL / INFRAESTRUTURA E DESENVOLVIMENTO URBANO / SUSTENTABILIDADE E BEM-ESTAR 
+   programa_codigo : ( 30 distintos )
+   tipo_programa : Temático 
+   objetivos_programa : ( 30 distintos )
+   acao_codigo : ( 379 distintos )
+   orgao_codigo : ( 55 distintos )
+   orgao : ( 58 distintos )
+   unidade_orcamentaria_codigo : ( 73 distintos )
+   unidade_orcamentaria : ( 92 distintos )
+   ods : ( 25 distintos )
+   produto_codigo : ( 209 distintos )
+   unidade_medida : UNIDADE / NA / PERCENTUAL / PERCENTUAL DE EXECUÇÃO FÍSICA / UNIDADE Impresso por Pedro Antônio de An / UNIDADE Impresso por Pedro Antônio de An / PERCENTU AL / PERCENTUAL DE EXECU ÇÃO FÍSICA / MUNICÍPIO / UNIDADE Impresso por Pedro Antônio de An / PERCENTUAL Siafe Alagoas Impresso por Pe / QUILÔMETRO / PERCENTUAL Impresso por Pedro Antônio de 
+   regiao : TODO ESTADO / - / NA / REGIÃO AGRESTE / REGIÃO NORTE / SERRANA DOS / PLANALTO DA / METROPOLITANA 
+   ano : 2024 / 2025-2027 
+
+### AM_2008-2011 valores_esfera_categoria [ 757 ]
+   programa_codigo : ( 87 distintos )
+   esfera_categoria_economica : ( 25 distintos )
+
+### BA_2024-2027 recursos_programas [ 55 ]
+   eixo : ( 19 distintos )
+
+### BA_2024-2027 programas [ 65 ]
+   eixo_estrategico : ( 19 distintos )
+   orgaos_participantes : ( 43 distintos )
+
+### CE_2012-2015 programa_valores [ 570 ]
+   area_tematica : ( 28 distintos )
+   programa_codigo : ( 80 distintos )
+   especificacao : FISCAL / SEGURIDADE SOCIAL / DESPESAS DE CAPITAL / DESPESAS CORRENTES / TOTAL / VALOR GERAL / INVESTIMENTOS ESTATAIS 
+
+### CE_2024-2027 valores_orgao_executor [ 388 ]
+   eixo_codigo : 1 / 2 / 3 / 4 
+   eixo : O CEARÁ QUE CUIDA, EDUCA E VALORIZA AS P / O CEARÁ QUE INOVA, PRODUZ E TRABALHA / O CEARÁ QUE PRESERVA, CONVIVE E ZELA PEL / O CEARÁ QUE PARTICIPA, PLANEJA E ALCANÇA 
+   tema_codigo : ( 25 distintos )
+   tema : ( 25 distintos )
+   programa_codigo : ( 97 distintos )
+   orgao_gestor_codigo : ( 40 distintos )
+   orgao_gestor : ( 40 distintos )
+   orgao_executor_codigo : ( 113 distintos )
+   orgao_executor : ( 113 distintos )
+
+### DF_2024-2027 valores_por_programa [ 39 ]
+   grupo : PROGRAMAS TEMÁTICOS / PROGRAMAS DE GESTÃO, MANUTENÇÃO E SERVIÇ / PROGRAMA DE OPERAÇÃO ESPECIAL 
+   codigo_programa : ( 36 distintos )
+
+### ES_2016-2019 programas_recursos [ 270 ]
+   programa_codigo : ( 73 distintos )
+   origem : Orçamento Fiscal/Seguridade / Orçamento de Investimento 
+   fonte : Caixa / Arrecadação pelo Órgão / Recursos Vinculados do Tesouro / Recursos Vinculados de Outras Fontes / Empresas Estatais 
+   categoria_economica : Despesas Correntes / Despesas de Capital 
+
+### ES_2020-2023 programas_recursos [ 73 ]
+   programa_codigo : ( 45 distintos )
+   origem : ORÇAMENTO FISCAL/SEGURIDADE / ORÇAMENTO DE INVESTIMENTO 
+   fonte : RECURSOS DO TESOURO / RECURSOS DE OUTRAS FONTES / ORÇAMENTO DE INVESTIMENTO 
+
+### GO_2008-2011 resumo_por_programa [ 154 ]
+   macro_objetivo : GOIÁS CIDADANIA E BEM-ESTAR SOCIAL / GRAVE AMEAÇA / GOIÁS EMPREENDEDOR E COMPETITIVO / GOIÁS INTEGRADO E SUSTENTÁVEL / GOIÁS EXCELÊNCIA EM GESTÃO PÚBLICA / OUTROS PODERES E MINISTÉRIO PÚBLICO 
+   nivel : programa / subtotal / total 
+   codigo_programa : ( 128 distintos )
+   rotulo : ( 132 distintos )
+
+### GO_2012-2015 metas_financeiras_por_fonte [ 642 ]
+   administracao : Administração Direta / Administração Autárquica e Fundacional / Entidades Paraestatais / Outros Poderes 
+   codigo_programa : ( 125 distintos )
+   grupo : OGE 
+   fonte : TESOURO / SUBTOTAL / CONVÊNIO / TOTAL / DIR ARRECADADO / OPER DE CRÉDITO / PRÓPRIO / PARCERIAS 
+
+### GO_2016-2019 valores_por_fonte [ 4676 ]
+   quadro : programa / acao_uo / acao_total 
+   codigo_programa : ( 69 distintos )
+   codigo_acao : ( 491 distintos )
+   unidade_orcamentaria : ( 95 distintos )
+   fonte : OGE / TESOURO / CONVÊNIO / TOTAL GERAL / TOTAL DA U.O. / PRÓPRIO / OUTRAS / EXTRA OGE / - ASSEMBLEIA LEGISLATIVA DO ESTADO DE GO / - TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS / - TRIBUNAL DE CONTAS DOS MUNICÍPIOS / - TRIBUNAL DE JUSTIÇA DO ESTADO DE GOIÁS / - MINISTÉRIO PÚBLICO 
+
+### GO_2020-2023 orcamento_por_fonte [ 184 ]
+   fonte : Tesouro Estadual / Recursos Próprios / Convênios / Transferências / Outros Recursos Orçamentários / Investimento das Estatais / Investimento Privado / Parcerias / TOTAL GERAL 
+
+### MG_2012-2015 programas_valores [ 4700 ]
+   programa_codigo : ( 235 distintos )
+   item : ORÇAMENTO FISCAL / Despesas correntes / Despesas de capital / ORÇAMENTO DE INVESTIMENTO DAS EMPRESAS C / TOTAL 
+
+### MS_2016-2019 resumo_programa_acao [ 494 ]
+   codigo : ( 491 distintos )
+   nivel : programa / acao / total 
+   codigo_programa : ( 60 distintos )
+
+### MT_2016-2019 valores_do_programa [ 276 ]
+   codigo_programa : ( 69 distintos )
+   rubrica : Recursos Orçamentários / Despesas Correntes / Despesas de Capital / Recursos a Contratar 
+
+### MT_2024-2027 recursos_por_fonte_e_uo [ 9074 ]
+   nivel : programa / acao 
+   codigo_programa : ( 54 distintos )
+   codigo_acao : ( 494 distintos )
+   quadro : fonte / unidade_orcamentaria / total 
+
+### PA_2020-2023 programas [ 284 ]
+   volume : Volume I / Volume II 
+   regiao_de_integracao : Estado / Araguaia / Baixo Amazonas / Carajás / Guajará / Guamá / Lago de Tucuruí / Marajó / Rio Caeté / Rio Capim / Tapajós / Tocantins / Xingu 
+   tipo_programa : Programa Temático 
+   diretriz : Crescimento Inteligente; Referência; Uni / Crescimento Inteligente; Sociedade de Di / Sociedade de Direitos; Referência; Unida / Crescimento Inteligente; Gestão Pública  / Crescimento Inteligente; Referência / Crescimento Inteligente; Sociedade de Di / Sociedade de Direitos; Referência / Crescimento Inteligente; Sociedade de Di / Crescimento Inteligente; Gestão Pública  / Sociedade de Direitos / Crescimento Inteligente; Sociedade de Di / Gestão Pública Presente 
+   ods : Índice / NA / Índices 
+
+### PA_2020-2023 sintese_programas [ 303 ]
+   volume : Volume I / Volume II 
+   regiao_de_integracao : Estado / Araguaia / Baixo Amazonas / Carajás / Guajará / Guamá / Lago de Tucuruí / Marajó / Rio Caeté / Rio Capim / Tapajós / Tocantins / Xingu 
+   grupo : PROGRAMAS TEMÁTICOS / Programa Gestão, Manutenção e Serviços a / PROGRAMAS TEMÁTICOS Valor / Programa Gestão, Manutenção e Serviços a / Programa Gestão, Manutenção e Serviços a 
+
+### PB_2012-2015 programa_valores [ 946 ]
+   programa_codigo : ( 60 distintos )
+   quadro : Por categoria econômica / Por região / Por unidade orçamentária 
+   especificacao : ( 107 distintos )
+
+### PB_2016-2019 programa_valores [ 96 ]
+   programa_codigo : ( 19 distintos )
+   especificacao : Orçamentos Fiscal e da Seguridade Social / Despesas Correntes / Despesas de Capital / Total / Valores Globais / Orçamento de Investimentos das Empresas  
+
+### PE_2024-2027 programas_despesas [ 220 ]
+   programa_codigo : ( 130 distintos )
+   especificacao : Despesas Correntes / Despesas de Capital / Reserva de Contingência 
+
+### PI_2008-2011 recursos_orgao_programa_fonte [ 368 ]
+   orgao : ( 32 distintos )
+   orcamento : Orcamento Geral do Estado - OGE / Extra - OGE 
+   fonte_recurso : 00-RECURSOS ORDINÁRIOS / 10-RECURSOS DE CONVÊNIOS / 12-RECURSOS DIRETAMENTE ARRECADADOS / 25-OUTROS / 14-RECURSOS DO FNDE / 15-VALORIZAÇÃO DO ENSINO / 17-OPERAÇÃO DE CRÉDITO EXTERNA / 18-RECURSOS DOS FUNDOS ESPECIAIS / 11-COTA-PARTE DO ESTADO NA RECEITA DA CI / 16-OPERAÇÃO DE CRÉDITO INTERNA / 13-RECURSOS DO SUS / 23-PARCERIAS / 22-FUNDOS CONSTITUCIONAIS OU ADMINISTRAD / 19-RECURSOS DO FUNDO DE PREVIDÊNCIA 
+
+### PI_2020-2023 territorio_programa [ 129 ]
+   territorio : TD0 - ESTADO / TD1 - PLANÍCIE LITORÂNEA / TD10 - TABULEIRO DO ALTO / TD11 - CHAPADA DAS / TD12 - CHAPADA VALE DO / TD2 - COCAIS / TD3 - CARNAUBAIS / TD5 - VALE DO RIO SAMBITO / TD6 - VALE DO RIO GUARIBAS / TD7 - VALE DO RIO CANINDÉ / TD8 - SERRA DA CAPIVARA / TD9 - VALE DOS RIOS PIAUÍ E 
+   programa_codigo : ( 16 distintos )
+
+### RN_2024-2027 programa_valores [ 240 ]
+   programa_codigo : ( 48 distintos )
+   fonte_financiamento : Recurso Estadual / Recurso Federal / Recurso Operações de Crédito / Outros / Total 
+
+### RO_2008-2011 financeiro_acoes [ 1226 ]
+   orgao : ( 16 distintos )
+   unidade_orcamentaria : ( 44 distintos )
+   nivel : Ação / Programa 
+   categoria : Correntes / Capital 
+   codigo_fonte : ( 21 distintos )
+   fonte_de_recurso : ( 29 distintos )
+
+### RO_2020-2023 financeiro_consolidado [ 1154 ]
+   orgao : ( 15 distintos )
+   unidade_orcamentaria : ( 79 distintos )
+   nivel : Ação / Programa 
+   categoria : Correntes 
+   codigo_fonte : ( 44 distintos )
+   fonte_de_recurso : ( 53 distintos )
+
+### RR_2012-2015 financeiro_programas [ 244 ]
+   dimensao : Inclusão Social / Eficiência e Transparência na Gestão Púb / Crescimento Sustentável 
+   tipo_programa : 1 Finalístico / 2 Gestão de Políticas Públicas / 3 Apoio Administrativo / 4 Serviços do Estado 
+   fonte : ( 27 distintos )
+
+### SE_2016-2019 programa_valores [ 132 ]
+   programa_codigo : ( 34 distintos )
+   especificacao : Orçamento Fiscal e da Seguridade Social / Despesas Correntes / Despesas de Capital / Valores Globais / Orçamento de Investimento das Empresas E / Total / Corrente / Capital 
+
+### SE_2024-2027 programa_valores [ 202 ]
+   tipo_programa : Finalístico / Gestão / Reserva de Contingência 
+   programa_codigo : ( 42 distintos )
+   especificacao : Orçamentos Fiscal e da Seguridade / Despesas Correntes / Despesas de Capital / Valores Globais / Orçamentos Fiscal e da Seguridade Social / Total do programa / Orçamentos Fiscal e da / Valores Globais do Programa / Manutenção da Assembleia / Reserva de Contingência 
+
+### SP_2016-2019 programas_despesas [ 426 ]
+   programa_codigo : ( 142 distintos )
+   item : Valor Global / Recursos Orçamentários / Recursos Não Orçamentários 
+
+### SP_2020-2023 programas_despesas_pdf [ 333 ]
+   programa_codigo : ( 111 distintos )
+   item : Valor Global / Recursos Orçamentários / Recursos Não Orçamentários 
+   unidade : R$ mil 
+
+### SP_2024-2027 programas_orcamento [ 535 ]
+   programa_codigo : ( 107 distintos )
+   item : Valor Global (R$) / Orçamentárias / Correntes / Capital / Não-Orçamentárias 
+
+### TO_2016-2019 financeiro_eixos_programas [ 205 ]
+   nivel : Eixo / Programa 
+   eixo : 1 - Saúde / 2 - Educação e Conhecimento / 3 - Segurança, Assistência Social e Dire / 4 - Desenvolvimento Agrícola e Meio Ambi / 5 - Desenvolvimento Regional, Urbano e I / 6 - Gestão Pública / 7 - Poder Judiciário e Prestação Jurisdi / 8 - Poder Legislativo / 9 - Poder Independente 
+   fonte : ( 34 distintos )
+
+### SE_2012-2015 programa_valores [ 93 ]
+   programa_codigo : ( 22 distintos )
+   especificacao : Orçamento Fiscal e da Seguridade Social / Despesas Correntes / Despesas de Capital / Valores Globais / Orçamento de Investimento das Empresas E / Total 
+   valor_total : NA 
+
+### PR_2012-2015 recursos [ 446 ]
+   nivel : programa / iniciativa 
+   codigo_programa : ( 26 distintos )
+   codigo_iniciativa : ( 371 distintos )
+   recurso : Orçamento Fiscal e Próprio da Administra / Tesouro / Outras Fontes / Total Orçamentário 
+
+### SC_2012-2015 programas [ 107 ]
+   secao : ORÇAMENTO FISCAL - PROGRAMAS DE GESTÃO,  / ORÇAMENTO FISCAL - PROGRAMAS TEMÁTICOS / ORÇAMENTO DE SEGURIDADE SOCIAL - PROGRAM / ORÇAMENTO DE SEGURIDADE SOCIAL - PROGRAM / ORÇAMENTO INVESTIMENTO DAS EMPRESAS ESTA 
+   codigo_programa : ( 83 distintos )
+   orgao_responsavel : ( 19 distintos )
+
+### MA_2020-2023 programas [ 103 ]
+   programa_codigo : ( 84 distintos )
+   diretriz : 6 - Executar a gestão pública com ética, / 4 - Promover e garantir o acesso a polít / 12 - Intensificar investimentos em infra / 5 - Melhorar as condições de moradia e d / 10 - Promover a dinamização da economia, / 7 - Valorizar a cultura e identidades lo / 1 - Promover e ampliar o acesso à educaç / 3 - Garantir a defesa social, por meio d / 8 - Garantir a preservação, conservação  / 2 - Ampliar e fortalecer o acesso à saúd / 11 - Aprimorar as políticas públicas vol / 9 - Ampliar as políticas públicas de qua 
+   eixo_estruturante : Cuidar Bem do Dinheiro Público e Moderni / Enfrentar as Injustiças Sociais / Ampliar Infraestrutura e Logística / Desenvolvimento para Todos 
+   indicador : ( 80 distintos )
+   tipo : Gestão de Políticas Públicas / Apoio Administrativo / Finalístico / Serviços ao Estado 
+   orgao_responsavel : ( 34 distintos )
+
+### GO_2024-2027 produtos [ 459 ]
+   poder : PODER EXECUTIVO 
+   eixo : GOIÁS DA EDUCAÇÃO PLENA / GOIÁS DA INFRAESTRUTURA SOCIAL E ECONÔMI / GOIÁS DA INOVAÇÃO, CIÊNCIA E TECNOLOGIA / GOIÁS DA SAÚDE INTEGRAL / GOIÁS DA SEGURANÇA PÚBLICA E JUSTIÇA / GOIÁS DE GESTÃO RESPONSÁVEL E TRANSFORMA / GOIÁS DO DESENVOLVIMENTO ECONÔMICO E SUS / GOIÁS SOCIAL 
+   orgao : ( 55 distintos )
+   codigo_produto : ( 446 distintos )
+   origem : TESOURO / RECURSOS PRÓPRIOS / NA / OUTROS RECURSOS PREVISTOS 
+   unidade_de_medida : ( 25 distintos )
+   confere_meta : TRUE / FALSE 
+
+### RJ_2024-2027 acoes_metas_financeiras [ 2084 ]
+   programa_codigo : ( 37 distintos )
+   iniciativa_codigo : ( 195 distintos )
+   acao_codigo : ( 521 distintos )
+   unidade_orcamentaria : ( 117 distintos )

@@ -1,0 +1,48 @@
+uf;ciclo;tabela;tipo;nota
+;;;correção;Textos limpos em todas as tabelas: rodapés de página removidos, palavras partidas na quebra de linha reunidas e ligadura "ti" recuperada.
+AC;2016-2019;referencial_orcamentario;correção;Removida uma linha espúria de dedução ("CAUSA ESTADO (-)") que não é programa.
+AL;2020-2023;metas_regionalizadas;correção;Valores quebrados no último dígito reconstituídos; nomes de órgão, U.O. e programa reconstruídos pela variante mais completa de cada código, porque a camada de texto do PDF perde letras no começo das palavras.
+AL;2020-2023;metas_regionalizadas;limitação;O programa 0002 (GOVERNO DIGITAL, TRANSPARÊNCIA E BUROCRATIZAÇÃO) provavelmente é o 0012 com um dígito perdido no PDF.
+AL;2024-2027;programas_tematicos;correção;Tabela nova: valores (corrente, capital e total) de cada programa temático, que antes ficavam colados ao nome do programa.
+AL;2024-2027;;correção;Rodapés do Siafe ("Impresso por ... Página n/96") removidos dos nomes.
+AM;2008-2011;;correção;O documento repete o quadro do programa em cada página de continuação: programas, indicadores e consolidações por região e esfera ficam uma vez só (antes saíam em dobro).
+AP;2012-2015;programas;correção;Em 6 programas o nome estava misturado com os valores da linha: valores separados nas colunas e nome reconstruído.
+AP;2024-2027;aplicacao_recursos;correção;Linhas de poder e órgão marcadas como subtotais (coluna nivel). Unidades corrigidas nos programas 0107 e 0101, que o documento marca em bilhões (ver coluna observacao).
+AP;2024-2027;aplicacao_recursos;erro no documento;Os programas do Poder Executivo somam R$ 41,0 bilhões, acima do subtotal impresso (R$ 37,1 bilhões); há outra inconsistência no quadro que não foi possível identificar.
+CE;2012-2015;metas_regionalizadas;correção;Removido o cabeçalho "Demostrativo de Programas por Macrorregião" que grudava no nome do programa.
+ES;2008-2011;programas;correção;O quadro geral de origem dos recursos (totais do PPA) não é mais atribuído ao último programa.
+ES;2012-2015;programas;correção;O quadro geral de origem dos recursos (totais do PPA) não é mais atribuído ao último programa (também nas versões dos decretos).
+MA;2012-2015;programas;correção;Despesas correntes e de capital convertidas em número.
+MT;2008-2011;alteracao_2009_acoes;erro no documento;O total da ação 1446 está impresso errado (136.343,90 contra 1,36 milhão na soma dos anos).
+MT;2020-2023;produtos_metas;correção;O último produto de cada programa não carrega mais o cabeçalho da página seguinte.
+MT;2024-2027;;correção;A mesma ação aparece uma vez por UO responsável com o mesmo quadro de recursos e produtos: linhas idênticas ficam uma vez só.
+PA;2020-2023;sintese_programas;correção;Só entram linhas dos quadros síntese com valor em reais: saíram o cabeçalho "2020-2023" e as linhas das páginas de programa do Estado (Volume II) lidas como síntese; entraram os programas temáticos das regiões no Volume II; grupo padronizado.
+PA;2020-2023;programas;correção;Recuperados 8 programas do Estado no Volume II (páginas 12 a 19), com seus indicadores e objetivos, antes lidos como linhas do quadro síntese.
+PA;2024-2027;sintese_programas;correção;Só entram linhas dos quadros síntese com valor em reais: saíram o cabeçalho "2024-2027" e frases do texto de apresentação do Volume I; entraram os programas temáticos das regiões no Volume II; grupo padronizado.
+PA;2020-2023;acoes;correção;Continuações das linhas de ação vão para a coluna em que começam: a lista de órgãos executores quebrada em várias linhas fica em orgao_executor (antes ia para produto).
+PA;2024-2027;acoes;correção;Continuações das linhas de ação vão para a coluna em que começam: a lista de órgãos executores quebrada em várias linhas fica em orgao_executor (antes ia para produto).
+PA;2024-2027;acoes;correção;O anexo final do Volume I (Quadro de Metas e Prioridades da Lei 9.977/2023, págs. 1083-1086) não é mais lido como ações do último programa: virou a tabela metas_prioridades_ldo.
+PA;2024-2027;metas_prioridades_ldo;limitação;Algumas células do documento cortam o texto (ex.: a ação "Implementação da Educação Profissional Concomitante e Subsequente ao Ensino Médio" aparece truncada em vários itens): o texto é o que o PDF mostra.
+PA;2020-2023;indicadores;correção;Tabela de indicadores relida pelas colunas do quadro: um indicador por linha e por ano esperado, com unidade, referência e fonte separadas (antes nomes e unidades quebrados se misturavam).
+PA;2024-2027;indicadores;correção;Tabela de indicadores relida pelas colunas do quadro: um indicador por linha e por ano esperado; os marcadores do documento "Indicador Invisível" e "Não possui indicador para a Região" foram descartados.
+PB;2012-2015;metas_regionalizadas;erro no documento;Em cerca de 250 linhas o Total impresso por região não fecha com os anos (ex.: 62.946 em 2012 e total de 11.456.131).
+PE;2008-2011;;correção;Removido o cabeçalho da página ("órgão ... EXERCÍCIO: 2008") que grudava no nome do programa.
+PI;2020-2023;metas_fisicas;correção;Linhas de subtotal ("Total da Unidade Orçamentária") deixaram de entrar como produtos; números removidos da unidade de medida.
+PI;2020-2023;territorio_acao_produto;limitação;Em cerca de 290 linhas o nome do produto não pôde ser recuperado (fica vazio).
+PI;2024-2027;metas_fisicas_financeiras;correção;Linhas de subtotal deixaram de entrar como produtos; números removidos da unidade de medida.
+PR;2008-2011;demonstrativos;erro no documento;O total de 2009 do demonstrativo por função está impresso com dígitos faltando (53.053.730).
+RN;2024-2027;programa_valores;correção;Em uma linha o total saiu com dígitos colados; vale corrente + capital (ver coluna observacao).
+RO;2016-2019;financeiro_acoes_fonte;correção;Linhas de total por U.O. e fonte deixaram de ser atribuídas à última ação.
+RO;2020-2023;financeiro_acoes_fonte;correção;Linhas de total por U.O. e fonte deixaram de ser atribuídas à última ação.
+RO;2020-2023;financeiro_acoes_fonte;erro no documento;Em algumas fontes o total impresso não inclui 2020 (só 2021-2023).
+RO;2020-2023;programas;correção;A justificativa do programa 2008 (fonte com codificação deslocada no PDF) foi transcrita da página 348.
+RO;2024-2027;;limitação;Lido por OCR: pode haver dígitos mal lidos; a coluna soma_confere_total indica onde as parcelas não fecham.
+RR;;metas_fisicas;correção;Metas físicas agora trazem a região (antes as linhas de regiões diferentes pareciam repetidas).
+SE;2008-2011;;limitação;Lido por OCR: há trechos de texto ilegíveis e possíveis dígitos mal lidos.
+SE;2008-2011;programas;correção;Em 3 programas o total lido por OCR não fechava com corrente + capital; vale a soma (ver coluna observacao).
+SE;2012-2015;metas;correção;A "Territorialização das Metas" deixou de ser lida como metas novas (antes repetia metas).
+SE;2016-2019;metas;correção;A "Territorialização das Metas" deixou de ser lida como metas novas (antes repetia metas).
+SE;2020-2023;metas;correção;A "Territorialização das Metas" deixou de ser lida como metas novas (antes repetia metas).
+SP;2024-2027;indicadores;correção;O Anexo III (síntese das audiências públicas) deixou de ser lido como indicadores.
+TO;2008-2011;;correção;Quadros de programa repetidos nas páginas de continuação ficam uma vez só; cabeçalhos de unidades removidos dos títulos de ação.
+CE;2024-2027;metas_fisicas_financeiras;correção;O nome da entrega era cortado na primeira palavra e o resto ia para a unidade de medida (ex.: "GEOCADASTRO" e "REALIZADO Unidade"); corrigido em todas as linhas.

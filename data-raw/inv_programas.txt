@@ -1,0 +1,794 @@
+### AC_2008-2011
+  acoes_programas_estruturantes [61 linhas, 10 distintos via programa]: programa, acao, tipo_de_acao, abrangencia_espacial, produto, unidade, meta, valor_rs
+  programas_estruturantes [10 linhas, 10 distintos via programa]: programa, tipo, objetivo, total_do_programa
+  quadro_resumo_programas [232 linhas, 231 distintos via programa]: codigo, programa
+### AC_2012-2015
+  indicadores [94 linhas, 35 distintos via programa]: eixo, programa_numero, programa, indicador, referencia_indice, referencia_ano, unidade_de_medida, fonte
+  programas_quadros [516 linhas, 41 distintos via programa]: eixo, programa_numero, programa, quadro, item, texto
+  programas_tematicos [47 linhas, 47 distintos via programa]: eixo, programa_numero, programa, objetivo
+  quadro_programas [126 linhas, 126 distintos via programa]: tipo_programa, codigo, programa, descricao
+  referencial_orcamentario [675 linhas, 133 distintos via programa]: eixo_ou_grupo, codigo, programa, orcamento, especificacao, valor_2012, valor_2013_2015, valor_global
+### AC_2016-2019
+  distribuicao_eixo [42 linhas, 39 distintos via programa]: eixo, programa, percentual, valor
+  metas_indicadores [574 linhas, 29 distintos via programa]: eixo, programa_numero, programa, quadro, item, texto
+  programas [29 linhas, 29 distintos via programa]: eixo, programa_numero, programa
+  quadro_programas [135 linhas, 130 distintos via programa]: tipo_programa, codigo, programa, descricao
+  referencial_orcamentario [678 linhas, 136 distintos via programa]: eixo_ou_grupo, codigo, programa, orcamento, especificacao, valor_2016, valor_2017_2019, valor_global
+### AC_2020-2023
+  indicadores [28 linhas, 14 distintos via programa]: programa_numero, programa, indicador, unidade_de_medida, referencia_indice, referencia_ano, fonte
+  iniciativas_metas_indicadores [624 linhas, 37 distintos via programa]: programa_numero, programa, quadro, item, texto, meta_2020, meta_2021, meta_2022, meta_2023
+  participacao_programas [40 linhas, 35 distintos via programa]: eixo_ou_grupo, programa, participacao_pct, valor
+  programas [41 linhas, 41 distintos via programa]: eixo_ou_grupo, programa_numero, programa, objetivo
+  quadro_programas [38 linhas, 38 distintos via programa]: tipo_programa, codigo, programa
+  referencial_orcamentario [195 linhas, 45 distintos via programa]: eixo_ou_grupo, codigo, programa, especificacao, valor_2020, valor_2021_2023, valor_2020_2023
+  valor_por_programa [44 linhas, 40 distintos via programa]: eixo, programa, valor_2020_2023
+### AC_2024-2027
+  entregas [860 linhas, 34 distintos via programa]: programa, objetivo_especifico, item, entrega
+  objetivos_especificos [339 linhas, 27 distintos via programa]: programa_codigo, programa, oe_numero, objetivo_especifico, vinculo, orgao_responsavel, codigo_oe, indicador, polaridade, meta_2024, meta_2025, meta_2026, meta_2027, regionalizacao
+  prioridades [35 linhas, 15 distintos via programa]: programa_codigo, programa, codigo_projeto_atividade, aplicacao_programada, produto, meta_fisica, orgao
+  programas [44 linhas, 44 distintos via programa]: codigo, programa, objetivo, eixo, objetivo_estrategico, publico_alvo, orgao_responsavel, valor_2024, valor_2025, valor_2026, valor_2027
+  valor_programas [59 linhas, 56 distintos via programa]: eixo, codigo, programa, valor_2024_2027
+  valor_programas_detalhado [67 linhas, 60 distintos via programa]: eixo, codigo, programa, despesa_corrente_2024, despesa_capital_2024, total_2024, despesa_corrente_2025_2027, despesa_capital_2025_2027, total_2025_2027, despesa_corrente_2024_2027, despesa_capital_2024_2027, total_2024_2027
+### AL_2008-2011
+  acoes [541 linhas, 120 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa_codigo, programa, acao_codigo, acao, finalidade
+  metas [917 linhas, 118 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa_codigo, programa, acao_codigo, acao, localizacao, meta_codigo, meta, unidade_medida, qtd_2008, qtd_2009_2011
+  programas [140 linhas, 120 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa_codigo, programa, objetivo
+  valores [2952 linhas, 120 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa_codigo, programa, acao_codigo, acao, localizacao, fonte_recurso_codigo, fonte_recurso, categoria_economica_codigo, categoria_economica, valor_2008, valor_2009_2011
+### AL_2012-2015
+  acoes [416 linhas, 43 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa, objetivo, publico_alvo, estrategia_codigo, estrategia, acao_codigo, acao, finalidade, produto_codigo, produto, unidade_medida, qtd_2012, qtd_2013_2015, valor_2012, valor_2013_2015
+  revisao_acoes [471 linhas, 42 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa, objetivo, publico_alvo, estrategia_codigo, estrategia, acao_codigo, acao, finalidade, produto_codigo, produto, unidade_medida, qtd_2014, qtd_2015, valor_2014, valor_2015
+  revisao_valores [1480 linhas, 42 distintos via programa]: unidade_orcamentaria_codigo, programa, acao_codigo, acao, fonte_recurso_codigo, fonte_recurso, categoria_codigo, categoria_economica, valor_2014, valor_2015
+  valores [1180 linhas, 43 distintos via programa]: unidade_orcamentaria_codigo, programa, acao_codigo, acao, fonte_recurso_codigo, fonte_recurso, categoria_codigo, categoria_economica, valor_2012, valor_2013_2015
+### AL_2016-2019
+  acoes [574 linhas, 23 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, eixo, dimensao_estrategica, programa, objetivo, acao_codigo, acao, finalidade, produto_codigo, produto, unidade_medida, qtd_2016, qtd_2017_2019, valor_2016, valor_2017_2019
+  valores [1642 linhas, 23 distintos via programa]: unidade_orcamentaria_codigo, programa, acao_codigo, acao, fonte_recurso_codigo, fonte_recurso, categoria_codigo, categoria_economica, valor_2016, valor_2017_2019
+### AL_2020-2023
+  indicadores [53 linhas, 6 distintos via programa]: programa_codigo, programa, indicador, unidade_medida, fonte, indice, data
+  meta_financeira_programa [41 linhas, 10 distintos via programa]: tipo_programa, programa_codigo, programa, categoria, meta_financeira_2020, meta_financeira_2021_2023
+  metas_regionalizadas [1442 linhas, 31 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, programa_codigo, programa, acao_codigo, acao, objetivo, finalidade, ods_principal, ods_transversal, produto_codigo, produto, unidade_medida, regiao, ano, meta_fisica, meta_financeira_corrente, meta_financeira_capital, meta_financeira_total
+### AL_2024-2027
+  acoes_gestao [286 linhas, 5 distintos via programa]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, programa_codigo, programa, tipo_programa, acao_codigo, acao, valor_2024, valor_2025_2027
+  metas_regionalizadas_tematico [769 linhas, 30 distintos via programa]: eixo, programa_codigo, programa, tipo_programa, objetivos_programa, acao_codigo, acao, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, finalidade, ods, produto_codigo, produto, unidade_medida, regiao, ano, meta_fisica, meta_financeira_corrente, meta_financeira_capital, meta_financeira_total
+### AM_2008-2011
+  acoes [605 linhas, 87 distintos via programa]: programa_codigo, programa, tipo_acao, acao, produto, unidade, regionalizacao, meta_2008_2011, valor_2008_2011
+  indicadores [341 linhas, 85 distintos via programa]: programa_codigo, programa, indicador, unidade, referencia_data, referencia_indice_e_meta_2011
+  metas_prioridades_2008 [252 linhas, 49 distintos via programa]: programa_codigo, programa, tipo_acao, acao, produto, unidade, meta_2008
+  programas [152 linhas, 87 distintos via programa]: tipo_programa, programa_codigo, programa, orgao_responsavel, orgaos_participantes, objetivo, publico_alvo
+  sintese_custos [506 linhas, 87 distintos via programa]: programa_codigo, programa, acao, valor_total_2008_2011
+  valores_esfera_categoria [757 linhas, 87 distintos via programa]: programa_codigo, programa, esfera_categoria_economica, valor_total_2008_2011
+  valores_regionalizacao [499 linhas, 87 distintos via programa]: programa_codigo, programa, regionalizacao, valor_total_2008_2011
+### AM_2012-2015
+  metas_acoes [620 linhas, 60 distintos via programa]: area_tematica, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira
+  valor_programas_area [58 linhas, 58 distintos via programa]: area_tematica, nivel, codigo, programa, numero_de_acoes, valor_2014, valor_2012_2015
+### AM_2016-2019
+  metas_acoes [454 linhas, 54 distintos via programa]: area_tematica, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira_2019
+  programas_area [68 linhas, 58 distintos via programa]: area_tematica, nivel, codigo, programa, numero_de_acoes, valor_2019
+### AM_2020-2023
+  metas_acoes [610 linhas, 38 distintos via programa]: area_de_resultado, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira_2020
+  programas_area [52 linhas, 41 distintos via programa]: area_de_resultado, nivel, codigo, programa, numero_de_acoes, valor_2020, valor_2021_2023
+### AM_2024-2027
+  acoes_metas [744 linhas, 41 distintos via programa]: programa, orgao_responsavel, orgaos_participantes, acao_orcamentaria, produto, unidade, regiao, meta_fisica_2024, meta_financeira_2024, meta_fisica_2024_2027, meta_financeira_2024_2027
+  programas_area [42 linhas, 42 distintos via programa]: area_de_resultado, codigo, programa, numero_de_acoes, valor_2024, valor_2025_2027
+  totais_programas [30 linhas, 30 distintos via programa]: programa, total_financeiro_2024, total_financeiro_2024_2027
+### AP_2012-2015
+  acoes [591 linhas, 113 distintos via programa]: eixo, programa_codigo, programa, acao_codigo, acao, produto, valor_total_2012_2015
+  indicadores [285 linhas, 80 distintos via programa]: eixo, programa_codigo, programa, indicador, unidade_de_medida
+  programas [118 linhas, 113 distintos via programa]: eixo, programa_codigo, programa, objetivo, publico_alvo, valor_2012, valor_2013, valor_2014, valor_2015, valor_total_2012_2015
+  sinteses [2205 linhas, 113 distintos via programa]: eixo, programa_codigo, programa, nivel, acao_codigo, acao, sintese, item, valor_2012, valor_2013, valor_2014, valor_2015, valor_total_2012_2015
+### AP_2016-2019
+### AP_2020-2023
+  metas_prioritarias [176 linhas, 37 distintos via programa]: programa_codigo, programa, ods, tipo, item, texto, ano_base, referencia
+### AP_2024-2027
+  aplicacao_recursos [88 linhas, 88 distintos via programa]: poder, programa_codigo, programa, valor_original, unidade, valor_reais
+  indicadores_ods [67 linhas, 42 distintos via programa]: programa_codigo, programa, indicador_ods
+  indicadores_resultado [186 linhas, 59 distintos via programa]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+  metas [113 linhas, 46 distintos via programa]: programa_codigo, programa, meta_numero, meta, media_anual
+  metas_prioritarias [181 linhas, 59 distintos via programa]: eixo, programa_codigo, programa, prazo, item, meta
+  programas [63 linhas, 63 distintos via programa]: programa_codigo, programa, tipo, area_estrategica, ods_alinhado, orgaos_responsaveis, objetivo
+### BA_2008-2011
+  acoes_nao_orcamentarias [100 linhas, 29 distintos via programa]: poder, programa, descricao, orgao_empresa
+  acoes_orcamentarias [4084 linhas, 158 distintos via programa]: poder, programa, localizacao, acao, produto, quantidade
+  indicadores [166 linhas, 109 distintos via programa]: poder, programa, indicador, unidade_medida, indice_referencia, ano_referencia, indice_esperado_ppa
+  programas [161 linhas, 159 distintos via programa]: poder, diretriz_estrategica, programa, tipo, orgao_participante, objetivo, publico_alvo, recursos_orcamentarios, recursos_nao_orcamentarios, recursos_total
+  transversalidade [338 linhas, 71 distintos via programa]: poder, programa, programa_transversal, acao_transversal, orgao
+### BA_2012-2015
+  compromissos [342 linhas, 55 distintos via programa]: eixo_estruturante, area_tematica, programa, compromisso, orgao_responsavel
+  entregas_iniciativas [1660 linhas, 54 distintos via programa]: programa, compromisso, meta, entrega_iniciativa
+  indicadores [130 linhas, 39 distintos via programa]: programa, indicador, unidade_medida, data_referencia, indice_referencia, indice_esperado_ppa
+  metas [564 linhas, 45 distintos via programa]: programa, compromisso, orgao_responsavel, meta
+  programas [59 linhas, 58 distintos via programa]: eixo_estruturante, area_tematica, programa, ementa, recursos_programa
+  regionalizacao_metas [3307 linhas, 45 distintos via programa]: programa, compromisso, meta, territorio, quantidade, unidade_medida
+  transversalidade [242 linhas, 37 distintos via programa]: programa, programa_transversal, compromisso_transversal, orgao
+### BA_2016-2019
+  compromissos [269 linhas, 29 distintos via programa]: programa, compromisso, orgao_responsavel
+  iniciativas [1897 linhas, 29 distintos via programa]: programa, compromisso, meta, iniciativa
+  metas [1197 linhas, 29 distintos via programa]: programa, compromisso, meta, orgao_responsavel, quantidade, unidade_medida
+  regionalizacao_metas [4973 linhas, 29 distintos via programa]: programa, compromisso, meta, territorio_identidade, quantidade, unidade_medida
+### BA_2020-2023
+  compromissos [138 linhas, 22 distintos via programa]: programa, compromisso, orgao_responsavel
+  indicadores [146 linhas, 22 distintos via programa]: programa, indicador, polaridade, unidade_medida, ano_referencia, valor_referencia
+  iniciativas [1109 linhas, 20 distintos via programa]: programa, compromisso, meta, iniciativa, orgao_responsavel
+  metas [427 linhas, 20 distintos via programa]: programa, compromisso, meta, orgao_responsavel, valor_alcance, unidade_medida, ano_referencia, valor_referencia
+  programas [22 linhas, 22 distintos via programa]: programa, ementa, recursos_programa
+  regionalizacao_metas [2325 linhas, 20 distintos via programa]: programa, compromisso, meta, territorio_identidade, valor_alcance, unidade_medida
+### BA_2024-2027
+  compromissos [246 linhas, 53 distintos via programa]: programa, compromisso, orgao_entidade_responsavel
+  indicadores_programa [189 linhas, 53 distintos via programa]: programa, indicador, polaridade, periodicidade, ano_referencia, valor_referencia
+  iniciativas [1383 linhas, 53 distintos via programa]: programa, compromisso, indicador_compromisso, iniciativa, orgao
+  metas [608 linhas, 53 distintos via programa]: programa, compromisso, indicador_compromisso, orgao_entidade_responsavel, meta, unidade_medida
+  metas_territoriais [1737 linhas, 53 distintos via programa]: programa, compromisso, indicador_compromisso, territorio_identidade, meta_territorial, unidade_medida
+  programas [65 linhas, 53 distintos via programa]: eixo_estrategico, programa, orgaos_participantes, recurso_programa
+  recursos_programas [55 linhas, 55 distintos via programa]: eixo, programa, recursos
+### CE_2008-2011
+  acoes_produtos [1923 linhas, 153 distintos via programa]: secretaria_codigo, secretaria, orgao_codigo, orgao, programa_codigo, programa, acao_codigo, acao, produto_codigo, produto, unidade, qtd_2008, qtd_2009_2011
+  acoes_valores [926 linhas, 154 distintos via programa]: secretaria_codigo, secretaria, orgao_codigo, orgao, programa_codigo, programa, acao_codigo, acao, valor_2008, valor_2009_2011, valor_total
+  eixos_areas_programas [182 linhas, 132 distintos via programa]: eixo, area_atuacao_codigo, area_atuacao, programa_codigo, programa, valor_2008, valor_2009_2011, valor_total
+  programas [269 linhas, 269 distintos via programa]: programa_codigo, programa, objetivo, publico_alvo, valor_2008, valor_2009_2011, valor_total
+  regionalizacao [2261 linhas, 152 distintos via programa]: regiao_codigo, regiao, programa_codigo, programa, acao_codigo, acao, valor_2008, valor_2009_2011, valor_total
+### CE_2012-2015
+  metas_regionalizadas [3836 linhas, 115 distintos via programa_nome]: regiao, area_tematica, secretaria_codigo, secretaria, programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_da_regiao, qtd_2012, qtd_2013_2015, qtd_total
+  objetivos_metas_iniciativas [2897 linhas, 81 distintos via programa_nome]: area_tematica, programa_codigo, programa_nome, objetivo_codigo, objetivo, tipo, codigo, descricao
+  programa_valores [570 linhas, 112 distintos via programa_nome]: area_tematica, programa_codigo, programa_nome, especificacao, valor_2012, valor_2013_2015, valor_geral
+  programas [80 linhas, 80 distintos via programa_nome]: area_tematica, programa_codigo, programa_nome, valor_2012, valor_2013_2015, valor_geral
+### CE_2016-2019
+  estrutura_programatica [88 linhas, 88 distintos via programa]: eixo, tema_estrategico, programa
+### CE_2020-2023
+  estrutura_programatica [87 linhas, 87 distintos via programa]: eixo_codigo, eixo, tema_estrategico_codigo, tema_estrategico, programa_codigo, programa, objetivo
+### CE_2024-2027
+  entregas_regionalizadas [6055 linhas, 95 distintos via programa]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, entrega, unidade, regiao, meta_2024, meta_2025, meta_2026, meta_2027, meta_total
+  estrutura_acoes [4210 linhas, 98 distintos via programa]: eixo_codigo, eixo, resultado_estrategico, tema_codigo, tema, resultado_tematico, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, entrega, definicao_entrega, acao_codigo, acao, detalhamento
+  indicadores [123 linhas, 1 distintos via programa]: nivel, eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, indicador, unidade, polaridade, dimensao, ano_referencia, valor_referencia
+  metas_fisicas_financeiras [1096 linhas, 95 distintos via programa]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, entrega, unidade, acumulativa, fisico_2024, financeiro_2024, fisico_2025_2027, financeiro_2025_2027, fisico_total, financeiro_total
+  programas [98 linhas, 98 distintos via programa]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, orgao_gestor_codigo, orgao_gestor, orgaos_executores, justificativa, publico_alvo
+  valores_orgao_executor [388 linhas, 97 distintos via programa]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, orgao_gestor_codigo, orgao_gestor, orgao_executor_codigo, orgao_executor, valor_2024, valor_2025_2027, valor_total
+### DF_2008-2011
+  acoes [1536 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto, unidade_de_medida, quantidade, regiao, vetado, emenda_parlamentar, corrente_tesouro, corrente_outras_fontes, corrente_total, capital_tesouro, capital_outras_fontes, capital_total, total
+  indicadores [171 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+  programas [102 linhas, 102 distintos via programa]: codigo_programa, programa, objetivo, tipo, publico_alvo, horizonte_temporal, inicio, termino, total_corrente_tesouro, total_corrente_outras_fontes, total_corrente_total, total_total, total_capital_tesouro, total_capital_total, total_capital_outras_fontes
+### DF_2012-2015
+  acoes [1776 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto, unidade_de_medida, codigo_regiao, vetado, emenda_parlamentar, meta_2012, meta_2013, meta_2014, meta_2015, valor_2012, valor_2013, valor_2014, valor_2015
+  indicadores [282 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+  objetivos_acoes [1079 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  objetivos_especificos [122 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo
+  programas [42 linhas, 42 distintos via programa]: codigo_programa, programa, objetivo, tipo, publico_alvo, horizonte_temporal, inicio, termino, valor_corrente, valor_corrente_tesouro, valor_corrente_outras_fontes, valor_capital, valor_capital_tesouro, valor_capital_outras_fontes, valor_total
+  programas_objetivo_geral [32 linhas, 32 distintos via programa]: codigo_programa, programa, objetivo_geral
+### DF_2016-2019
+  acoes [1675 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto, unidade_de_medida, codigo_regiao, vetado, emenda_parlamentar, meta_2016, meta_2017, meta_2018, meta_2019, valor_2016, valor_2017, valor_2018, valor_2019
+  indicadores [272 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_mais_recente, apurado_em, desejado_ano_1, desejado_ano_2, desejado_ano_3, desejado_ano_4, fonte
+  objetivos_acoes [914 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  objetivos_especificos [73 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo
+  programas [20 linhas, 18 distintos via programa]: codigo_programa, programa, objetivo, tipo, publico_alvo, horizonte_temporal, inicio, termino, valor_corrente, valor_corrente_tesouro, valor_corrente_outras_fontes, valor_capital, valor_capital_tesouro, valor_capital_outras_fontes, valor_total
+  programas_objetivo_geral [13 linhas, 13 distintos via programa]: codigo_programa, programa, objetivo_geral
+### DF_2020-2023
+  acoes [1444 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto, unidade_de_medida, codigo_regiao, vetado, emenda_parlamentar, meta_2020, meta_2021, meta_2022, meta_2023, valor_2020, valor_2021, valor_2022, valor_2023
+  atualizada_acoes [1644 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto, unidade_de_medida, codigo_regiao, vetado, emenda_parlamentar, meta_2020, meta_2021, meta_2022, meta_2023, valor_2020, valor_2021, valor_2022, valor_2023
+  atualizada_indicadores_impacto [10 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, fonte, codigo_objetivo, desejado_2018
+  atualizada_indicadores_objetivos [233 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, uo_responsavel, indicador, fonte, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2018, desejado_2019, desejado_2020, desejado_2021, desejado_2022, desejado_2023
+  atualizada_metas [450 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  atualizada_objetivos [99 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  atualizada_objetivos_acoes [1182 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  atualizada_programas [34 linhas, 34 distintos via programa]: codigo_programa, programa, objetivo, tipo, publico_alvo, horizonte_temporal, inicio, termino, valor_corrente, valor_corrente_tesouro, valor_corrente_outras_fontes, valor_capital, valor_capital_tesouro, valor_capital_outras_fontes, valor_total
+  atualizada_programas_tematicos [15 linhas, 15 distintos via programa]: codigo_programa, programa, contextualizacao
+  indicadores_impacto [11 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, fonte, codigo_objetivo, periodicidade, desejado_2018
+  indicadores_objetivos [223 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, fonte, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, uo_responsavel, desejado_2020, desejado_2021, desejado_2022, desejado_2023
+  metas [416 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  objetivos [98 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  objetivos_acoes [1079 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  prioridades_ldo [92 linhas, 15 distintos via programa]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+  programas [34 linhas, 34 distintos via programa]: codigo_programa, programa, objetivo, tipo, publico_alvo, horizonte_temporal, inicio, termino, valor_corrente, valor_corrente_tesouro, valor_corrente_outras_fontes, valor_capital, valor_capital_tesouro, valor_capital_outras_fontes, valor_total
+  programas_tematicos [16 linhas, 16 distintos via programa]: codigo_programa, programa, contextualizacao
+### DF_2024-2027
+  atualizada_indicadores_impacto [30 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, fonte, codigo_objetivo, periodicidade, desejado_2021, desejado_2022, desejado_2023
+  atualizada_indicadores_objetivos [273 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, uo_responsavel, fonte, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2021, desejado_2023, desejado_2024, desejado_2025, desejado_2026, desejado_2027
+  atualizada_metas [538 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  atualizada_objetivos [98 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  atualizada_objetivos_acoes [1502 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  atualizada_prioridades_ldo [51 linhas, 9 distintos via programa]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+  atualizada_programas_tematicos [36 linhas, 36 distintos via programa]: codigo_programa, programa, contextualizacao
+  atualizada_valores_por_programa [38 linhas, NA distintos via NA]: grupo, codigo_programa, descricao, valor_2024, valor_2025, valor_2026, valor_2027
+  atualizada_valores_por_regiao [341 linhas, 36 distintos via programa]: codigo_programa, programa, codigo_regiao, regiao, valor_2024, valor_2025, valor_2026, valor_2027
+  indicadores_impacto [26 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, fonte, codigo_objetivo, desejado_2021, desejado_2022, desejado_2023
+  indicadores_objetivos [208 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, uo_responsavel, indicador, fonte, unidade_de_medida, indice_de_referencia, data_de_referencia, periodicidade, tendencia, desejado_2023, desejado_2024, desejado_2025, desejado_2026, desejado_2027
+  metas [423 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  objetivos [94 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  objetivos_acoes [1112 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  prioridades_ldo [51 linhas, 9 distintos via programa]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+  programas_tematicos [16 linhas, 16 distintos via programa]: codigo_programa, programa, contextualizacao
+  valores_por_acao [1649 linhas, 35 distintos via programa]: codigo_programa, programa, codigo_acao, acao, codigo_regiao, regiao, produto_unidade, valor_2024, quantidade_2024, quantidade_2025, quantidade_2026, quantidade_2027
+  valores_por_programa [39 linhas, NA distintos via NA]: grupo, codigo_programa, descricao, valor_2024, valor_2025, valor_2026, valor_2027, valor_total
+  valores_por_regiao [310 linhas, 35 distintos via programa]: codigo_programa, programa, codigo_regiao, regiao, valor_2024, valor_2025, valor_2026, valor_2027
+### ES_2008-2011
+  acoes [1157 linhas, 174 distintos via programa]: programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_de_medida, meta_total, valor_total
+  acoes_regionalizacao [2040 linhas, 174 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, microrregiao_codigo, microrregiao, meta, valor
+  emendas_parlamentares [163 linhas, NA distintos via NA]: protocolo, tipo_acao, valor, programa_debito, acao_codigo, acao, acao_debito, produto
+  programas [178 linhas, 174 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo, publico_alvo, valor_global, origem_caixa_do_tesouro, origem_tesouro_vinculados, origem_arrecadado_outras_fontes, origem_vinculados_outras_fontes, origem_total_orcamentario, origem_nao_orcamentarios, origem_total_geral
+### ES_2012-2015
+  acoes [1106 linhas, 112 distintos via programa]: programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_de_medida, meta_total, valor_total
+  acoes_dec2012 [1099 linhas, 112 distintos via programa]: programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_de_medida, meta_total, valor_total
+  acoes_dec2013a15 [1087 linhas, 112 distintos via programa]: programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_de_medida, meta_total, valor_total
+  acoes_regionalizacao [1913 linhas, 112 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, microrregiao_codigo, microrregiao, meta, valor
+  acoes_regionalizacao_dec2012 [1863 linhas, 112 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, microrregiao_codigo, microrregiao, meta, valor
+  acoes_regionalizacao_dec2013a15 [1706 linhas, 112 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, microrregiao_codigo, microrregiao, meta, valor
+  emendas_parlamentares [127 linhas, NA distintos via NA]: protocolo, programa_credito, tipo_acao, valor, programa_debito, acao_debito, objetivo, acao_credito, produto, fonte
+  programas [113 linhas, 112 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo, publico_alvo, valor_global, origem_caixa_do_tesouro, origem_tesouro_vinculados, origem_arrecadado_outras_fontes, origem_vinculados_outras_fontes, origem_total_orcamentario, origem_nao_orcamentarios, origem_total_geral
+  programas_dec2012 [113 linhas, 112 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo, publico_alvo, valor_global, origem_caixa_do_tesouro, origem_tesouro_vinculados, origem_arrecadado_outras_fontes, origem_vinculados_outras_fontes, origem_total_orcamentario, origem_nao_orcamentarios, origem_total_geral
+  programas_dec2013a15 [113 linhas, 112 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo, publico_alvo, valor_global, origem_caixa_do_tesouro, origem_tesouro_vinculados, origem_arrecadado_outras_fontes, origem_vinculados_outras_fontes, origem_total_orcamentario, origem_nao_orcamentarios, origem_total_geral
+### ES_2016-2019
+  acoes [539 linhas, 73 distintos via programa]: programa_codigo, programa, tipo_acao, acao_codigo, acao, financeiro_total
+  acoes_produtos_regionalizacao [1591 linhas, 73 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, unidade_orcamentaria, regionalizacao, fisico, financeiro
+  emendas_parlamentares [317 linhas, NA distintos via NA]: deputado, partido, protocolo, valor, objetivo, programa_credito, programa_debito, acao_credito, acao_debito, tipo_acao, produto, unidade_de_medida, identificador_de_quantidade, fonte
+  programas [73 linhas, 73 distintos via programa]: poder, area_de_resultado, tipo_programa, programa_codigo, programa, orgao_responsavel, objetivo, publico_alvo, recursos_total
+  programas_recursos [270 linhas, 73 distintos via programa]: programa_codigo, programa, origem, fonte, categoria_economica, financeiro
+### ES_2020-2023
+  acoes [443 linhas, 45 distintos via programa]: programa_codigo, programa, acao_codigo, acao, valor
+  acoes_produtos [1390 linhas, 45 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, meta_fisica, meta_fisica_valor, meta_fisica_unidade, regionalizacao, unidade_orcamentaria
+  emendas_parlamentares [48 linhas, NA distintos via NA]: tipo_emenda, protocolo, autor, partido, finalidade, programa_debito, tipo_acao_debito, acao_debito, fonte_debito, programa_credito, tipo_acao_credito, acao_credito, produto_debito, produto_credito
+  indicadores_resultado [74 linhas, 31 distintos via programa]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+  prioridades_metas [76 linhas, 22 distintos via programa]: anexo, area_de_resultado, programa_codigo, programa, emendas, acao_codigo, acao, produto, unidade_de_medida, meta_fisica
+  programas [45 linhas, 45 distintos via programa]: anexo, tipo_programa, area_estrategica, programa_codigo, programa, orgao_responsavel, objetivo, publico_alvo, recursos_total
+  programas_recursos [73 linhas, 45 distintos via programa]: programa_codigo, programa, origem, fonte, despesas_correntes, despesas_capital, total
+### ES_2024-2027
+  acoes [399 linhas, 46 distintos via programa]: programa_codigo, programa, acao_codigo, acao, valor
+  acoes_produtos [1282 linhas, 46 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, meta_fisica, meta_fisica_valor, meta_fisica_unidade, regionalizacao, unidade_orcamentaria
+  emendas_parlamentares [2 linhas, NA distintos via NA]: tipo_emenda, protocolo, autor, partido, finalidade, programa_debito, tipo_acao_debito, acao_debito, produto_debito, fonte_debito, programa_credito, tipo_acao_credito, acao_credito, produto_credito
+  indicadores_resultado [106 linhas, 32 distintos via programa]: programa_codigo, programa, indicador, referencia, unidade_de_medida, ano, fonte
+  prioridades_metas_2024 [60 linhas, 21 distintos via programa]: area_tematica, programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, meta_fisica
+  programas [46 linhas, 46 distintos via programa]: anexo, tipo_programa, area_tematica, programa_codigo, programa, orgao_responsavel, objetivo, objetivos_desenvolvimento_sustentavel, publico_alvo, recursos_total
+  programas_recursos [90 linhas, 46 distintos via programa]: programa_codigo, programa, origem, fonte, despesas_correntes, despesas_capital, total
+### GO_2008-2011
+  acoes_financeiro [1531 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, orgao, unidade_orcamentaria, segmento, regiao, oge, demais_fontes, total
+  acoes_fisico [1861 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, orgao, unidade_orcamentaria, segmento, regiao, produto_unidade, meta
+  programas [127 linhas, 127 distintos via programa]: macro_objetivo, estrategia_mobilizadora, codigo_programa, programa, orgao_gestor, objetivo, publico_alvo, descricao, total_2010_2011
+  programas_regioes [337 linhas, NA distintos via NA]: codigo_programa, regiao, oge_2010, demais_fontes_2010, oge_2011, demais_fontes_2011, total
+  resumo_por_programa [154 linhas, 128 distintos via programa]: macro_objetivo, nivel, codigo_programa, programa, rotulo, oge, outras_fontes, total
+### GO_2012-2015
+  acoes [795 linhas, NA distintos via NA]: administracao, codigo_programa, codigo_acao, acao, unidade_orcamentaria, objetivo, segmento, regioes_beneficiadas
+  acoes_por_unidade [988 linhas, NA distintos via NA]: administracao, codigo_programa, codigo_acao, codigo_unidade, produto_unidade, valor_2012_2015, meta_fisica
+  metas_financeiras_por_fonte [642 linhas, NA distintos via NA]: administracao, codigo_programa, grupo, fonte, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+  programas [125 linhas, 125 distintos via programa]: administracao, codigo_programa, programa, orgao, descricao, objetivo, tipo, publico_alvo, setor, eixo_estrategico, macro_objetivo
+### GO_2016-2019
+  acoes [497 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, orgao_responsavel, objetivo, segmento
+  metas_fisicas [2601 linhas, NA distintos via NA]: codigo_programa, codigo_acao, produto, regiao, meta_2016, meta_2017, meta_2018, meta_2019, meta_total_regiao
+  programas [69 linhas, 69 distintos via programa]: orgao, codigo_programa, programa, eixo, area, tipo, descricao, objetivo, indicadores, publico_alvo
+  valores_por_fonte [4676 linhas, NA distintos via NA]: quadro, codigo_programa, codigo_acao, unidade_orcamentaria, fonte, valor_2016, valor_2017, valor_2018, valor_2019, valor_total
+### GO_2020-2023
+  metas_produtos [1537 linhas, 48 distintos via programa]: poder, programa, orgao, atuacao, codigo_produto, produto, unidade_de_medida, tipo_meta, regiao, meta_2020, meta_2021, meta_2022, meta_2023
+  orcamento_por_fonte [184 linhas, 32 distintos via programa]: programa, fonte, valor_2020, valor_2021_2023, valor_total
+  programas [33 linhas, 33 distintos via programa]: poder, eixo, objetivo_estrategico, programa, justificativa, resultado_esperado
+### GO_2024-2027
+  metas_por_regiao [600 linhas, 25 distintos via programa]: codigo_produto, programa, orgao, regiao, meta_fisica
+  produtos [459 linhas, 25 distintos via programa]: poder, eixo, objetivo, programa, iniciativa, descricao, orgao, codigo_produto, produto, origem, unidade_de_medida, meta_total, financeiro_2024_2027, confere_meta
+### MA_2008-2011
+  acoes_metas [401 linhas, 91 distintos via programa]: orgao, programa, acao, produto, unidade_medida, fisica_2010, financeira_2010, fisica_2011_2013, financeira_2011_2013, finalidade, uo, tipo_acao
+  acoes_por_regiao [3956 linhas, 96 distintos via programa]: regiao_planejamento, programa, acao_codigo, acao, orgao_executor, produto, unidade_medida, meta_fisica_2010, valor_2010
+  indicadores [118 linhas, 60 distintos via programa]: orgao, programa, indicador, unidade_medida, indice_mais_recente, data_apuracao, esperado_2010, esperado_2011, esperado_2012, esperado_2013
+  programas [95 linhas, 95 distintos via programa]: orgao, programa, objetivo, publico_alvo, valor_2010, valor_2011_2013, valor_total
+  resumo_programas_por_regiao [1744 linhas, 94 distintos via programa]: regiao_planejamento, tipo_programa, programa_codigo, programa, orgao_responsavel, valor_2010, valor_2011_2013, valor_total
+### MA_2012-2015
+  acoes [455 linhas, 65 distintos via programa]: programa_codigo, programa, tipo_acao, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, meta_2013, meta_2014, meta_2015, valor_2013, valor_2014, valor_2015
+  programas [76 linhas, 76 distintos via programa]: programa_codigo, programa, tipo, objetivo, publico_alvo, orgao_responsavel, total_do_programa, despesa_corrente, despesa_de_capital
+  regionalizacao [1670 linhas, 65 distintos via programa]: programa_codigo, programa, acao_codigo, regionalizacao_codigo, localizacao, meta_2013, meta_2014, meta_2015, valor_2013, valor_2014, valor_2015
+### MA_2016-2019
+  acoes [526 linhas, 68 distintos via programa]: programa_codigo, programa, tipo_acao, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, meta_2016, meta_2017, meta_2018, meta_2019, valor_2016, valor_2017, valor_2018, valor_2019
+  programas [68 linhas, 68 distintos via programa]: programa_codigo, programa, objetivo, publico_alvo, tipo, total_do_programa, orgao_responsavel
+  regionalizacao [677 linhas, 68 distintos via programa]: programa_codigo, programa, acao_codigo, regionalizacao_codigo, localizacao, meta_2016, meta_2017, meta_2018, meta_2019, valor_2016, valor_2017, valor_2018, valor_2019
+### MA_2020-2023
+  acoes [554 linhas, 84 distintos via programa]: programa_codigo, programa, tipo_acao, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, meta_2020, meta_2021, meta_2022, meta_2023, valor_2020, valor_2021, valor_2022, valor_2023
+  programas [103 linhas, 84 distintos via programa]: programa_codigo, programa, diretriz, eixo_estruturante, indicador, objetivo, publico_alvo, tipo, total_do_programa, orgao_responsavel
+  regionalizacao [1161 linhas, 84 distintos via programa]: programa_codigo, programa, acao_codigo, regionalizacao_codigo, localizacao, fonte, meta_2020, valor_2020, valor_2021, valor_2022, valor_2023
+### MA_2024-2027
+  acoes [650 linhas, 97 distintos via programa]: programa_codigo, programa, tipo_acao, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, meta_2024, meta_2025, meta_2026, meta_2027, valor_2024, valor_2025, valor_2026, valor_2027
+  programas [124 linhas, 97 distintos via programa]: programa_codigo, programa, desafio_longo_prazo, diretriz_estrategica, eixo_ppa, indicador, meta_indicador, objetivo, publico_alvo, tipo, total_do_programa, orgao_responsavel
+  regionalizacao [1509 linhas, 97 distintos via programa]: programa_codigo, programa, acao_codigo, regionalizacao_codigo, localizacao, fonte, meta_2024, valor_2024, valor_2025, valor_2026, valor_2027
+### MG_2008-2011
+  acoes [1440 linhas, 256 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, finalidade, produto, unidade_de_medida
+  indicadores [199 linhas, 132 distintos via programa]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_final
+  metas_regionalizadas [10696 linhas, 256 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+  programas [256 linhas, 256 distintos via programa]: area_de_resultados, tipo, programa_codigo, programa, unidade_responsavel_codigo, unidade_responsavel, objetivo, objetivos_estrategicos_pmdi, resultados_finalisticos_pmdi, valor_no_periodo, orcamento_fiscal, orcamento_de_investimento
+### MG_2012-2015
+  acoes [1193 linhas, 235 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, finalidade, produto, unidade_de_medida
+  indicadores [204 linhas, 136 distintos via programa]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2012, meta_2013, meta_2014, meta_2015
+  metas_regionalizadas [16528 linhas, 235 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+  programas [235 linhas, 235 distintos via programa]: rede_de_governo, tipo, programa_codigo, programa, unidade_responsavel_codigo, unidade_responsavel, objetivo, objetivos_estrategicos_pmdi, resultados_finalisticos_pmdi
+  programas_valores [4700 linhas, 235 distintos via programa]: programa_codigo, programa, item, ano, valor
+### MG_2016-2019
+  acoes [1255 linhas, 217 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, iag, finalidade, produto, unidade_de_medida, publico_alvo
+  indicadores [176 linhas, 101 distintos via programa]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2016, meta_2017, meta_2018, meta_2019
+  metas_regionalizadas [22440 linhas, 217 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, territorio, ano, meta_fisica, meta_financeira
+  programas [217 linhas, 217 distintos via programa]: eixo, tipo, programa_codigo, programa, unidade_responsavel_codigo, unidade_responsavel, objetivo, areas_objetivos_estrategicos
+  programas_valores [4340 linhas, 217 distintos via programa]: programa_codigo, programa, item, ano, valor
+### MG_2020-2023
+  acoes [862 linhas, 156 distintos via programa]: volume, programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, iag, projeto_estrategico, finalidade, produto, unidade_de_medida, publico_alvo
+  indicadores [221 linhas, 78 distintos via programa]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2020, meta_2021, meta_2022, meta_2023
+  metas_regionalizadas [11804 linhas, 156 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+  programas [157 linhas, 156 distintos via programa]: volume, area_tematica, tipo, programa_codigo, programa, unidade_responsavel_codigo, unidade_responsavel, objetivo, ods, objetivos_estrategicos, diretrizes_estrategicas
+  programas_valores [3140 linhas, 156 distintos via programa]: programa_codigo, programa, item, ano, valor
+### MG_2024-2027
+  acoes [988 linhas, 175 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, iag, projeto_estrategico, finalidade, produto, unidade_de_medida, publico_alvo
+  indicadores [201 linhas, 82 distintos via programa]: programa_codigo, programa, indicador, data_referencia, indice_referencia, meta_2025, meta_2026, meta_2027, meta_2028
+  metas_regionalizadas [13072 linhas, 175 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+  programas [176 linhas, 175 distintos via programa]: area_tematica, tipo, programa_codigo, programa, unidade_responsavel_codigo, unidade_responsavel, objetivo, ods, objetivos_estrategicos, diretrizes_estrategicas
+  programas_valores [3520 linhas, 175 distintos via programa]: programa_codigo, programa, item, ano, valor
+### MS_2008-2011
+  acoes [263 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, finalidade, tesouro_2008, tesouro_2008_2011, outras_fontes_2008, outras_fontes_2008_2011, total_2008, total_2008_2011
+  indicadores [55 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_medida, data_referencia, indice_referencia, indice_proposto
+  programas [41 linhas, 41 distintos via programa]: codigo_programa, programa, objetivo, tesouro_2008, tesouro_2008_2011, outras_fontes_2008, outras_fontes_2008_2011, total_2008, total_2008_2011
+### MS_2012-2015
+  acoes [281 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, finalidade, valor_2012, valor_2013_2015, valor_total
+  programas [42 linhas, 42 distintos via programa]: codigo_programa, programa, objetivo, valor_2012, valor_2013_2015, valor_total
+### MS_2016-2019
+  acoes [300 linhas, 56 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa, objetivo, iniciativa, codigo_acao, acao
+  acoes_valores_por_natureza [900 linhas, NA distintos via NA]: codigo_uo, codigo_programa, codigo_acao, natureza, valor_2016, valor_2017_2019, valor_total
+  indicadores [105 linhas, NA distintos via NA]: codigo_uo, codigo_programa, indicador, indice_referencia, fonte, base_geografica, unidade_medida, data_apuracao
+  programas_por_uo [101 linhas, 56 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa
+  resumo_programa_acao [494 linhas, NA distintos via NA]: codigo, descricao, valor_2016, valor_2017_2019, valor_total, nivel, codigo_programa
+### MS_2020-2023
+  acoes [344 linhas, 54 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa, objetivo, iniciativa, codigo_acao, acao
+  acoes_valores_por_natureza [1032 linhas, NA distintos via NA]: codigo_uo, codigo_programa, codigo_acao, natureza, valor_2020, valor_2021_2023, valor_total
+  indicadores [80 linhas, NA distintos via NA]: codigo_uo, codigo_programa, indicador, unidade_medida, indice_referencia, fonte, base_geografica, data_apuracao
+  metas [44 linhas, NA distintos via NA]: codigo_uo, codigo_programa, objetivo, meta, regiao, quantidade, unidade_medida
+  programas_por_uo [125 linhas, 54 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa
+  resumo_programa_acao [399 linhas, NA distintos via NA]: codigo, descricao, valor_2020, valor_2021_2023, valor_total, nivel, codigo_programa
+### MS_2024-2027
+  acoes [299 linhas, 48 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa, objetivo, iniciativa, codigo_acao, acao
+  acoes_valores_por_natureza [897 linhas, NA distintos via NA]: codigo_uo, codigo_programa, codigo_acao, natureza, valor_2024, valor_2025_2027, valor_total
+  indicadores [118 linhas, NA distintos via NA]: codigo_uo, codigo_programa, indicador, unidade_medida, indice_referencia, data_apuracao, fonte, base_geografica
+  programas_por_uo [140 linhas, 48 distintos via programa]: codigo_uo, unidade_orcamentaria, esfera, codigo_programa, programa
+  resumo_programa_acao [348 linhas, NA distintos via NA]: codigo, descricao, valor_2024, valor_2025_2027, valor_total, nivel, codigo_programa
+### MT_2008-2011
+  alteracao_2009_acoes [130 linhas, 14 distintos via programa]: anexo, codigo_programa, programa, objetivo, uo_responsavel, gerente, codigo_acao, acao, objetivo_especifico, meta_fisica_unidade, uo_lancamento, valor_orcamentario_2008, valor_orcamentario_2009, valor_orcamentario_2010, valor_orcamentario_2011, valor_orcamentario_total, outros_recursos_2008, outros_recursos_2009, outros_recursos_2010, outros_recursos_2011, outros_recursos_total, valor_total_2008, valor_total_2009, valor_total_2010, valor_total_2011, valor_total_total
+  alteracao_2009_metas_por_regiao [266 linhas, NA distintos via NA]: codigo_programa, codigo_acao, regiao, meta_2008, meta_2009, meta_2010, meta_2011, meta_total
+### MT_2012-2015
+  acoes [459 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, objetivo_especifico, uo_responsavel, produto, unidade_de_medida, quantidade, regioes_atendidas, recursos_ppa
+  apoio_administrativo_acoes [24 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, valor_2012_2015
+  apoio_administrativo_programas [7 linhas, 7 distintos via programa]: codigo_programa, programa, objetivo, total
+  indicadores [177 linhas, NA distintos via NA]: codigo_programa, indicador, unidade_de_medida, indice_inicial, indice_final
+  metas_prioridades_2012 [66 linhas, 23 distintos via programa]: objetivo_estrategico, programa, acao, produto, unidade_de_medida, quantidade
+  programas [60 linhas, 60 distintos via programa]: objetivo_estrategico, codigo_programa, programa, objetivo, uo_responsavel, recursos_ppa, somatorio_acoes_so_no_orcamento
+### MT_2016-2019
+  acoes_metas [1063 linhas, NA distintos via NA]: codigo_programa, unidade_orcamentaria, acao, produto, unidade_de_medida, regiao, codigo_acao, meta_2016, meta_2017_2019, meta_total
+  programas [100 linhas, 77 distintos via programa]: codigo_programa, programa, objetivo, publico_alvo, unidade_responsavel, orgaos_participantes
+  resultados_pactuados [193 linhas, NA distintos via NA]: codigo_programa, indicador, inicio_ppa, final_ppa
+  valores_do_programa [276 linhas, NA distintos via NA]: codigo_programa, rubrica, valor_2016, valor_2017_2019, valor_total
+### MT_2020-2023
+  acoes [544 linhas, NA distintos via NA]: codigo_programa, unidade_orcamentaria, codigo_acao, acao, valor_2020_2023, objetivo_especifico, publico_alvo
+  indicadores [200 linhas, NA distintos via NA]: codigo_programa, indicador, ultima_apuracao, ano_apuracao, meta_ppa
+  objetivos_programa [156 linhas, NA distintos via NA]: codigo_programa, objetivo
+  produtos_metas [2462 linhas, NA distintos via NA]: codigo_programa, codigo_acao, produto, unidade_de_medida, meta_fisica
+  programas [51 linhas, 51 distintos via programa]: codigo_programa, programa, uo_responsavel, valor_programa_2020_2023
+  recursos_por_categoria [85 linhas, NA distintos via NA]: codigo_programa, categoria, valor
+### MT_2024-2027
+  acoes [922 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, publico_alvo, objetivo_especifico, uo_responsavel, publico_alvo_transversal
+  indicadores [314 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, codigo_indicador, indicador, unidade_medida, ultima_apuracao_ano, periodicidade, meta_2024, meta_2025, meta_2026, meta_2027
+  objetivos_programa [103 linhas, NA distintos via NA]: codigo_programa, codigo_objetivo, objetivo
+  ods [1204 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_acao, ods
+  produtos_metas_regionais [2741 linhas, NA distintos via NA]: codigo_programa, codigo_acao, codigo_produto, unidade_medida, produto, regiao_planejamento, meta_2024, meta_2025, meta_2026, meta_2027
+  programas [54 linhas, 54 distintos via programa]: eixo, objetivo_estrategico, objetivo_estrategico_amp, codigo_programa, programa, publico_alvo, tipo, uo_responsavel
+  recursos_por_fonte_e_uo [9074 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_acao, quadro, descricao, valor_2024, valor_2025, valor_2026, valor_2027
+### PA_2008-2011
+  indicadores [130 linhas, 42 distintos via programa]: tipo_programa, programa, indicador, indice_2008, indice_2009, indice_2010, indice_2011
+  metas_acoes_regioes [3748 linhas, 75 distintos via programa]: tipo_programa, programa, acao, objetivo_acao, produto, unidade, regiao_de_integracao, fisico_2008, financeiro_2008, fisico_2009, financeiro_2009, fisico_2010, financeiro_2010, fisico_2011, financeiro_2011
+  programas [75 linhas, 75 distintos via programa]: tipo_programa, programa, objetivo, publico_alvo, estrategia_de_implementacao, total_do_programa
+### PA_2012-2015
+  indicadores [235 linhas, 78 distintos via programa]: programa, indicador, unidade_de_medida, fonte, indice_de_referencia, apurado_em, indice_esperado_2012, indice_esperado_ate_2015
+  metas_acoes_regioes [5539 linhas, 79 distintos via programa]: programa, acao, objetivo_acao, produto, unidade, regiao_de_integracao, fisico_2012, financeiro_2012, fisico_2013_2015, financeiro_2013_2015, fisico_total, financeiro_total
+  metas_mapa_exclusao [15 linhas, NA distintos via NA]: indicador, indice_referencia, ano_referencia, meta_melhoria_2012_2015, resultado_esperado_ate_2015, programas_ppa
+  programas [83 linhas, 79 distintos via programa]: poder, area, programa, objetivo, publico_alvo, orgaos_executores, diretrizes_do_governo, valor_total_programa
+### PA_2016-2019
+  acoes [4162 linhas, 30 distintos via programa]: volume, regiao_de_integracao, programa, acao, produto, unidade, orgao_executor
+  indicadores_processo [637 linhas, 25 distintos via programa]: volume, regiao_de_integracao, programa, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, esperado_2016, esperado_2017, esperado_2018, esperado_2019
+  metas [1655 linhas, 30 distintos via programa]: volume, regiao_de_integracao, programa, objetivo, orgao_responsavel, meta
+  programas_regiao [327 linhas, 30 distintos via programa]: volume, regiao_de_integracao, programa, diretrizes, valor_para_a_regiao
+### PA_2020-2023
+  acoes [2686 linhas, 17 distintos via programa]: volume, regiao_de_integracao, programa, objetivo, acao, produto, unidade, orgao_executor
+  indicadores [2484 linhas, 19 distintos via programa]: volume, regiao_de_integracao, programa, tipo_indicador, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, ano_esperado, indice_esperado
+  objetivos_compromissos [747 linhas, 25 distintos via programa]: volume, regiao_de_integracao, programa, objetivo, compromisso_regional
+  programas [284 linhas, 25 distintos via programa]: volume, regiao_de_integracao, tipo_programa, programa, valor_2020_2023, diretriz, ods
+  sintese_programas [303 linhas, 54 distintos via programa]: volume, regiao_de_integracao, grupo, programa, valor_2020_2023
+### PA_2024-2027
+  acoes [3657 linhas, 22 distintos via programa]: volume, regiao_de_integracao, programa, objetivo, acao, produto, unidade, orgao_executor
+  caderno_indicadores [3697 linhas, 14 distintos via programa]: programa, objetivo_estrategico, objetivo_de_programa, tipo_indicador, indicador, formula, unidade_de_medida, fonte, regiao_de_integracao, indice_de_referencia, ano, meta
+  indicadores [4179 linhas, 23 distintos via programa]: volume, regiao_de_integracao, programa, tipo_indicador, indicador, unidade, indice_de_referencia, ano_de_referencia, fonte, ano_esperado, indice_esperado
+  objetivos_metas_regionalizadas [782 linhas, 25 distintos via programa]: volume, regiao_de_integracao, programa, objetivo, orgao_responsavel, meta_regionalizada
+  programas [253 linhas, 25 distintos via programa]: volume, regiao_de_integracao, tipo_programa, programa, valor_2024_2027, diretriz, ods, eixo, objetivo_estrategico
+  sintese_programas [245 linhas, 35 distintos via programa]: volume, regiao_de_integracao, grupo, programa, valor_2024_2027
+### PB_2012-2015
+  indicadores [142 linhas, 57 distintos via programa]: programa_codigo, programa, indicador, fonte, unidade_medida, ano_referencia, indice_referencia
+  iniciativas [714 linhas, 59 distintos via programa]: programa_codigo, programa, objetivo_codigo, objetivo, iniciativa_codigo, iniciativa, funcional, finalidade
+  metas_regionalizadas [920 linhas, 59 distintos via programa]: programa_codigo, programa, objetivo_codigo, iniciativa_codigo, iniciativa, produto, unidade_medida, regiao, qtd_2012, qtd_2013, qtd_2014, qtd_2015, qtd_total, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+  objetivos [138 linhas, 59 distintos via programa]: programa_codigo, programa, objetivo_codigo, objetivo
+  orgaos_unidades [142 linhas, 59 distintos via programa]: programa_codigo, programa, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, total_2012_2015
+  programa_valores [946 linhas, 60 distintos via programa]: programa_codigo, programa, quadro, especificacao, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+  programas [60 linhas, 60 distintos via programa]: dimensao, area_tematica, area_tematica_setorial, programa_codigo, programa, contextualizacao
+### PB_2016-2019
+  indicadores [80 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, indicador, unidade_medida, data_referencia, indice_referencia
+  iniciativas [666 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, codigo, descricao
+  metas [217 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [76 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  programa_valores [96 linhas, 19 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2016_mil, valor_2017_2019_mil, valor_global
+  programas [19 linhas, 19 distintos via programa_nome]: programa_codigo, programa_nome, publico_alvo
+### PB_2020-2023
+  indicadores [187 linhas, 20 distintos via programa_nome]: programa_codigo, programa_nome, indicador, unidade_medida, data_referencia, indice_referencia
+  iniciativas [507 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, codigo, descricao
+  metas [296 linhas, 19 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [69 linhas, 19 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  programa_valores [103 linhas, 20 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2020_mil, valor_2021_2023_mil, valor_global
+  programas [21 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, publico_alvo
+  regionalizacao_metas [139 linhas, 18 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, meta_codigo, meta, tipo_regiao, regiao, unidade_medida, meta_ano_1, meta_ano_2, meta_ano_3, meta_final_ppa
+### PB_2024-2027
+  acoes [861 linhas, 22 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, codigo, descricao
+  atributos_metas [819 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, meta_codigo, meta, regionalizacao, natureza, distribuicao_temporal, unidade_medida, ano_referencia, valor_referencia, meta_ano_1, meta_ano_2, meta_ano_3, meta_ano_4, valor_final_ppa
+  indicadores [233 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, indicador, unidade_medida, ano_referencia, valor_referencia, valor_final_ppa
+  metas [822 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [203 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  programa_valores [119 linhas, 22 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2024_mil, valor_2025_mil, valor_2026_mil, valor_2027_mil, valor_global
+  programas [22 linhas, 22 distintos via programa_nome]: programa_codigo, programa_nome, publico_alvo
+### PE_2008-2011
+  custos_programas [391 linhas, 305 distintos via programa]: orgao, vinculada, programa_codigo, programa, tesouro_2008, outras_fontes_2008, total_orcamentario_2008, extraorcamentario_2008, total_2008, total_2009_2011, total_geral
+  metas_por_rd_anexo3 [8524 linhas, 338 distintos via programa]: exercicio, regiao_desenvolvimento, orgao_codigo, orgao, programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_medida, meta
+  metas_regionalizadas [2558 linhas, 414 distintos via programa]: exercicio, secretaria_codigo, secretaria, vinculada_codigo, vinculada, programa_codigo, programa, objetivo, acao_codigo, acao, finalidade, produto, unidade_medida, meta_total, meta_rd_01, meta_rd_02, meta_rd_03, meta_rd_04, meta_rd_05, meta_rd_06, meta_rd_07, meta_rd_08, meta_rd_09, meta_rd_10, meta_rd_11, meta_rd_12, meta_nr
+### PE_2012-2015
+  programas [258 linhas, 258 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, valor_2012, valor_2013_2015, valor_total
+  subacoes [2908 linhas, 258 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, orgao_codigo, orgao_nome, acao_codigo, acao_nome, subacao, regionalizacao
+### PE_2016-2019
+  metas [3784 linhas, 243 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, orgao_codigo, orgao_nome, unidade_orcamentaria, acao_codigo, acao_nome, finalidade, subacao, produto, unidade, localizacao, meta_fisica_2016, meta_fisica_2017_2019, meta_fisica_total
+  programas [252 linhas, 243 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, valor_2016, valor_2017_2019, valor_total
+### PE_2020-2023
+  despesas_por_programa [146 linhas, 146 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, despesa_2020, despesa_2021_2023, despesa_total
+  programas_acoes_subacoes [3433 linhas, 146 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, orgao_codigo, orgao_nome, unidade_orcamentaria_codigo, unidade_orcamentaria_nome, acao_codigo, acao_nome, finalidade, subacao, produto, unidade, localizacao, meta_fisica_2020, meta_fisica_2021_2023, meta_fisica_total
+### PE_2024-2027
+  metas [4678 linhas, 130 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, orgao_codigo, orgao_nome, unidade_orcamentaria_codigo, unidade_orcamentaria_nome, acao_codigo, acao_nome, finalidade, subacao, produto, unidade, regionalizacao, meta_2024, meta_2025_2027, meta_total
+  programas [130 linhas, 130 distintos via programa_nome]: objetivo_estrategico, programa_codigo, programa_nome, objetivo
+  programas_despesas [220 linhas, 130 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, despesa_2024, despesa_2025_2027, despesa_total
+### PI_2008-2011
+  acoes_metas [2655 linhas, 59 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, finalidade, territorio, produto, unidade_medida, ano, meta, valor
+  programas [63 linhas, 63 distintos via programa]: programa_codigo, programa, tipo_programa, objetivo, orgaos_envolvidos
+  recursos_orgao_programa_fonte [368 linhas, 62 distintos via programa]: orgao, programa, orcamento, fonte_recurso, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+### PI_2012-2015
+  acoes [292 linhas, 37 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, meta_acao, recursos
+  indicadores [97 linhas, 28 distintos via programa]: programa_codigo, programa, indicador, unidade_medida, formula_calculo
+  produtos [581 linhas, 36 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, meta_produto
+  programas [37 linhas, 37 distintos via programa]: programa_codigo, programa, tipo_programa, objetivo, orgaos_envolvidos
+  regionalizacao [699 linhas, 36 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, territorio, meta
+### PI_2016-2019
+  acoes [328 linhas, 45 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, meta_acao, recursos
+  indicadores [246 linhas, 37 distintos via programa]: programa_codigo, programa, indicador, unidade_medida, formula_calculo
+  produtos [852 linhas, 44 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, meta_produto
+  programas [45 linhas, 45 distintos via programa]: programa_codigo, programa, tipo_programa, objetivo, orgaos_envolvidos
+  regionalizacao [1100 linhas, 44 distintos via programa]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, territorio, meta
+### PI_2020-2023
+  metas_fisicas [2256 linhas, 18 distintos via programa]: programa_codigo, programa, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, territorio, quantidade_meta_fisica_2020, quantidade_meta_fisica_2021, quantidade_meta_fisica_2022, quantidade_meta_fisica_2023, valor_meta_fisica_2020, valor_meta_fisica_2021, valor_meta_fisica_2022, valor_meta_fisica_2023
+  territorio_programa [129 linhas, 16 distintos via programa]: territorio, programa_codigo, programa, valor_meta_financeira_2020, valor_meta_financeira_2021, valor_meta_financeira_2022, valor_meta_financeira_2023
+### PI_2024-2027
+  metas_fisicas_financeiras [2583 linhas, 18 distintos via programa]: programa_codigo, programa, tipo_programa, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, territorio, meta_fisica_2024, meta_financeira_2024, meta_fisica_2025, meta_financeira_2025, meta_fisica_2026, meta_financeira_2026, meta_fisica_2027, meta_financeira_2027
+  vinculacao_ods [375 linhas, 17 distintos via programa]: ods_codigo, ods, programa, acao_codigo, acao
+### PR_2008-2011
+  acoes [390 linhas, 25 distintos via programa]: programa, codigo_acao, acao, orgao_responsavel, finalidade, descricao, valor_acao
+  indicadores [47 linhas, 16 distintos via programa]: programa, indicador, unidade_de_medida, periodicidade, fonte, indice_mais_recente, data_de_apuracao, indice_desejado_2008, indice_desejado_2009, indice_desejado_2010, indice_desejado_2011
+  produtos [916 linhas, 25 distintos via programa]: programa, codigo_acao, acao, descricao, produto, unidade_de_medida, centro_expandido, leste, norte, noroeste, oeste, sudoeste, estado, total
+  programas [25 linhas, 25 distintos via programa]: linha_de_acao, programa, objetivo, orgao, problema_justificativa, estrategia_de_implementacao, gerente, publico_alvo, valor_programa
+  valores_por_fonte [1620 linhas, 24 distintos via programa]: nivel, programa, fonte, valor_2008, valor_2009, valor_2010, valor_2011, valor_total, codigo_acao
+### PR_2012-2015
+  emendas [87 linhas, 14 distintos via programa]: codigo_programa, programa, orgao_responsavel, numero_emenda, autor, proposta
+  indicadores [69 linhas, 22 distintos via programa]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto, fonte
+  iniciativas [370 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [214 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+  principais_propostas [125 linhas, 22 distintos via programa]: codigo_programa, programa, tipo, proposta
+  programas [26 linhas, 26 distintos via programa]: anexo, codigo_programa, programa, contextualizacao, valor_global
+  recursos [446 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_iniciativa, recurso, valor_2012, valor_2013_2015
+### PR_2016-2019
+  emendas [194 linhas, 20 distintos via programa]: codigo_programa, programa, orgao_responsavel, numero_emenda, autor, texto_da_emenda
+  emendas_no_programa [126 linhas, 17 distintos via programa]: codigo_programa, programa, emenda
+  indicadores [60 linhas, 21 distintos via programa]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto_2019, periodicidade, polaridade, fonte
+  iniciativas [322 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [209 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+  programas [25 linhas, 25 distintos via programa]: anexo, codigo_programa, programa, orgao_responsavel, contextualizacao, valor_global
+  recursos [395 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_iniciativa, recurso, valor_2016, valor_2017_2019
+### PR_2020-2023
+  emendas [158 linhas, 13 distintos via programa]: codigo_programa, programa, orgao_responsavel, numero_emenda, texto_da_emenda
+  indicadores [58 linhas, 16 distintos via programa]: codigo_programa, programa, indicador, unidade_de_medida, data_referencia, indice_referencia, indice_previsto_2023, periodicidade, polaridade, fonte
+  iniciativas [320 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [176 linhas, NA distintos via NA]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+  programas [22 linhas, 22 distintos via programa]: anexo, codigo_programa, programa, orgao_responsavel, contextualizacao, valor_global
+  recursos [384 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_iniciativa, recurso, valor_2020, valor_2021_2023
+### PR_2024-2027
+  acoes_orcamentarias [408 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, orgao, unidade_orcamentaria, finalidade, valor_global
+  emendas [275 linhas, 27 distintos via programa]: codigo_programa, programa, codigo_acao, acao, protocolo_emenda, texto_da_emenda, autor
+  entregas [1568 linhas, NA distintos via NA]: codigo_programa, codigo_acao, entrega, descricao, unidade_de_medida, cumulatividade, fonte
+  indicadores [201 linhas, 35 distintos via programa]: codigo_programa, programa, indicador, fonte_de_apuracao, indice_referencia, data_referencia, unidade_de_medida, polaridade, periodicidade, indice_2024, indice_2025, indice_2026, indice_2027
+  marcacoes [5295 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_acao, entrega, categoria, marcacao
+  programas [36 linhas, 36 distintos via programa]: codigo_eixo, eixo, codigo_programa, programa, tipo, orgaos_responsaveis, valor_global
+  programas_objetivos [118 linhas, 36 distintos via programa]: codigo_programa, programa, objetivo
+  recursos [514 linhas, NA distintos via NA]: nivel, codigo_programa, codigo_acao, recurso, valor_2024, valor_2025_2027
+  revisao_alteracoes [632 linhas, 71 distintos via programa]: quadro, programa, acao_orcamentaria_alterada, acao_orcamentaria, funcao, subfuncao_anterior, subfuncao_nova, entrega_esxluida, entrega_incluida, entrega_com_qualquer_atributo_alterado, entregas_incluidas_como_trasnferencia_vinculo_novo, entregas_transferidas_vinculo_antigo
+### RJ_2008-2011
+  acoes [446 linhas, 127 distintos via programa]: orgao, programa_codigo, programa, acao_codigo, acao, finalidade, tipo_acao, unidade_executora
+  metas_fisicas_regiao [7290 linhas, 127 distintos via programa]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  metas_prioridades_2008 [971 linhas, 127 distintos via programa]: poder, programa_codigo, programa, acao, prioridade, unidade_de_medida, meta_2008
+  programas [132 linhas, 127 distintos via programa]: secao, orgao, programa_codigo, programa, objetivo, unidade_gestora_codigo, unidade_gestora, recursos_do_tesouro, outros_recursos_orcamentarios, recursos_nao_orcamentarios, total
+  projetos_recursos [52 linhas, 32 distintos via programa]: projeto, programa, acao_codigo, acao, tipo_acao, unidade_executora, recursos_do_tesouro, outros_recursos_orcamentarios, recursos_nao_orcamentarios, total
+### RJ_2012-2015
+  acoes [683 linhas, 179 distintos via programa]: volume, orgao, programa_codigo, programa, acao_codigo, acao, finalidade, tipo_acao, unidade_de_planejamento
+  emendas_novas_acoes [41 linhas, 19 distintos via programa]: secao, programa_codigo, programa, acao_codigo, acao, tipo, executor
+  metas_fisicas_regiao [8475 linhas, 179 distintos via programa]: volume, programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  metas_prioridades_2012 [1310 linhas, 174 distintos via programa]: poder, programa_codigo, programa, acao, prioridade, unidade_de_medida, meta_2012
+  programas [199 linhas, 183 distintos via programa]: volume, secao, orgao, programa_codigo, programa, objetivo, unidade_gestora_codigo, unidade_gestora, recursos_do_tesouro, outros_recursos_orcamentarios, recursos_nao_orcamentarios, total
+### RJ_2016-2019
+  metas_fisicas_regiao [4099 linhas, 215 distintos via titulo_programa]: exercicio_elaboracao_revisao, cod_orgao, titulo_orgao, cod_ugp, sigla_ugp, cod_programa, titulo_programa, cod_up, sigla_up, cod_uo, sigla_uo, cod_acao, titulo_acao, cod_gg, cod_tipo_acao, tipo_acao, cod_produto, titulo_produto, unidade_medida, regiao, meta_2016, meta_2017, meta_2018, meta_2019
+  metas_prioridades_ldo_2016 [448 linhas, 152 distintos via programa]: exercicio, orgao, orgao_sigla, prioridade_codigo, prioridade, prioridade_descricao, programa_codigo, programa, acao_codigo, acao, produto_codigo, produto
+  projecao_financeira [905 linhas, 210 distintos via progtitulooficial]: exercicio_elaboracao_revisao, cod_orgao, titulo_orgao, cod_ugp, sigla_ugp, cod_programa, progtitulooficial, cod_up, sigla_up, cod_uo, sigla_uo, cod_acao, titulo_acao, cod_tipo_acao, tipo_acao, codgg, codgrupo_fr_do_ppa, titulo_grupo_fr_do_ppa_80, valor_2016, valor_2017, valor_2018, valor_2019, soma_total_ppa_2016_2019
+### RJ_2020-2023
+  acoes [681 linhas, 57 distintos via programa]: volume, programa_codigo, programa, orgao, unidade_de_planejamento, acao_codigo, acao, unidade_orcamentaria, finalidade
+  indicadores [706 linhas, 50 distintos via programa]: programa, acao_codigo, acao, indicador, meta_2020, meta_2021, meta_2022, meta_2023
+  metas_fisicas_regiao [20045 linhas, 56 distintos via programa]: volume, programa_codigo, programa, orgao, acao_codigo, acao, unidade_orcamentaria, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  prioridades_ldo_2020 [617 linhas, 50 distintos via programa]: prioridade, descricao, unidade_de_planejamento, unidade_orcamentaria, programa, acao, produto, programa_codigo, acao_codigo, produto_codigo
+  programas [58 linhas, 58 distintos via programa]: volume, programa_codigo, programa, ods, objetivo, despesa_do_estado, despesa_de_terceiros, total
+### RJ_2024-2027
+  acoes [522 linhas, NA distintos via NA]: programa_codigo, orgao, iniciativa_codigo, iniciativa, acao_codigo, acao, descricao_do_gasto
+  acoes_metas_financeiras [2084 linhas, NA distintos via NA]: programa_codigo, iniciativa_codigo, acao_codigo, acao, unidade_orcamentaria, ano, meta_financeira
+  indicadores_iniciativa [347 linhas, NA distintos via NA]: programa_codigo, iniciativa_codigo, iniciativa, codigo, indicador, unidade_de_medida, periodicidade, linha_de_base, meta_2024, meta_2025, meta_2026, meta_2027
+  indicadores_programa [80 linhas, 26 distintos via programa]: programa_codigo, programa, codigo, indicador, periodicidade, unidade_de_medida, ano_referencia, linha_de_base
+  iniciativas [195 linhas, 37 distintos via programa]: programa_codigo, programa, orgao, unidade_de_planejamento, iniciativa_codigo, iniciativa, objetivo, ods, meta_financeira_2024, meta_financeira_2025, meta_financeira_2026, meta_financeira_2027
+  produtos_metas_regiao [12600 linhas, NA distintos via NA]: programa_codigo, orgao, iniciativa_codigo, iniciativa, produto_codigo, produto, unidade_de_medida, regiao, ano, meta_fisica
+  programas [37 linhas, 37 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo
+  rev2025_acoes [541 linhas, NA distintos via NA]: programa_codigo, orgao, iniciativa_codigo, iniciativa, acao_codigo, acao, descricao_do_gasto
+  rev2025_acoes_metas_financeiras [1623 linhas, NA distintos via NA]: programa_codigo, iniciativa_codigo, acao_codigo, acao, unidade_orcamentaria, ano, meta_financeira
+  rev2025_indicadores_iniciativa [344 linhas, NA distintos via NA]: programa_codigo, iniciativa_codigo, iniciativa, codigo, indicador, unidade_de_medida, periodicidade, linha_de_base, meta_2025, meta_2026, meta_2027
+  rev2025_indicadores_programa [80 linhas, 26 distintos via programa]: programa_codigo, programa, codigo, indicador, periodicidade, unidade_de_medida, ano_referencia, linha_de_base
+  rev2025_iniciativas [208 linhas, 40 distintos via programa]: programa_codigo, programa, orgao, unidade_de_planejamento, iniciativa_codigo, iniciativa, objetivo, ods, meta_financeira_2025, meta_financeira_2026, meta_financeira_2027
+  rev2025_produtos_metas_regiao [9570 linhas, NA distintos via NA]: programa_codigo, orgao, iniciativa_codigo, iniciativa, produto_codigo, produto, unidade_de_medida, regiao, ano, meta_fisica
+  rev2025_programas [40 linhas, 40 distintos via programa]: tipo_programa, programa_codigo, programa, objetivo
+### RN_2008-2011
+  acoes [852 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_acao, nome_acao, orgao_executor, produto, unidade_medida, quantidade_total
+  programas [141 linhas, 141 distintos via nome_programa]: estado, ciclo, codigo_programa, nome_programa, objetivo, justificativa, orgao_responsavel, macroobjetivo, publico_alvo, valor_estadual, valor_federal, valor_operacoes_credito, valor_outros, valor_total
+  regioes [1205 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_acao, regiao, quantidade
+### RN_2012-2015
+  acoes [813 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_acao, nome_acao, orgao_executor, produto, unidade_medida, quantidade_total
+  programas [140 linhas, 140 distintos via nome_programa]: estado, ciclo, codigo_programa, nome_programa, objetivo, justificativa, orgao_responsavel, macroobjetivo, publico_alvo, valor_estadual, valor_federal, valor_operacoes_credito, valor_outros, valor_total
+  regioes [1164 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_acao, regiao, quantidade
+### RN_2016-2019
+  indicadores [74 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_indicador, nome_indicador, unidade_medida, data_apuracao, indice_recente
+  iniciativas [813 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_iniciativa, texto_iniciativa
+  metas [892 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_meta, texto_meta, unidade_medida
+  objetivos [175 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, texto_objetivo, orgao_codigo, orgao_nome
+  programas [31 linhas, 31 distintos via nome_programa]: estado, ciclo, codigo_programa, nome_programa, diretriz_codigo, diretriz_nome, valor_estadual_corrente, valor_estadual_capital, valor_estadual_total, valor_federal_corrente, valor_federal_capital, valor_federal_total, valor_credito_corrente, valor_credito_capital, valor_credito_total, valor_outros_corrente, valor_outros_capital, valor_outros_total, valor_total_corrente, valor_total_capital, valor_total_total
+  territorializacao [2905 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_meta, regiao, quantidade, eh_total
+### RN_2020-2023
+  indicadores [116 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_indicador, nome_indicador, unidade_medida, data_apuracao, indice_recente
+  iniciativas [1384 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_iniciativa, texto_iniciativa
+  metas [1072 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_meta, texto_meta, unidade_medida
+  objetivos [289 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_objetivo, texto_objetivo, orgao_codigo, orgao_nome
+  programas [35 linhas, 35 distintos via nome_programa]: estado, ciclo, codigo_programa, nome_programa, diretriz_codigo, diretriz_nome, valor_estadual_corrente, valor_estadual_capital, valor_estadual_total, valor_federal_corrente, valor_federal_capital, valor_federal_total, valor_credito_corrente, valor_credito_capital, valor_credito_total, valor_outros_corrente, valor_outros_capital, valor_outros_total, valor_total_corrente, valor_total_capital, valor_total_total
+  territorializacao [2934 linhas, NA distintos via NA]: estado, ciclo, codigo_programa, codigo_meta, regiao, quantidade, eh_total
+### RN_2024-2027
+  gestao_orgaos [50 linhas, 1 distintos via programa_nome]: programa_codigo, programa_nome, poder, orgao_codigo, orgao, valor_2024_2027
+  metas [2538 linhas, 48 distintos via programa_nome]: programa_codigo, programa_nome, diretriz_codigo, diretriz, objetivo_geral_codigo, objetivo_geral, orgao_codigo, orgao, objetivo_especifico_codigo, objetivo_especifico, nivel, entrega_codigo, entrega, indicador_codigo, indicador, unidade_medida, territorio_codigo, territorializacao, valor_2024_2027
+  programa_indicadores [194 linhas, 48 distintos via programa_nome]: programa_codigo, programa_nome, indicador_codigo, indicador, unidade_medida, proxima_apuracao, indice_recente, meta_2024_2027
+  programa_valores [240 linhas, 48 distintos via programa_nome]: programa_codigo, programa_nome, fonte_financiamento, corrente, capital, total
+  programas [48 linhas, 48 distintos via programa_nome]: programa_codigo, programa_nome
+### RO_2008-2011
+  acoes [487 linhas, 76 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, finalidade, descricao, forma_implementacao, funcao, subfuncao, base_legal, esfera, origem, produto, unidade, especificacao_produto
+  financeiro_acoes [1226 linhas, 76 distintos via programa]: orgao, unidade_orcamentaria, programa, nivel, acao, categoria, codigo_fonte, fonte_de_recurso, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+  indicadores [140 linhas, 69 distintos via programa]: orgao, unidade_orcamentaria, programa, indicador, unidade, referencia, fonte, periodicidade, base_geografica, indice_esperado_2008_a_2011
+  metas_fisicas_regiao [2014 linhas, 73 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2008, meta_2009, meta_2010, meta_2011
+  programas [135 linhas, 76 distintos via programa]: orgao, unidade_orcamentaria, programa, denominacao, objetivo, justificativa, estrategia, horizonte_temporal, datas, gerente, eixos, publico_alvo
+  programas_acoes_por_uo [487 linhas, 76 distintos via programa]: orgao, unidade_orcamentaria, programa, acao_codigo, acao
+### RO_2012-2015
+  acoes [518 linhas, 70 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, finalidade, descricao, produto, unidade
+  financeiro_acoes [1176 linhas, 70 distintos via programa]: orgao, unidade_orcamentaria, programa, nivel, acao, categoria, codigo_fonte, fonte_de_recurso, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+  indicadores [92 linhas, 45 distintos via programa]: orgao, unidade_orcamentaria, programa, indicador, unidade, referencia, fonte, periodicidade, base_geografica, indice_esperado_2012_a_2015
+  metas_fisicas_regiao [2413 linhas, 68 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2012, meta_2013, meta_2014, meta_2015
+  programas [106 linhas, 70 distintos via programa]: orgao, unidade_orcamentaria, programa, objetivo, justificativa, eixos, publico_alvo
+  programas_acoes_por_uo [518 linhas, 70 distintos via programa]: orgao, unidade_orcamentaria, programa, acao_codigo, acao
+### RO_2016-2019
+  acoes_anexo2_ocr [443 linhas, 108 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, finalidade, descricao, produto, unidade, fonte_texto
+  financeiro_acoes_fonte [714 linhas, 83 distintos via programa]: uo_codigo, unidade_orcamentaria, programa_codigo, programa, acao_codigo, acao, fonte, valor_2016, valor_2017, valor_2018, valor_2019, valor_total
+  programas_anexo2_ocr [139 linhas, 109 distintos via programa]: orgao, unidade_orcamentaria, programa, justificativa, objetivo, eixos, publico_alvo, fonte_texto
+### RO_2020-2023
+  acoes [507 linhas, 98 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, finalidade, modo_de_execucao, programas_pdes, produto, unidade
+  financeiro_acoes_fonte [669 linhas, 97 distintos via programa]: uo_codigo, unidade_orcamentaria, programa_codigo, programa, acao_codigo, acao, fonte, valor_2020, valor_2021, valor_2022, valor_2023, valor_total
+  financeiro_consolidado [1154 linhas, 98 distintos via programa]: orgao, unidade_orcamentaria, programa, nivel, acao, categoria, codigo_fonte, fonte_de_recurso, valor_2020, valor_2021, valor_2022, valor_2023, valor_total
+  metas_fisicas_regiao [3186 linhas, 97 distintos via programa]: n, pagina, regiao, meta_2020, meta_2021, meta_2022, meta_2023, id, acao, orgao, unidade_orcamentaria, programa
+  programas [170 linhas, 98 distintos via programa]: orgao, unidade_orcamentaria, programa, objetivo, justificativa, eixos, gerente, publico_alvo
+### RO_2024-2027
+  acoes [646 linhas, 131 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, finalidade, modo_de_execucao, produto, unidade, programas_pdes, fonte_texto
+  financeiro_acoes_fonte [901 linhas, 134 distintos via programa]: uo_codigo, unidade_orcamentaria, programa_codigo, programa, acao_codigo, acao, fonte, valor_2024, valor_2025, valor_2026, valor_2027, valor_total, soma_confere_total, fonte_texto
+  financeiro_consolidado [1582 linhas, 129 distintos via programa]: orgao, unidade_orcamentaria, programa, nivel, acao, categoria, codigo_fonte, fonte_de_recurso, valor_2024, valor_2025, valor_2026, valor_2027, valor_total, fonte_texto, soma_confere_total
+  indicadores [313 linhas, 108 distintos via programa]: orgao, unidade_orcamentaria, programa, indicador, unidade_de_medida, indice_de_referencia, data_indice_referencia, periodicidade, base_geografica, fonte, esperado_2024, esperado_2025, esperado_2026, esperado_2027, indice_de_referencia_num, fonte_texto
+  metas_fisicas_regiao [3506 linhas, 126 distintos via programa]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2024, meta_2025, meta_2026, meta_2027, fonte_texto
+  programas [225 linhas, 134 distintos via programa]: orgao, unidade_orcamentaria, programa, objetivo, justificativa, eixos, gerente, publico_alvo, fonte_texto
+### RR_2008-2011
+  acoes [339 linhas, 58 distintos via programa]: programa, acao, cod_funcao, cod_subfuncao, tipo, unid_executora, modo_implementacao, produto, unid_medida, regiao
+  financeiro_acoes [2101 linhas, 58 distintos via programa]: programa, acao, fonte, ano, despesa_corrente, despesa_de_capital, subtotal, demais_fontes, total
+  financeiro_programas [62 linhas, 58 distintos via programa]: dimensao, tipo_programa, programa, fonte, total_ppa, valor_2008, valor_2009_2011
+  indicadores [62 linhas, 48 distintos via programa]: programa, indicador, unidade_medida, apurado_em, fonte, indice_mais_recente, indice_ao_final_do_ppa, periodicidade, base_geografica, formula
+  metas_fisicas [1356 linhas, 58 distintos via programa]: programa, acao, ano, meta_fisica
+  programas [58 linhas, 58 distintos via programa]: programa, unidade_responsavel, dimensao, objetivo, publico_alvo, natureza, tipo
+### RR_2012-2015
+  acoes [313 linhas, 59 distintos via programa]: programa, acao, cod_funcao, cod_subfuncao, tipo, unid_executora, modo_implementacao, produto, unid_medida, regiao
+  financeiro_acoes [2270 linhas, 59 distintos via programa]: programa, acao, fonte, ano, despesa_corrente, despesa_de_capital, total
+  financeiro_programas [244 linhas, 61 distintos via programa]: dimensao, tipo_programa, programa, fonte, total_ppa, valor_2012, valor_2013_2015
+  indicadores [63 linhas, 49 distintos via programa]: programa, indicador, unidade_medida, apurado_em, fonte, indice_mais_recente, indice_esperado_2012, indice_esperado_2013, indice_esperado_2014, indice_esperado_2015, periodicidade, base_geografica, formula
+  metas_fisicas [1600 linhas, 59 distintos via programa]: programa, acao, ano, meta_fisica
+  programas [59 linhas, 59 distintos via programa]: programa, unidade_responsavel, dimensao, objetivo, publico_alvo, natureza, tipo
+### RR_2016-2019
+  acoes [311 linhas, 57 distintos via programa]: programa, acao, cod_funcao, cod_subfuncao, tipo, unid_executora, modo_implementacao, produto, unid_medida, regiao, natureza
+  financeiro_acoes [2435 linhas, 57 distintos via programa]: programa, acao, fonte, ano, despesa_corrente, despesa_de_capital, total
+  financeiro_programas [237 linhas, 57 distintos via programa]: dimensao, tipo_programa, programa, fonte, total_ppa, valor_2016, valor_2017_2019
+  indicadores [62 linhas, 48 distintos via programa]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2016, indice_esperado_2017, indice_esperado_2018, indice_esperado_2019, periodicidade, base_geografica, formula
+  metas_fisicas [1529 linhas, 57 distintos via programa]: programa, acao, ano, meta_fisica
+  programas [57 linhas, 57 distintos via programa]: programa, unidade_responsavel, dimensao, objetivo, publico_alvo, natureza, tipo
+### RR_2020-2023
+  acoes [298 linhas, 54 distintos via programa]: programa, acao, cod_funcao, cod_subfuncao, tipo, unid_executora, modo_implementacao, produto, unid_medida, regiao
+  financeiro_acoes [2270 linhas, 54 distintos via programa]: programa, acao, fonte, ano, despesa_corrente, despesa_de_capital, total
+  financeiro_programas [215 linhas, 54 distintos via programa]: dimensao, tipo_programa, programa, fonte, total_ppa, valor_2020, valor_2021_2023
+  indicadores [60 linhas, 46 distintos via programa]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2020, indice_esperado_2021, indice_esperado_2022, indice_esperado_2023, periodicidade, base_geografica, formula
+  metas_fisicas [1452 linhas, 54 distintos via programa]: programa, acao, ano, meta_fisica
+  programas [54 linhas, 54 distintos via programa]: programa, unidade_responsavel, dimensao, objetivo, publico_alvo, natureza, tipo
+### RR_2024-2027
+  acoes [337 linhas, 54 distintos via programa]: programa, acao, cod_funcao, cod_subfuncao, tipo, unid_executora, modo_implementacao, produto, unid_medida, regiao
+  financeiro_acoes [2142 linhas, 54 distintos via programa]: programa, acao, fonte, ano, despesa_corrente, despesa_de_capital, total
+  financeiro_programas [174 linhas, 54 distintos via programa]: dimensao, tipo_programa, programa, fonte, total_ppa, valor_2024, valor_2025_2027
+  indicadores [68 linhas, 46 distintos via programa]: programa, indicador, apurado_em, fonte, indice_mais_recente, indice_esperado_2024, indice_esperado_2025, indice_esperado_2026, indice_esperado_2027, periodicidade, base_geografica, formula
+  metas_fisicas [1514 linhas, 54 distintos via programa]: programa, acao, ano, meta_fisica
+  programas [54 linhas, 54 distintos via programa]: programa, unidade_responsavel, objetivo, publico_alvo, natureza, tipo
+### RS_2008-2011
+  acoes [671 linhas, 89 distintos via programa]: programa, acao, situacao, orgao_responsavel, descricao, valor_total
+  acoes_produtos [801 linhas, 87 distintos via programa]: programa, acao, produto, unidade_de_medida, meta
+  despesas_por_fonte [615 linhas, 86 distintos via programa]: nivel, orgao, programa, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, total
+  indicadores [271 linhas, 74 distintos via programa]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+  programas [92 linhas, 89 distintos via programa]: eixo, tipo, programa, orgao_responsavel, objetivo, despesa_corrente, despesa_capital, despesa_total
+### RS_2012-2015
+  acoes [872 linhas, 94 distintos via programa]: programa, acao, situacao, orgao_responsavel, descricao, valor_total
+  acoes_produtos [1192 linhas, 92 distintos via programa]: programa, acao, produto, unidade_de_medida, meta
+  despesas_por_fonte [757 linhas, 93 distintos via programa]: nivel, orgao, programa, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, total
+  indicadores [307 linhas, 74 distintos via programa]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+  programas [102 linhas, 94 distintos via programa]: eixo, tipo, programa, orgao_responsavel, objetivo, despesa_corrente, despesa_capital, despesa_total
+  regionalizacao [746 linhas, 26 distintos via programa]: regiao_funcional, programa, acao, orgao, descricao, produto, unidade_de_medida, meta_regional, meta_regional_num
+### RS_2016-2019
+  acoes [808 linhas, 85 distintos via programa]: programa, acao, situacao, orgao_responsavel, descricao, valor_total
+  acoes_produtos [1383 linhas, 82 distintos via programa]: programa, acao, produto, unidade_de_medida, meta
+  despesas_por_fonte [675 linhas, 79 distintos via programa]: nivel, orgao, programa, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, transferencias_obrigatorias, total
+  indicadores [220 linhas, 61 distintos via programa]: programa, indicador, unidade_de_medida, indice_recente, indice_desejado
+  programas [93 linhas, 85 distintos via programa]: eixo, tipo, programa, orgao_responsavel, objetivo, despesa_corrente, despesa_capital, despesa_total
+  regionalizacao [2662 linhas, 52 distintos via programa]: regiao_funcional, programa, acao, orgao, descricao, produto, unidade_de_medida, meta_regional, meta_regional_num
+### RS_2020-2023
+  acoes_programaticas [186 linhas, 20 distintos via programa]: programa, acao_programatica, orgao_coordenador, resultado_esperado, valor_total, despesa_corrente, despesa_de_capital
+  despesas_por_fonte [703 linhas, 95 distintos via programa]: nivel, programa, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, transferencias_obrigatorias, total
+  despesas_por_fonte_orgao [652 linhas, NA distintos via NA]: nivel, orgao, acao_programatica, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, transferencias_obrigatorias, total
+  despesas_por_fonte_programa [51 linhas, 17 distintos via programa]: nivel, programa, natureza_da_despesa, tesouro, proprios_de_autarquias, proprios_de_fundacoes, proprios_de_empresas, convenios, parcerias_com_municipios, outras_parcerias, operacoes_de_credito_internas, operacoes_de_credito_externas, transferencias_obrigatorias, total
+  indicadores [227 linhas, 17 distintos via programa]: nivel, programa, acao_programatica, indicador, unidade_de_medida, valor_mais_recente, valor_desejado_ou_polaridade
+  iniciativas [740 linhas, 20 distintos via programa]: programa, acao_programatica, iniciativa, orgao_responsavel, descricao, valor
+  iniciativas_produtos [1317 linhas, 20 distintos via programa]: programa, acao_programatica, iniciativa, produto, unidade_de_medida, meta
+  programas [20 linhas, 20 distintos via programa]: eixo, tipo, programa, objetivo_tematico, contextualizacao, valor_total, despesa_corrente, despesa_de_capital
+### RS_2024-2027
+  acoes_programaticas [183 linhas, 19 distintos via programa]: programa, acao_programatica, orgao_coordenador, resultado_esperado, valor_total, despesa_corrente, despesa_de_capital
+  despesas_por_fonte_orgao [738 linhas, NA distintos via NA]: nivel, orgao, acao_programatica, natureza_da_despesa, total
+  despesas_por_fonte_programa [48 linhas, 16 distintos via programa]: nivel, programa, natureza_da_despesa, total
+  indicadores [267 linhas, 16 distintos via programa]: nivel, programa, acao_programatica, indicador, unidade_de_medida, valor_mais_recente, valor_desejado_ou_polaridade
+  iniciativas [960 linhas, 19 distintos via programa]: programa, acao_programatica, iniciativa, orgao_responsavel, descricao, valor
+  iniciativas_produtos [1858 linhas, 19 distintos via programa]: programa, acao_programatica, iniciativa, produto, unidade_de_medida, meta
+  programas [19 linhas, 19 distintos via programa]: eixo, tipo, programa, objetivo_tematico, contextualizacao, valor_total, despesa_corrente, despesa_de_capital
+### SC_2008-2011
+  acoes [747 linhas, NA distintos via NA]: codigo_programa, codigo_acao, acao, produto
+  programas [64 linhas, 64 distintos via programa]: codigo_programa, programa, tipo, orgao_responsavel, horizonte_temporal, objetivo, justificativa, publico_alvo, total_oge, total_of
+  subacoes [5106 linhas, NA distintos via NA]: codigo_programa, codigo_acao, codigo_subacao, subacao, regiao_sdr, unidade, meta_fisica, valor_oge, valor_of
+### SC_2012-2015
+  custo_por_fonte [450 linhas, NA distintos via NA]: secao, codigo_programa, codigo_fonte, fonte, valor_ano_aplicacao, valor_anos_seguintes, valor_total
+  indicadores [121 linhas, NA distintos via NA]: secao, codigo_programa, codigo_indicador, indicador, data_de_apuracao, indice, fonte_dos_dados
+  programas [107 linhas, 83 distintos via programa]: secao, codigo_programa, programa, orgao_responsavel, objetivo, justificativa, publico_alvo, custo_ano_aplicacao, custo_anos_seguintes, custo_total
+  resumo_por_programa [100 linhas, NA distintos via NA]: nivel, poder, orcamento, codigo_programa, descricao, tesouro, outras_fontes, investimento_das_estatais, total_ano_aplicacao, total_anos_seguintes, total_geral
+  rev2013_custo_por_fonte [787 linhas, NA distintos via NA]: secao, codigo_programa, codigo_fonte, fonte, valor_ano_aplicacao, valor_anos_seguintes, valor_total
+  rev2013_indicadores [121 linhas, NA distintos via NA]: secao, codigo_programa, codigo_indicador, indicador, data_de_apuracao, indice, fonte_dos_dados
+  rev2013_programas [110 linhas, 84 distintos via programa]: secao, codigo_programa, programa, orgao_responsavel, objetivo, justificativa, publico_alvo, custo_ano_aplicacao, custo_anos_seguintes, custo_total
+  rev2013_resumo_por_programa [103 linhas, NA distintos via NA]: nivel, poder, orcamento, codigo_programa, descricao, tesouro, outras_fontes, investimento_das_estatais, total_ano_aplicacao, total_anos_seguintes, total_geral
+  rev2013_subacoes [2929 linhas, NA distintos via NA]: secao, codigo_programa, codigo_subacao, subacao, regiao_sdr, produto, unidade, meta_fisica, meta_financeira_ano, meta_financeira_periodo
+  subacoes [2823 linhas, NA distintos via NA]: secao, codigo_programa, codigo_subacao, subacao, regiao_sdr, produto, unidade, meta_fisica, meta_financeira_ano, meta_financeira_periodo
+### SC_2016-2019
+  custo_por_fonte [164 linhas, NA distintos via NA]: secao, codigo_programa, fonte, valor_2016_2019
+  programas [108 linhas, 88 distintos via programa]: secao, codigo_programa, programa, orgao_responsavel, objetivo, justificativa, publico_alvo, custo_2016_2019
+  resumo_por_programa [100 linhas, NA distintos via NA]: nivel, poder, orcamento, codigo_programa, descricao, tesouro, outras_fontes, investimento_das_estatais, total_2016, total_2016_2019
+  subacoes [2241 linhas, NA distintos via NA]: secao, codigo_programa, codigo_subacao, subacao, regiao_sdr, produto, unidade, meta_fisica, meta_financeira_tesouro, meta_financeira_outras_fontes
+### SC_2020-2023
+  custo_por_fonte [157 linhas, NA distintos via NA]: secao, codigo_programa, fonte, valor_2020_2023
+  indicadores [178 linhas, NA distintos via NA]: secao, codigo_programa, codigo_indicador, indicador, unidade_de_medida, fonte, polaridade, valor_referencia, data_apuracao, meta_ao_final_do_ppa
+  prioridades_2020 [158 linhas, 47 distintos via programa]: poder, codigo_programa, programa, codigo_subacao, subacao
+  programas [99 linhas, 86 distintos via programa]: secao, codigo_programa, programa, unidade_responsavel, objetivo, justificativa, publico_alvo, custo_2020_2023, soma_subacoes_confere
+  resumo_por_programa [91 linhas, NA distintos via NA]: nivel, poder, orcamento, codigo_programa, descricao, tesouro, outras_fontes, investimento_das_estatais, total_2020, total_2020_2023
+  subacoes [1191 linhas, NA distintos via NA]: secao, codigo_programa, codigo_subacao, subacao, produto, unidade, meta_fisica, meta_financeira_tesouro, meta_financeira_outras_fontes
+### SC_2024-2027
+  custo_por_fonte [158 linhas, NA distintos via NA]: secao, codigo_programa, fonte, valor_2024_2027
+  indicadores [202 linhas, NA distintos via NA]: secao, codigo_programa, codigo_indicador, indicador, unidade_de_medida, fonte, polaridade, valor_referencia, data_apuracao, meta_ao_final_do_ppa
+  prioridades_2024 [175 linhas, 32 distintos via programa]: pagina, codigo_programa, programa, codigo_subacao, subacao
+  programas [104 linhas, 86 distintos via programa]: secao, codigo_programa, programa, unidade_responsavel, objetivo, justificativa, publico_alvo, custo_2024_2027
+  resumo_por_programa [94 linhas, NA distintos via NA]: nivel, poder, orcamento, codigo_programa, descricao, tesouro, outras_fontes, investimento_das_estatais, total_2024, total_2024_2027
+  subacoes [1372 linhas, NA distintos via NA]: secao, codigo_programa, codigo_subacao, subacao, produto, unidade, meta_fisica, meta_financeira_tesouro, meta_financeira_outras_fontes
+### SE_2008-2011
+  acoes_metas_territorio [2022 linhas, 85 distintos via programa]: anexo, programa_codigo, programa, acao_codigo, acao, orgao_executor, produto, unidade_medida, territorio_planejamento, meta_2008, meta_2009, meta_2010, meta_2011, meta_total, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+  programas [89 linhas, 85 distintos via programa]: anexo, programa_codigo, programa, orgao_responsavel, objetivo, publico_alvo, valor_total, valor_corrente, valor_capital
+  revisao_acoes_metas_territorio [1533 linhas, 76 distintos via programa]: anexo, programa_codigo, programa, acao_codigo, acao, orgao_executor, produto, unidade_medida, territorio_planejamento, meta_2010, meta_2011, meta_total, valor_2010, valor_2011, valor_total
+  revisao_programas [77 linhas, 76 distintos via programa]: anexo, programa_codigo, programa, orgao_responsavel, objetivo, publico_alvo, valor_total, valor_corrente, valor_capital
+### SE_2012-2015
+  indicadores [112 linhas, 21 distintos via programa_nome]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+  iniciativas [978 linhas, 25 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, iniciativa_codigo, iniciativa
+  metas [185 linhas, 25 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [130 linhas, 25 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  programa_valores [93 linhas, 22 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2012_mil, valor_2013_2015_mil, valor_total, valor_global_mil
+  programas [25 linhas, 25 distintos via programa_nome]: programa_codigo, programa_nome
+### SE_2016-2019
+  indicadores [89 linhas, 13 distintos via programa_nome]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+  iniciativas [0 linhas, 0 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, iniciativa_codigo, iniciativa
+  metas [1189 linhas, 14 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [136 linhas, 14 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  programa_valores [132 linhas, 34 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2016, valor_2017_2019, valor_total, valor_global
+  programas [35 linhas, 35 distintos via programa_nome]: programa_codigo, programa_nome
+### SE_2020-2023
+  indicadores [84 linhas, 12 distintos via programa_nome]: programa_codigo, programa_nome, indicador, fonte, unidade_medida, data_referencia, indice_referencia
+  iniciativas [0 linhas, 0 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, iniciativa_codigo, iniciativa
+  metas [1519 linhas, 15 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [139 linhas, 16 distintos via programa_nome]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, caracterizacao
+  programa_valores [189 linhas, 38 distintos via programa_nome]: programa_codigo, programa_nome, especificacao, valor_2020, valor_2021_2023, valor_total, valor_global
+  programas [38 linhas, 38 distintos via programa_nome]: programa_codigo, programa_nome, contextualizacao
+### SE_2024-2027
+  objetivos_especificos [175 linhas, 40 distintos via programa]: programa_codigo, programa, objetivo_especifico, indicador, unidade_medida, ano_referencia, valor_referencia, meta_2024, meta_2025, meta_2026, meta_2027
+  programa_valores [202 linhas, 42 distintos via programa]: tipo_programa, programa_codigo, programa, especificacao, valor_2024_mil, valor_2025_mil, valor_2026_mil, valor_2027_mil, valores_globais_mil
+  programas [41 linhas, 41 distintos via programa]: programa_codigo, programa, orgao_responsavel, objetivo_geral
+### SP_2008-2011
+  acoes [1067 linhas, 199 distintos via programa]: orgao, programa_codigo, programa, acao, meta_do_periodo, meta_do_periodo_num, produto
+  indicadores [601 linhas, 192 distintos via programa]: orgao, programa_codigo, programa, indicador, mais_recente, ao_final_do_plano
+  programas [277 linhas, 200 distintos via programa]: orgao_codigo, orgao, programa_codigo, programa, valor_no_periodo, objetivo, justificativa, publico_alvo, abrangencia_espacial
+  programas_valores [825 linhas, 199 distintos via programa]: orgao, programa_codigo, programa, fonte, correntes, capital
+  resumo_orgaos_programas [277 linhas, 202 distintos via programa]: orgao, programa_codigo, programa
+### SP_2012-2015
+  acoes [800 linhas, 173 distintos via programa]: orgao, programa_codigo, programa, acao, meta_do_periodo, meta_do_periodo_num, produto, fonte_texto
+  indicadores [420 linhas, 174 distintos via programa]: orgao, programa_codigo, programa, indicador, mais_recente, ao_final_do_plano, fonte_texto
+  programas [237 linhas, 179 distintos via programa]: orgao_codigo, orgao, programa_codigo, programa, valor_no_periodo, valor_confere, objetivo, justificativa, publico_alvo, abrangencia_espacial, fonte_texto
+  programas_valores [714 linhas, 177 distintos via programa]: orgao, programa_codigo, programa, fonte, correntes, capital, fonte_texto
+### SP_2016-2019
+  indicadores [905 linhas, 141 distintos via programa]: programa_codigo, programa, tipo_indicador, produto, indicador, valor_mais_recente, periodo_de_referencia, fonte_da_informacao, meta_ao_final_do_ppa
+  programas [142 linhas, 142 distintos via programa]: programa_codigo, programa, tipo, orgao, objetivos_estrategicos, objetivo, publico_alvo, abrangencia_espacial
+  programas_despesas [426 linhas, 142 distintos via programa]: programa_codigo, programa, item, total, correntes, capital
+### SP_2020-2023
+  indicadores_produto [1046 linhas, 111 distintos via descricao_do_programa]: codigo_programa, descricao_do_programa, nome_produto, nome_indicador, unidade_de_medida, periodo_ppa, periodo_referencia, descricao_fonte_informacao, qtde_valor_mais_recente, qtde_indicador_termino_ppa
+  indicadores_programa [233 linhas, 111 distintos via descricao_do_programa]: codigo_programa, descricao_do_programa, nome_indicador, descricao_fonte_informacao, unidade_de_medida, periodo_ppa, periodo_referencia, qtde_valor_mais_recente, qtde_indicador_termino_ppa
+  objetivos_estrategicos [189 linhas, 106 distintos via descricao_do_programa]: codigo_programa, nome_objetivo_estrategico, descricao_do_programa
+  produtos [555 linhas, 111 distintos via descricao_do_programa]: codigo_programa, nome_produto, descricao_produto, descricao_do_programa
+  programas [113 linhas, 113 distintos via descricao_do_programa]: codigo_programa, descricao_do_programa, descricao_objetivo, descricao_publico_alvo, indicador_abrangencia_espacial, indicador_classificacao
+  programas_despesas_pdf [333 linhas, 111 distintos via programa]: programa_codigo, programa, item, total, correntes, capital, unidade
+  recursos [220 linhas, 111 distintos via descricao_do_programa]: periodo_ppa, tipo_de_recurso, codigo_orgao, descricao_orgao, codigo_programa, descricao_do_programa, codigo_categoria_despesa, descricao_categoria_despesa, valor_previsao_despesa
+### SP_2024-2027
+  indicadores [1455 linhas, 102 distintos via programa]: programa_codigo, programa, tipo_indicador, produto_codigo, indicador, fonte_da_informacao, linha_de_base_ano, linha_de_base_valor, meta_2024, meta_2025, meta_2026, meta_2027, meta_final_valor, meta_final_regra
+  produtos [613 linhas, 107 distintos via programa]: programa_codigo, programa, produto_codigo, produto, classificacao, meta_prioritaria, descricao_do_produto, publico_alvo, politicas_publicas, indicadores, acoes, metas_dos_ods, objetivos_de_desenvolvimento_sustentavel
+  programas [107 linhas, 107 distintos via programa]: programa_codigo, programa, orgao, abrangencia_espacial, tipo_de_programa, classificacao, diagnostico_do_programa, objetivo_do_programa, publico_alvo, politicas_publicas, indicadores, produtos, metas_dos_ods, objetivos_de_desenvolvimento_sustentavel
+  programas_orcamento [535 linhas, 107 distintos via programa]: programa_codigo, programa, item, total_ppa
+### TO_2008-2011
+  descricao_acoes [957 linhas, 107 distintos via programa]: unidade, programa_codigo, programa, acao_codigo, acao, descricao
+  estrategias_programas [230 linhas, 107 distintos via programa]: unidade, programa_codigo, programa, estrategia
+  indicadores [51 linhas, 29 distintos via programa]: unidade_gestora, programa_codigo, programa, indicador, data_apuracao, indice_recente, indice_desejado, regiao, periodicidade
+  metas_financeiras [4868 linhas, 107 distintos via programa]: unidade_gestora, programa_codigo, programa, tipo_acao, acao_codigo, acao, regiao, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+  metas_fisicas [4473 linhas, 107 distintos via programa]: unidade_gestora, programa_codigo, programa, acao_codigo, acao, produto, unidade_medida, regiao, meta_2008, meta_2009, meta_2010, meta_2011, meta_total
+  programas [328 linhas, 107 distintos via programa]: tipo_programa, unidade_gestora, programa_codigo, programa, objetivo, publico_alvo
+### TO_2012-2015
+  anexo1_eixos_macrodesafios [36 linhas, 36 distintos via programa]: eixo, macrodesafio, programa
+  programas_ocr [52 linhas, 50 distintos via programa]: programa_codigo, programa, fonte_texto
+### TO_2016-2019
+  acoes_orcamentarias [515 linhas, 25 distintos via programa]: eixo, programa, objetivo, acao, acao_codigo
+  financeiro_eixos_programas [205 linhas, 26 distintos via programa]: nivel, eixo, programa, fonte, valor_2016, valor_2016_2019
+  indicadores [195 linhas, 25 distintos via programa]: eixo, programa, objetivo, indicador, unidade_de_medida, indice_atual, indice_desejado
+  metas [466 linhas, 25 distintos via programa]: eixo, programa, objetivo, meta
+  metas_regionalizadas [756 linhas, 24 distintos via programa]: eixo, programa, objetivo, meta, regionalizacao, unidade, meta_2016_2019
+  objetivos [127 linhas, 25 distintos via programa]: eixo, programa, objetivo, orgao_responsavel
+### TO_2020-2023
+  acoes_orcamentarias [378 linhas, 23 distintos via programa]: eixo, programa, objetivo, acao, acao_codigo
+  financeiro_eixos_programas [277 linhas, 33 distintos via programa]: nivel, eixo, programa, fonte, valor_2020, valor_2020_2023
+  indicadores [73 linhas, 22 distintos via programa]: eixo, programa, objetivo, indicador, medida, indice_atual, indice_desejado
+  metas [243 linhas, 23 distintos via programa]: eixo, programa, objetivo, tipo_meta, meta
+  metas_regionalizadas [276 linhas, 23 distintos via programa]: eixo, programa, objetivo, meta, regiao, unidade, meta_2020, meta_2021, meta_2022, meta_2023
+  objetivos [76 linhas, 23 distintos via programa]: eixo, programa, objetivo, responsavel
+### TO_2024-2027
+  acoes_orcamentarias [399 linhas, 24 distintos via programa]: eixo, programa, objetivo, acao, acao_codigo
+  financeiro_eixos_programas [342 linhas, 32 distintos via programa]: nivel, eixo, programa, fonte, valor_2024, valor_2024_2027
+  indicadores [65 linhas, 21 distintos via programa]: eixo, programa, objetivo, indicador, medida, indice_atual, indice_desejado
+  metas [310 linhas, 23 distintos via programa]: eixo, programa, objetivo, tipo_meta, meta
+  metas_regionalizadas [343 linhas, 23 distintos via programa]: eixo, programa, objetivo, meta, regiao, unidade, meta_2024, meta_2025, meta_2026, meta_2027
+  objetivos [90 linhas, 24 distintos via programa]: eixo, programa, objetivo, responsavel

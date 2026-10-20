@@ -1,0 +1,332 @@
+### AC_2008-2011  (NADA)
+### AC_2012-2015  (NADA)
+### AC_2016-2019  (NADA)
+### AC_2020-2023  (NADA)
+### AC_2024-2027
+  entregas [860]: programa, objetivo_especifico, item, entrega
+  objetivos_especificos [339]: programa_codigo, programa, oe_numero, objetivo_especifico, vinculo, orgao_responsavel, codigo_oe, indicador, polaridade, meta_2024, meta_2025, meta_2026, meta_2027, regionalizacao
+  prioridades [35]: programa_codigo, programa, codigo_projeto_atividade, aplicacao_programada, produto, meta_fisica, orgao
+### AL_2008-2011
+  metas [917]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, area_resultado_codigo, area_resultado, programa_codigo, programa, acao_codigo, acao, localizacao, meta_codigo, meta, unidade_medida, qtd_2008, qtd_2009_2011
+### AL_2012-2015  (NADA)
+### AL_2016-2019  (NADA)
+### AL_2020-2023
+  meta_financeira_programa [41]: tipo_programa, programa_codigo, programa, categoria, meta_financeira_2020, meta_financeira_2021_2023
+  metas_regionalizadas [1442]: orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, programa_codigo, programa, acao_codigo, acao, objetivo, finalidade, ods_principal, ods_transversal, produto_codigo, produto, unidade_medida, regiao, ano, meta_fisica, meta_financeira_corrente, meta_financeira_capital, meta_financeira_total
+### AL_2024-2027
+  metas_regionalizadas_tematico [769]: eixo, programa_codigo, programa, tipo_programa, objetivos_programa, acao_codigo, acao, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, finalidade, ods, produto_codigo, produto, unidade_medida, regiao, ano, meta_fisica, meta_financeira_corrente, meta_financeira_capital, meta_financeira_total
+### AM_2008-2011
+  metas_prioridades_2008 [252]: programa_codigo, programa, tipo_acao, acao, produto, unidade, meta_2008
+### AM_2012-2015
+  metas_acoes [620]: area_tematica, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira
+  objetivos_governo [8]: area_tematica, objetivo_de_governo
+### AM_2016-2019
+  metas_acoes [454]: area_tematica, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira_2019
+  objetivos_governo [10]: area_tematica, objetivo_de_governo
+### AM_2020-2023
+  metas_acoes [610]: area_de_resultado, programa, orgao_responsavel, orgaos_participantes, acao, produto, unidade, regionalizacao, meta_fisica, meta_financeira_2020
+  objetivos_governo [12]: area_de_resultado, objetivo_de_governo
+### AM_2024-2027
+  acoes_metas [744]: programa, orgao_responsavel, orgaos_participantes, acao_orcamentaria, produto, unidade, regiao, meta_fisica_2024, meta_financeira_2024, meta_fisica_2024_2027, meta_financeira_2024_2027
+### AP_2012-2015  (NADA)
+### AP_2016-2019  (NADA)
+### AP_2020-2023
+  desafios [137]: desafio_macro, area, tipo, item, texto
+  metas_prioritarias [176]: programa_codigo, programa, ods, tipo, item, texto, ano_base, referencia
+### AP_2024-2027
+  desafios [157]: eixo, area_tema, tipo, item, texto
+  metas [113]: programa_codigo, programa, meta_numero, meta, media_anual
+  metas_prioritarias [181]: eixo, programa_codigo, programa, prazo, item, meta
+### BA_2008-2011  (NADA)
+### BA_2012-2015
+  compromissos [342]: eixo_estruturante, area_tematica, programa, compromisso, orgao_responsavel
+  entregas_iniciativas [1660]: programa, compromisso, meta, entrega_iniciativa
+  metas [564]: programa, compromisso, orgao_responsavel, meta
+  regionalizacao_metas [3307]: programa, compromisso, meta, territorio, quantidade, unidade_medida
+### BA_2016-2019
+  compromissos [269]: programa, compromisso, orgao_responsavel
+  iniciativas [1897]: programa, compromisso, meta, iniciativa
+  metas [1197]: programa, compromisso, meta, orgao_responsavel, quantidade, unidade_medida
+  regionalizacao_metas [4973]: programa, compromisso, meta, territorio_identidade, quantidade, unidade_medida
+### BA_2020-2023
+  compromissos [138]: programa, compromisso, orgao_responsavel
+  iniciativas [1109]: programa, compromisso, meta, iniciativa, orgao_responsavel
+  metas [427]: programa, compromisso, meta, orgao_responsavel, valor_alcance, unidade_medida, ano_referencia, valor_referencia
+  regionalizacao_metas [2325]: programa, compromisso, meta, territorio_identidade, valor_alcance, unidade_medida
+### BA_2024-2027
+  compromissos [246]: programa, compromisso, orgao_entidade_responsavel
+  iniciativas [1383]: programa, compromisso, indicador_compromisso, iniciativa, orgao
+  metas [608]: programa, compromisso, indicador_compromisso, orgao_entidade_responsavel, meta, unidade_medida
+  metas_territoriais [1737]: programa, compromisso, indicador_compromisso, territorio_identidade, meta_territorial, unidade_medida
+### CE_2008-2011
+  acoes_produtos [1923]: secretaria_codigo, secretaria, orgao_codigo, orgao, programa_codigo, programa, acao_codigo, acao, produto_codigo, produto, unidade, qtd_2008, qtd_2009_2011
+### CE_2012-2015
+  metas_regionalizadas [3836]: regiao, area_tematica, secretaria_codigo, secretaria, programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_da_regiao, qtd_2012, qtd_2013_2015, qtd_total
+  objetivos_metas_iniciativas [2897]: area_tematica, programa_codigo, programa_nome, objetivo_codigo, objetivo, tipo, codigo, descricao
+### CE_2016-2019
+  grandes_metas [311]: eixo, tema_estrategico, grande_meta
+### CE_2020-2023  (NADA)
+### CE_2024-2027
+  entregas_regionalizadas [6055]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, entrega, unidade, regiao, meta_2024, meta_2025, meta_2026, meta_2027, meta_total
+  metas_fisicas_financeiras [1096]: eixo_codigo, eixo, tema_codigo, tema, programa_codigo, programa, objetivo_especifico_codigo, objetivo_especifico, entrega, unidade, acumulativa, fisico_2024, financeiro_2024, fisico_2025_2027, financeiro_2025_2027, fisico_total, financeiro_total
+### DF_2008-2011  (NADA)
+### DF_2012-2015
+  objetivos_acoes [1079]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  objetivos_especificos [122]: codigo_programa, codigo_objetivo, objetivo
+  programas_objetivo_geral [32]: codigo_programa, programa, objetivo_geral
+### DF_2016-2019
+  objetivos_acoes [914]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  objetivos_especificos [73]: codigo_programa, codigo_objetivo, objetivo
+  programas_objetivo_geral [13]: codigo_programa, programa, objetivo_geral
+### DF_2020-2023
+  atualizada_metas [450]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  atualizada_objetivos [99]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  atualizada_objetivos_acoes [1182]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  metas [416]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  objetivos [98]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  objetivos_acoes [1079]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  prioridades_ldo [92]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+### DF_2024-2027
+  atualizada_metas [538]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  atualizada_objetivos [98]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  atualizada_objetivos_acoes [1502]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  atualizada_prioridades_ldo [51]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+  metas [423]: codigo_programa, codigo_objetivo, codigo_meta, meta
+  objetivos [94]: codigo_programa, codigo_objetivo, objetivo, unidade_responsavel, caracterizacao
+  objetivos_acoes [1112]: codigo_programa, codigo_objetivo, tipo, codigo_acao, acao
+  prioridades_ldo [51]: codigo_programa, programa, codigo_acao, acao, codigo_subtitulo, subtitulo
+### ES_2008-2011  (NADA)
+### ES_2012-2015  (NADA)
+### ES_2016-2019
+  acoes_produtos_regionalizacao [1591]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, unidade_orcamentaria, regionalizacao, fisico, financeiro
+### ES_2020-2023
+  acoes_produtos [1390]: programa_codigo, programa, acao_codigo, acao, produto, meta_fisica, meta_fisica_valor, meta_fisica_unidade, regionalizacao, unidade_orcamentaria
+  prioridades_metas [76]: anexo, area_de_resultado, programa_codigo, programa, emendas, acao_codigo, acao, produto, unidade_de_medida, meta_fisica
+### ES_2024-2027
+  acoes_produtos [1282]: programa_codigo, programa, acao_codigo, acao, produto, meta_fisica, meta_fisica_valor, meta_fisica_unidade, regionalizacao, unidade_orcamentaria
+  prioridades_metas_2024 [60]: area_tematica, programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, meta_fisica
+### GO_2008-2011  (NADA)
+### GO_2012-2015
+  metas_financeiras_por_fonte [642]: administracao, codigo_programa, grupo, fonte, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+### GO_2016-2019
+  metas_fisicas [2601]: codigo_programa, codigo_acao, produto, regiao, meta_2016, meta_2017, meta_2018, meta_2019, meta_total_regiao
+### GO_2020-2023
+  metas_produtos [1537]: poder, programa, orgao, atuacao, codigo_produto, produto, unidade_de_medida, tipo_meta, regiao, meta_2020, meta_2021, meta_2022, meta_2023
+### GO_2024-2027
+  metas_por_regiao [600]: codigo_produto, programa, orgao, regiao, meta_fisica
+  produtos [459]: poder, eixo, objetivo, programa, iniciativa, descricao, orgao, codigo_produto, produto, origem, unidade_de_medida, meta_total, financeiro_2024_2027, confere_meta
+### MA_2008-2011
+  acoes_metas [401]: orgao, programa, acao, produto, unidade_medida, fisica_2010, financeira_2010, fisica_2011_2013, financeira_2011_2013, finalidade, uo, tipo_acao
+### MA_2012-2015  (NADA)
+### MA_2016-2019  (NADA)
+### MA_2020-2023  (NADA)
+### MA_2024-2027  (NADA)
+### MG_2008-2011
+  metas_regionalizadas [10696]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+### MG_2012-2015
+  metas_regionalizadas [16528]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+### MG_2016-2019
+  metas_regionalizadas [22440]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, territorio, ano, meta_fisica, meta_financeira
+### MG_2020-2023
+  metas_regionalizadas [11804]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+### MG_2024-2027
+  metas_regionalizadas [13072]: programa_codigo, programa, unidade_orcamentaria_codigo, acao_codigo, acao, regiao, ano, meta_fisica, meta_financeira
+### MS_2008-2011  (NADA)
+### MS_2012-2015  (NADA)
+### MS_2016-2019  (NADA)
+### MS_2020-2023
+  metas [44]: codigo_uo, codigo_programa, objetivo, meta, regiao, quantidade, unidade_medida
+### MS_2024-2027  (NADA)
+### MT_2008-2011
+  alteracao_2009_metas_por_regiao [266]: codigo_programa, codigo_acao, regiao, meta_2008, meta_2009, meta_2010, meta_2011, meta_total
+  metas_por_objetivo [212]: objetivo_estrategico, acao, produto, unidade_de_medida, quantidade
+### MT_2012-2015
+  metas_prioridades_2012 [66]: objetivo_estrategico, programa, acao, produto, unidade_de_medida, quantidade
+### MT_2016-2019
+  acoes_metas [1063]: codigo_programa, unidade_orcamentaria, acao, produto, unidade_de_medida, regiao, codigo_acao, meta_2016, meta_2017_2019, meta_total
+  resultados_pactuados [193]: codigo_programa, indicador, inicio_ppa, final_ppa
+### MT_2020-2023
+  objetivos_programa [156]: codigo_programa, objetivo
+  produtos_metas [2462]: codigo_programa, codigo_acao, produto, unidade_de_medida, meta_fisica
+### MT_2024-2027
+  objetivos_programa [103]: codigo_programa, codigo_objetivo, objetivo
+  produtos_metas_regionais [1690]: codigo_programa, codigo_acao, codigo_produto, unidade_medida, produto, regiao_planejamento, meta_2024, meta_2025, meta_2026, meta_2027
+### PA_2008-2011
+  metas_acoes_regioes [3748]: tipo_programa, programa, acao, objetivo_acao, produto, unidade, regiao_de_integracao, fisico_2008, financeiro_2008, fisico_2009, financeiro_2009, fisico_2010, financeiro_2010, fisico_2011, financeiro_2011
+### PA_2012-2015
+  metas_acoes_regioes [5539]: programa, acao, objetivo_acao, produto, unidade, regiao_de_integracao, fisico_2012, financeiro_2012, fisico_2013_2015, financeiro_2013_2015, fisico_total, financeiro_total
+  metas_mapa_exclusao [15]: indicador, indice_referencia, ano_referencia, meta_melhoria_2012_2015, resultado_esperado_ate_2015, programas_ppa
+### PA_2016-2019
+  metas [1655]: volume, regiao_de_integracao, programa, objetivo, orgao_responsavel, meta
+### PA_2020-2023
+  objetivos_compromissos [755]: volume, regiao_de_integracao, programa, objetivo, compromisso_regional
+### PA_2024-2027
+  metas_prioridades_ldo [148]: item, programa, objetivo, meta_regionalizada, regiao_de_integracao, orgao_responsavel, acao, produto, ano, meta_fisica, unidade_de_medida
+  objetivos_metas_regionalizadas [782]: volume, regiao_de_integracao, programa, objetivo, orgao_responsavel, meta_regionalizada
+### PB_2012-2015
+  iniciativas [714]: programa_codigo, programa, objetivo_codigo, objetivo, iniciativa_codigo, iniciativa, funcional, finalidade
+  metas_regionalizadas [920]: programa_codigo, programa, objetivo_codigo, iniciativa_codigo, iniciativa, produto, unidade_medida, regiao, qtd_2012, qtd_2013, qtd_2014, qtd_2015, qtd_total, valor_2012, valor_2013, valor_2014, valor_2015, valor_total
+  objetivos [138]: programa_codigo, programa, objetivo_codigo, objetivo
+### PB_2016-2019
+  iniciativas [666]: programa_codigo, programa_nome, objetivo_codigo, objetivo, codigo, descricao
+  metas [217]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [76]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+### PB_2020-2023
+  iniciativas [507]: programa_codigo, programa_nome, objetivo_codigo, objetivo, codigo, descricao
+  metas [296]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [69]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+  regionalizacao_metas [139]: programa_codigo, programa_nome, objetivo_codigo, meta_codigo, meta, tipo_regiao, regiao, unidade_medida, meta_ano_1, meta_ano_2, meta_ano_3, meta_final_ppa
+### PB_2024-2027
+  atributos_metas [819]: programa_codigo, programa_nome, objetivo_codigo, meta_codigo, meta, regionalizacao, natureza, distribuicao_temporal, unidade_medida, ano_referencia, valor_referencia, meta_ano_1, meta_ano_2, meta_ano_3, meta_ano_4, valor_final_ppa
+  metas [822]: programa_codigo, programa_nome, objetivo_codigo, objetivo, meta_codigo, meta, orgao_responsavel
+  objetivos [203]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+### PE_2008-2011
+  metas_por_rd_anexo3 [8524]: exercicio, regiao_desenvolvimento, orgao_codigo, orgao, programa_codigo, programa, tipo_acao, acao_codigo, acao, produto, unidade_medida, meta
+  metas_regionalizadas [2558]: exercicio, secretaria_codigo, secretaria, vinculada_codigo, vinculada, programa_codigo, programa, objetivo, acao_codigo, acao, finalidade, produto, unidade_medida, meta_total, meta_rd_01, meta_rd_02, meta_rd_03, meta_rd_04, meta_rd_05, meta_rd_06, meta_rd_07, meta_rd_08, meta_rd_09, meta_rd_10, meta_rd_11, meta_rd_12, meta_nr
+### PE_2012-2015  (NADA)
+### PE_2016-2019
+  metas [3784]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, orgao_codigo, orgao_nome, unidade_orcamentaria, acao_codigo, acao_nome, finalidade, subacao, produto, unidade, localizacao, meta_fisica_2016, meta_fisica_2017_2019, meta_fisica_total
+### PE_2020-2023  (NADA)
+### PE_2024-2027
+  metas [4678]: objetivo_estrategico, programa_codigo, programa_nome, objetivo, orgao_codigo, orgao_nome, unidade_orcamentaria_codigo, unidade_orcamentaria_nome, acao_codigo, acao_nome, finalidade, subacao, produto, unidade, regionalizacao, meta_2024, meta_2025_2027, meta_total
+### PI_2008-2011
+  acoes_metas [2655]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, finalidade, territorio, produto, unidade_medida, ano, meta, valor
+### PI_2012-2015
+  produtos [581]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, meta_produto
+### PI_2016-2019
+  produtos [852]: programa_codigo, programa, unidade_orcamentaria_codigo, unidade_orcamentaria, acao, produto, meta_produto
+### PI_2020-2023
+  metas_fisicas [2064]: programa_codigo, programa, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, territorio, quantidade_meta_fisica_2020, quantidade_meta_fisica_2021, quantidade_meta_fisica_2022, quantidade_meta_fisica_2023, valor_meta_fisica_2020, valor_meta_fisica_2021, valor_meta_fisica_2022, valor_meta_fisica_2023
+  territorio_acao_produto [2429]: territorio, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, produto, valor_2020, valor_2021, valor_2022, valor_2023, valor_total
+### PI_2024-2027
+  metas_fisicas_financeiras [2583]: programa_codigo, programa, tipo_programa, orgao_codigo, orgao, unidade_orcamentaria_codigo, unidade_orcamentaria, acao_codigo, acao, produto, unidade_medida, territorio, meta_fisica_2024, meta_financeira_2024, meta_fisica_2025, meta_financeira_2025, meta_fisica_2026, meta_financeira_2026, meta_fisica_2027, meta_financeira_2027
+### PR_2008-2011
+  produtos [916]: programa, codigo_acao, acao, descricao, produto, unidade_de_medida, centro_expandido, leste, norte, noroeste, oeste, sudoeste, estado, total
+### PR_2012-2015
+  iniciativas [370]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [214]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+  principais_propostas [125]: codigo_programa, programa, tipo, proposta
+### PR_2016-2019
+  iniciativas [322]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [209]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+### PR_2020-2023
+  iniciativas [320]: codigo_programa, codigo_iniciativa, iniciativa, orgao_unidade, caracterizacao, valor_global
+  iniciativas_metas [176]: codigo_programa, codigo_iniciativa, meta, unidade_de_medida, meta_cumulativa, centro_ocidental, centro_oriental, centro_sul, metropolitana_de_curitiba, noroeste, norte_central, norte_pioneiro, oeste, sudeste, sudoeste, estado, total
+### PR_2024-2027
+  entregas [1568]: codigo_programa, codigo_acao, entrega, descricao, unidade_de_medida, cumulatividade, fonte
+  entregas_metas [7835]: codigo_acao, entrega, ano, rgint_01_curitiba, rgint_02_guarapuava, rgint_03_cascavel, rgint_04_maringa, rgint_05_londrina, rgint_06_ponta_grossa, estado, total
+  programas_objetivos [118]: codigo_programa, programa, objetivo
+### RJ_2008-2011
+  metas_fisicas_regiao [7290]: programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  metas_prioridades_2008 [971]: poder, programa_codigo, programa, acao, prioridade, unidade_de_medida, meta_2008
+### RJ_2012-2015
+  metas_fisicas_regiao [8475]: volume, programa_codigo, programa, acao_codigo, acao, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  metas_prioridades_2012 [1310]: poder, programa_codigo, programa, acao, prioridade, unidade_de_medida, meta_2012
+### RJ_2016-2019
+  estrutura_produtos [2214]: exercicio, orgao_cod, orgao_sigla, mob_s_titulo_completo, obj_s_titulo_completo, prog_ugp, prog_codigo, prog_titulo_oficial, prog_problema_oportunidade, prog_objetivo, prog_publico_alvo, prog_justificativa, prog_estrategia, prog_tipo, acao_orgao_up, acao_up, acao_uo, acao_codigo, acao_titulo_oficial, acao_finalidade, acao_descricao, acao_justificativa, acao_funcao, acao_subfuncao, acao_orcamentaria, acao_tipo_de_acao, acao_grupo_de_gasto, acao_executor, prod_codigo, prod_titulo_oficial, prod_unidade_medida, prod_regionalizavel, prod_meta_agregada, prod_totalizacao_das_metas
+  metas_fisicas_regiao [4099]: exercicio_elaboracao_revisao, cod_orgao, titulo_orgao, cod_ugp, sigla_ugp, cod_programa, titulo_programa, cod_up, sigla_up, cod_uo, sigla_uo, cod_acao, titulo_acao, cod_gg, cod_tipo_acao, tipo_acao, cod_produto, titulo_produto, unidade_medida, regiao, meta_2016, meta_2017, meta_2018, meta_2019
+  metas_prioridades_ldo_2016 [448]: exercicio, orgao, orgao_sigla, prioridade_codigo, prioridade, prioridade_descricao, programa_codigo, programa, acao_codigo, acao, produto_codigo, produto
+### RJ_2020-2023
+  metas_fisicas_regiao [20045]: volume, programa_codigo, programa, orgao, acao_codigo, acao, unidade_orcamentaria, produto, unidade_de_medida, regiao, coluna, meta, meta_texto
+  prioridades_ldo_2020 [617]: prioridade, descricao, unidade_de_planejamento, unidade_orcamentaria, programa, acao, produto, programa_codigo, acao_codigo, produto_codigo
+### RJ_2024-2027
+  acoes_metas_financeiras [2084]: programa_codigo, iniciativa_codigo, acao_codigo, acao, unidade_orcamentaria, ano, meta_financeira
+  iniciativas [195]: programa_codigo, programa, orgao, unidade_de_planejamento, iniciativa_codigo, iniciativa, objetivo, ods, meta_financeira_2024, meta_financeira_2025, meta_financeira_2026, meta_financeira_2027
+  prioridades_ldo [522]: demonstrativo, prioridade, unidade_de_planejamento, iniciativa_codigo, iniciativa, tipo, codigo, nome
+  produtos_metas_regiao [12600]: programa_codigo, orgao, iniciativa_codigo, iniciativa, produto_codigo, produto, unidade_de_medida, regiao, ano, meta_fisica
+  rev2025_acoes_metas_financeiras [1623]: programa_codigo, iniciativa_codigo, acao_codigo, acao, unidade_orcamentaria, ano, meta_financeira
+  rev2025_iniciativas [208]: programa_codigo, programa, orgao, unidade_de_planejamento, iniciativa_codigo, iniciativa, objetivo, ods, meta_financeira_2025, meta_financeira_2026, meta_financeira_2027
+  rev2025_prioridades_ldo [524]: demonstrativo, prioridade, unidade_de_planejamento, iniciativa_codigo, iniciativa, tipo, codigo, nome
+  rev2025_produtos_metas_regiao [9570]: programa_codigo, orgao, iniciativa_codigo, iniciativa, produto_codigo, produto, unidade_de_medida, regiao, ano, meta_fisica
+### RN_2008-2011  (NADA)
+### RN_2012-2015  (NADA)
+### RN_2016-2019
+  iniciativas [813]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_iniciativa, texto_iniciativa
+  metas [892]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_meta, texto_meta, unidade_medida
+  objetivos [175]: estado, ciclo, codigo_programa, codigo_objetivo, texto_objetivo, orgao_codigo, orgao_nome
+### RN_2020-2023
+  iniciativas [1384]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_iniciativa, texto_iniciativa
+  metas [1072]: estado, ciclo, codigo_programa, codigo_objetivo, codigo_meta, texto_meta, unidade_medida
+  objetivos [289]: estado, ciclo, codigo_programa, codigo_objetivo, texto_objetivo, orgao_codigo, orgao_nome
+### RN_2024-2027
+  metas [2538]: programa_codigo, programa_nome, diretriz_codigo, diretriz, objetivo_geral_codigo, objetivo_geral, orgao_codigo, orgao, objetivo_especifico_codigo, objetivo_especifico, nivel, entrega_codigo, entrega, indicador_codigo, indicador, unidade_medida, territorio_codigo, territorializacao, valor_2024_2027
+### RO_2008-2011
+  metas_fisicas_regiao [2014]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2008, meta_2009, meta_2010, meta_2011
+### RO_2012-2015
+  metas_fisicas_regiao [2413]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2012, meta_2013, meta_2014, meta_2015
+### RO_2016-2019  (NADA)
+### RO_2020-2023
+  metas_fisicas_regiao [3186]: n, pagina, regiao, meta_2020, meta_2021, meta_2022, meta_2023, id, acao, orgao, unidade_orcamentaria, programa
+### RO_2024-2027
+  metas_fisicas_regiao [3506]: orgao, unidade_orcamentaria, programa, acao, regiao, meta_2024, meta_2025, meta_2026, meta_2027, fonte_texto
+### RR_2008-2011
+  metas_fisicas [1356]: programa, acao, regiao, ano, meta_fisica
+### RR_2012-2015
+  metas_fisicas [1600]: programa, acao, regiao, ano, meta_fisica
+### RR_2016-2019
+  metas_fisicas [1529]: programa, acao, regiao, ano, meta_fisica
+### RR_2020-2023
+  metas_fisicas [1452]: programa, acao, regiao, ano, meta_fisica
+### RR_2024-2027
+  metas_fisicas [1514]: programa, acao, regiao, ano, meta_fisica
+### RS_2008-2011
+  acoes_produtos [801]: programa, acao, produto, unidade_de_medida, meta
+### RS_2012-2015
+  acoes_produtos [1192]: programa, acao, produto, unidade_de_medida, meta
+### RS_2016-2019
+  acoes_produtos [1383]: programa, acao, produto, unidade_de_medida, meta
+### RS_2020-2023
+  iniciativas [740]: programa, acao_programatica, iniciativa, orgao_responsavel, descricao, valor
+  iniciativas_produtos [1317]: programa, acao_programatica, iniciativa, produto, unidade_de_medida, meta
+### RS_2024-2027
+  iniciativas [960]: programa, acao_programatica, iniciativa, orgao_responsavel, descricao, valor
+  iniciativas_produtos [1858]: programa, acao_programatica, iniciativa, produto, unidade_de_medida, meta
+### SC_2008-2011  (NADA)
+### SC_2012-2015  (NADA)
+### SC_2016-2019  (NADA)
+### SC_2020-2023
+  prioridades_2020 [158]: poder, codigo_programa, programa, codigo_subacao, subacao
+### SC_2024-2027
+  prioridades_2024 [175]: pagina, codigo_programa, programa, codigo_subacao, subacao
+### SE_2008-2011
+  acoes_metas_territorio [2022]: anexo, programa_codigo, programa, acao_codigo, acao, orgao_executor, produto, unidade_medida, territorio_planejamento, meta_2008, meta_2009, meta_2010, meta_2011, meta_total, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+  revisao_acoes_metas_territorio [1533]: anexo, programa_codigo, programa, acao_codigo, acao, orgao_executor, produto, unidade_medida, territorio_planejamento, meta_2010, meta_2011, meta_total, valor_2010, valor_2011, valor_total
+### SE_2012-2015
+  iniciativas [978]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, iniciativa_codigo, iniciativa
+  metas [150]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [130]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+### SE_2016-2019
+  metas [796]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [136]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel
+### SE_2020-2023
+  metas [968]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, meta
+  objetivos [139]: programa_codigo, programa_nome, objetivo_codigo, objetivo, orgao_responsavel, caracterizacao
+### SE_2024-2027
+  objetivos_especificos [175]: programa_codigo, programa, objetivo_especifico, indicador, unidade_medida, ano_referencia, valor_referencia, meta_2024, meta_2025, meta_2026, meta_2027
+### SP_2008-2011  (NADA)
+### SP_2012-2015  (NADA)
+### SP_2016-2019  (NADA)
+### SP_2020-2023
+  objetivos_estrategicos [189]: codigo_programa, nome_objetivo_estrategico, descricao_do_programa
+  produtos [555]: codigo_programa, nome_produto, descricao_produto, descricao_do_programa
+### SP_2024-2027
+  produtos [613]: programa_codigo, programa, produto_codigo, produto, classificacao, meta_prioritaria, descricao_do_produto, publico_alvo, politicas_publicas, indicadores, acoes, metas_dos_ods, objetivos_de_desenvolvimento_sustentavel
+### TO_2008-2011
+  metas_financeiras [4868]: unidade_gestora, programa_codigo, programa, tipo_acao, acao_codigo, acao, regiao, valor_2008, valor_2009, valor_2010, valor_2011, valor_total
+  metas_fisicas [4473]: unidade_gestora, programa_codigo, programa, acao_codigo, acao, produto, unidade_medida, regiao, meta_2008, meta_2009, meta_2010, meta_2011, meta_total
+### TO_2012-2015
+  anexo1_eixos_macrodesafios [36]: eixo, macrodesafio, programa
+  iniciativas_ocr [143]: iniciativa_codigo, iniciativa, fonte_texto
+  objetivos_ocr [125]: objetivo_codigo, objetivo_inicio_do_texto, fonte_texto
+### TO_2016-2019
+  metas [466]: eixo, programa, objetivo, meta
+  metas_regionalizadas [756]: eixo, programa, objetivo, meta, regionalizacao, unidade, meta_2016_2019
+  objetivos [127]: eixo, programa, objetivo, orgao_responsavel
+### TO_2020-2023
+  metas [243]: eixo, programa, objetivo, tipo_meta, meta
+  metas_regionalizadas [276]: eixo, programa, objetivo, meta, regiao, unidade, meta_2020, meta_2021, meta_2022, meta_2023
+  objetivos [76]: eixo, programa, objetivo, responsavel
+### TO_2024-2027
+  metas [310]: eixo, programa, objetivo, tipo_meta, meta
+  metas_regionalizadas [343]: eixo, programa, objetivo, meta, regiao, unidade, meta_2024, meta_2025, meta_2026, meta_2027
+  objetivos [90]: eixo, programa, objetivo, responsavel
