@@ -31,8 +31,8 @@ cada página, para usar o texto como dado.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/joabezcs/ppabr}
-  \item Report bugs at \url{https://github.com/joabezcs/ppabr/issues}
+  \item \url{https://github.com/joabezcs-stack/ppabr}
+  \item Report bugs at \url{https://github.com/joabezcs-stack/ppabr/issues}
 }
 
 }

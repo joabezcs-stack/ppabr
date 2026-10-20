@@ -13,10 +13,10 @@ Description: Provides access to data extracted from the Multi-Year Plans
     values in Brazilian reais) and the text of each page of the original
     documents, so that the plans can be used as text data. Files are
     downloaded on demand from a public repository
-    <https://github.com/joabezcs/ppabr> and cached locally.
+    <https://github.com/joabezcs-stack/ppabr> and cached locally.
 License: MIT + file LICENSE
-URL: https://github.com/joabezcs/ppabr
-BugReports: https://github.com/joabezcs/ppabr/issues
+URL: https://github.com/joabezcs-stack/ppabr
+BugReports: https://github.com/joabezcs-stack/ppabr/issues
 Encoding: UTF-8
 Language: pt-BR
 Depends:

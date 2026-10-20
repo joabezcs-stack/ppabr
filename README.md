@@ -13,7 +13,7 @@ em cache; o pacote em si é leve.
 ```r
 # versão em desenvolvimento
 # install.packages("remotes")
-remotes::install_github("joabezcs/ppabr")
+remotes::install_github("joabezcs-stack/ppabr")
 ```
 
 ## Uso

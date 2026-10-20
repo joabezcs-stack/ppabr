@@ -7,9 +7,9 @@ bibentry(
   year = "2026",
   note = paste0("Pacote R versão ", meta$Version,
                 ". Dados extraídos dos PPAs estaduais de 2008-2011 a 2024-2027, licença CC BY 4.0"),
-  url = "https://github.com/joabezcs/ppabr",
+  url = "https://github.com/joabezcs-stack/ppabr",
   textVersion = paste0(
     "Bezerra, J. V.; INCT Labplan (2026). ppabr: Dados dos Planos Plurianuais dos Estados Brasileiros. ",
-    "Pacote R versão ", meta$Version, ". https://github.com/joabezcs/ppabr"
+    "Pacote R versão ", meta$Version, ". https://github.com/joabezcs-stack/ppabr"
   )
 )

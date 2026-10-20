@@ -6,7 +6,7 @@ versao_dados <- "dados-v0.1"
 url_dados <- function() {
   getOption(
     "ppabr.url_dados",
-    paste0("https://github.com/joabezcs/ppabr/releases/download/", versao_dados)
+    paste0("https://github.com/joabezcs-stack/ppabr/releases/download/", versao_dados)
   )
 }
 
@@ -15,7 +15,7 @@ versao_documentos <- "documentos-v1"
 url_documentos <- function() {
   getOption(
     "ppabr.url_documentos",
-    paste0("https://github.com/joabezcs/ppabr/releases/download/", versao_documentos)
+    paste0("https://github.com/joabezcs-stack/ppabr/releases/download/", versao_documentos)
   )
 }
 
