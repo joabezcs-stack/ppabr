@@ -7,10 +7,13 @@
 ## Test environments
 
 * local Windows 11, R 4.5.2
-<!-- antes de enviar: rodar devtools::check_win_devel(), devtools::check_win_release() e rhub::rhub_check()
-     e listar aqui os ambientes em que passaram -->
+<!-- antes de enviar: preencher o resultado do win-builder (e-mail) -->
 * win-builder (devel and release): A FAZER
-* R-hub (linux, macos, windows): A FAZER
+* R-hub v2 (GitHub Actions): linux (R-devel), macos-arm64 (R-devel),
+  windows (R-devel) and donttest (R-devel, with `--run-donttest`): OK.
+  On the nosuggests platform the only error is the re-building of the
+  vignette, which needs 'rmarkdown' (listed in Suggests, as the vignette
+  builder); examples and tests pass there.
 
 ## Notes for CRAN
 
