@@ -7,8 +7,7 @@
 ## Test environments
 
 * local Windows 11, R 4.5.2
-<!-- antes de enviar: preencher o resultado do win-builder (e-mail) -->
-* win-builder (devel and release): A FAZER
+* win-builder: R-devel (2026-10-18 r90707 ucrt): 1 NOTE (new submission)
 * R-hub v2 (GitHub Actions): linux (R-devel), macos-arm64 (R-devel),
   windows (R-devel) and donttest (R-devel, with `--run-donttest`): OK.
   On the nosuggests platform the only error is the re-building of the
